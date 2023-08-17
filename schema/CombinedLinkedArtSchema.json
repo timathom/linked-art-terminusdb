@@ -63,7 +63,7 @@
     },
     "identified_by": {
       "@type": "Set",
-      "@class": "IdentifiedTypeOrName"
+      "@class": "IdentifierOrNameType"
     },
     "classified_as": {
       "@type": "Set",
