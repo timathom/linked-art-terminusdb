@@ -1,5 +1,83 @@
 [
   {
+    "@id": "ActivityType",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@abstract": [],
+    "@inherits": [
+      "EntityType",
+      "EventOrActivityType"
+    ],
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
+    "took_place_at": {
+      "@type": "Set",
+      "@class": "Place"
+    },
+    "timespan": {
+      "@type": "Set",
+      "@class": "TimeSpan"
+    },
+    "caused_by": {
+      "@type": "Set",
+      "@class": "EventOrActivityType"
+    },
+    "carried_out_by": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "used_specific_object": {
+      "@type": "Set",
+      "@class": "HumanMadeObjectOrSetType"
+    },
+    "influenced_by": {
+      "@type": "Set",
+      "@class": "EntityType"
+    },
+    "technique": {
+      "@type": "Set",
+      "@class": "Type"
+    },
+    "part_of": {
+      "@type": "Set",
+      "@class": "EventOrActivityType"
+    },
+    "part": {
+      "@type": "Set",
+      "@class": "EventOrActivityType"
+    }
+  },
+  {
+    "@id": "EntityType",
+    "@type": "Class",
+    "@abstract": [],
+    "_label": {
+      "@type": "Optional",
+      "@class": "xsd:string"
+    },
+    "label": {
+      "@type": "Optional",
+      "@class": "xsd:string"
+    },
+    "identified_by": {
+      "@type": "Set",
+      "@class": "IdentifiedTypeOrName"
+    },
+    "classified_as": {
+      "@type": "Set",
+      "@class": "Type"
+    }
+  },
+  {
+    "@id": "IdentifierOrNameType",
+    "@type": "Class",
+    "@abstract": [],
+    "@subdocument": [],
+    "@inherits": "EntityType"
+  },
+  {
     "@id": "HumanMadeObjectOrSetType",
     "@type": "Class",
     "@abstract": []
@@ -7,7 +85,6 @@
   {
     "@id": "LinguisticObjectOrDigitalObjectType",
     "@type": "Class",
-    "@key": {"@type": "Random"},
     "@abstract": []
   },
   {
@@ -246,7 +323,7 @@
     },
     "about": {
       "@type": "Set",
-      "@class": "AnyType"
+      "@class": "EntityType"
     },
     "created_by": {
       "@type": "Set",
@@ -303,7 +380,7 @@
     },
     "members_exemplified_by": {
       "@type": "Set",
-      "@class": "AnyType"
+      "@class": "EntityType"
     },
     "used_by": {
       "@type": "Set",
@@ -342,7 +419,7 @@
       {"@label": "crm:E7_Activity"}
     ],
     "@inherits": ["ActivityType"],
-    "@subdocument": []
+    "@unfoldable": []
   },
   {
     "@id": "Production",
@@ -351,7 +428,7 @@
     "@documentation": [
       {"@label": "crm:E12_Production"}
     ],
-    "@inherits": ["ActivityType"],
+    "@inherits": "ActivityType",
     "@subdocument": []
   },
   {
@@ -361,10 +438,7 @@
     "@documentation": [
       {"@label": "crm:E6_Destruction"}
     ],
-    "@inherits": [
-      "EntityType",
-      "ActivityType"
-    ],
+    "@inherits": "ActivityType",
     "@subdocument": [],
     "referred_to_by": {
       "@type": "Set",
@@ -394,7 +468,7 @@
     "@documentation": [
       {"@label": "crm:E80_Part_Removal"}
     ],
-    "@inherits": ["ActivityType"],
+    "@inherits": "ActivityType",
     "@subdocument": [],
     "diminished": {
       "@type": "Set",
@@ -408,131 +482,23 @@
     "@documentation": [
       {"@label": "sci:S19_Encounter_Event"}
     ],
-    "@inherits": ["ActivityType"],
+    "@inherits": "ActivityType",
     "@subdocument": []
-  },
-  {
-    "@id": "ActivityType",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@abstract": [],
-    "@subdocument": [],
-    "@inherits": [
-      "EntityType",
-      "EventOrActivityType"
-    ],
-    "referred_to_by": {
-      "@type": "Set",
-      "@class": "LinguisticObjectOrDigitalObjectType"
-    },
-    "took_place_at": {
-      "@type": "Set",
-      "@class": "Place"
-    },
-    "timespan": {
-      "@type": "Set",
-      "@class": "TimeSpan"
-    },
-    "caused_by": {
-      "@type": "Set",
-      "@class": "EventOrActivityType"
-    },
-    "carried_out_by": {
-      "@type": "Set",
-      "@class": "PersonOrGroupType"
-    },
-    "used_specific_object": {
-      "@type": "Set",
-      "@class": "HumanMadeObjectOrSetType"
-    },
-    "influenced_by": {
-      "@type": "Set",
-      "@class": "AnyType"
-    },
-    "technique": {
-      "@type": "Set",
-      "@class": "Type"
-    },
-    "part_of": {
-      "@type": "Set",
-      "@class": "EventOrActivityType"
-    },
-    "part": {
-      "@type": "Set",
-      "@class": "EventOrActivityType"
-    }
-  },
-  {
-    "@id": "AnyType",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@abstract": []
-  },
-  {
-    "@id": "EntityType",
-    "@type": "Class",
-    "@abstract": [],
-    "@inherits": "AnyType",
-    "_label": {
-      "@type": "Optional",
-      "@class": "xsd:string"
-    },
-    "identified_by": {
-      "@type": "Set",
-      "@class": "IdentifiedTypeOrName"
-    },
-    "classified_as": {
-      "@type": "Set",
-      "@class": "Type"
-    }
-  },
-  {
-    "@id": "IdentifiedTypeOrName",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@abstract": []
-  },
-  {
-    "@id": "IdentifiedType",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@abstract": [],
-    "@inherits": [
-      "EntityType",
-      "IdentifiedTypeOrName"
-    ],
-    "assigned_by": {
-      "@type": "Set",
-      "@class": "AttributeAssignment"
-    },
-    "attributed_by": {
-      "@type": "Set",
-      "@class": "AttributeAssignment"
-    },
-    "part": {
-      "@type": "Set",
-      "@class": "Identifier"
-    },
-    "referred_to_by": {
-      "@type": "Set",
-      "@class": "LinguisticObjectOrDigitalObjectType"
-    }
   },
   {
     "@id": "AttributeAssignment",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": [
-      "ActivityType",
-      "EntityType"
-    ],
+    "@inherits": 
+      "ActivityType"
+    ,
     "@documentation": [
       {"@label": "crm:E13_Attribute_Assignment"}
     ],
     "@subdocument": [],
     "assigned": {
       "@type": "Set",
-      "@class": "AnyType"
+      "@class": "EntityType"
     },
     "assigned_property": {
       "@type": "Optional",
@@ -543,10 +509,8 @@
     "@id": "Creation",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": [
+    "@inherits": 
       "ActivityType",
-      "EntityType"
-    ],
     "@documentation": [
       {"@label": "crm:E65_Creation"}
     ],
@@ -604,18 +568,34 @@
     "@id": "Identifier",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "IdentifiedType",
+    "@inherits": "IdentifierOrNameType",
     "@documentation": [
       {"@label": "crm:E42_Identifier"}
     ],
     "@subdocument": [],
-    "content": "xsd:string"
+    "content": "xsd:string",
+    "assigned_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    },
+    "attributed_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    },
+    "part": {
+      "@type": "Set",
+      "@class": "Identifier"
+    },
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    }
   },
   {
     "@id": "MonetaryAmount",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "EntityType",
+    "@inherits": "Dimension",
     "value": "xsd:double",
     "lower_value_limit": {
       "@type": "Optional",
@@ -635,10 +615,7 @@
     "@id": "Name",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": [
-      "EntityType",
-      "IdentifiedTypeOrName"
-    ],
+    "@inherits": "IdentifierOrNameType",
     "@subdocument": [],
     "content": "xsd:string",
     "language": {
@@ -741,7 +718,7 @@
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "EntityType",
-    "@base": "id/"    
+    "@base": "id/"
   },
   {
     "@id": "Type",
