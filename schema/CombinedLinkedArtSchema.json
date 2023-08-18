@@ -1,13 +1,10 @@
 [
   {
-    "@id": "ActivityType",
+    "@id": "EventOrActivityType",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@abstract": [],
-    "@inherits": [
-      "EntityType",
-      "EventOrActivityType"
-    ],
+    "@inherits": "PeriodType",
     "referred_to_by": {
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
@@ -22,7 +19,7 @@
     },
     "caused_by": {
       "@type": "Set",
-      "@class": "EventOrActivityType"
+      "@class": "PeriodType"
     },
     "carried_out_by": {
       "@type": "Set",
@@ -42,11 +39,11 @@
     },
     "part_of": {
       "@type": "Set",
-      "@class": "EventOrActivityType"
+      "@class": "PeriodType"
     },
     "part": {
       "@type": "Set",
-      "@class": "EventOrActivityType"
+      "@class": "PeriodType"
     }
   },
   {
@@ -80,12 +77,125 @@
   {
     "@id": "HumanMadeObjectOrSetType",
     "@type": "Class",
-    "@abstract": []
+    "@abstract": [],
+    "@inherits": "EntityType"
   },
   {
     "@id": "LinguisticObjectOrDigitalObjectType",
     "@type": "Class",
-    "@abstract": []
+    "@abstract": [],
+    "@inherits": "EntityType"
+  },
+  {
+    "@id": "PeriodType",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@abstract": [],
+    "@inherits": "EntityType",
+    "equivalent": {
+      "@type": "Set",
+      "@class": "DigitalObject"
+    },
+    "representation": {
+      "@type": "Set",
+      "@class": "VisualItem"
+    },
+    "member_of": {
+      "@type": "Set",
+      "@class": "Set"
+    },
+    "subject_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "attributed_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    }
+  },
+  {
+    "@id": "PersonOrGroupType",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@abstract": [],
+    "@inherits": "EntityType",
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
+    "equivalent": {
+      "@type": "Set",
+      "@class": "DigitalObject"
+    },
+    "representation": {
+      "@type": "Set",
+      "@class": "VisualItem"
+    },
+    "member_of": {
+      "@type": "Set",
+      "@class": "Set"
+    },
+    "subject_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "attributed_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    },
+    "carried_out": {
+      "@type": "Set",
+      "@class": "Activity"
+    },
+    "contact_point": {
+      "@type": "Set",
+      "@class": "Identifier"
+    },
+    "residence": {
+      "@type": "Set",
+      "@class": "Place"
+    }
+  },
+  {
+    "@id": "ProvenancePartType",
+    "@type": "Class",
+    "@abstract": [],
+    "@inherits": [
+      "EntityType",
+      "PeriodType"
+    ],
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
+    "took_place_at": {
+      "@type": "Set",
+      "@class": "Place"
+    },
+    "timespan": {
+      "@type": "Set",
+      "@class": "TimeSpan"
+    },
+    "caused_by": {
+      "@type": "Set",
+      "@class": "PeriodType"
+    },
+    "carried_out_by": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "used_specific_object": {
+      "@type": "Set",
+      "@class": "HumanMadeObjectOrSetType"
+    },
+    "influenced_by": {
+      "@type": "Set",
+      "@class": "EntityType"
+    },
+    "technique": {
+      "@type": "Set",
+      "@class": "Type"
+    }
   },
   {
     "@id": "DigitalObject",
@@ -95,10 +205,7 @@
     "@documentation": [
       {"@label": "dig:D1_Digital_Object"}
     ],
-    "@inherits": [
-      "EntityType",
-      "LinguisticObjectOrDigitalObjectType"
-    ],
+    "@inherits": ["LinguisticObjectOrDigitalObjectType"],
     "@unfoldable": [],
     "@oneOf": [],
     "referred_to_by": {
@@ -174,7 +281,7 @@
     "@documentation": [
       {"@label": "crm:E22_Human-Made_Object"}
     ],
-    "@inherits": "EntityType",
+    "@inherits": "HumanMadeObjectOrSetType",
     "@unfoldable": [],
     "@oneOf": [],
     "referred_to_by": "LinguisticObjectOrDigitalObjectType",
@@ -245,6 +352,18 @@
     "produced_by": {
       "@type": "Set",
       "@class": "Production"
+    },
+    "destroyed_by": {
+      "@type": "Set",
+      "@class": "Destruction"
+    },
+    "removed_by": {
+      "@type": "Set",
+      "@class": "PartRemoval"
+    },
+    "encountered_by": {
+      "@type": "Set",
+      "@class": "Encounter"
     }
   },
   {
@@ -255,7 +374,7 @@
     "@documentation": [
       {"@label": "crm:E73_Information_Object"}
     ],
-    "@inherits": [],
+    "@inherits": "EntityType",
     "@unfoldable": [],
     "@oneOf": []
   },
@@ -267,10 +386,7 @@
     "@documentation": [
       {"@label": "crm:E33_Linguistic_Object"}
     ],
-    "@inherits": [
-      "EntityType",
-      "LinguisticObjectOrDigitalObjectType"
-    ],
+    "@inherits": ["LinguisticObjectOrDigitalObjectType"],
     "@unfoldable": [],
     "@oneOf": [],
     "content": {
@@ -346,10 +462,13 @@
     "@documentation": [
       {"@label": "la:Set"}
     ],
-    "@inherits": "EntityType",
+    "@inherits": "HumanMadeObjectOrSetType",
     "@unfoldable": [],
     "@oneOf": [],
-    "referred_to_by": "LinguisticObjectOrDigitalObjectType",
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
     "equivalent": {
       "@type": "Set",
       "@class": "Set"
@@ -406,6 +525,54 @@
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
     },
+    "equivalent": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "member_of": {
+      "@type": "Set",
+      "@class": "Set"
+    },
+    "subject_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "attributed_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    },
+    "dimension": {
+      "@type": "Set",
+      "@class": "Dimension"
+    },
+    "subject_to": {
+      "@type": "Set",
+      "@class": "Right"
+    },
+    "part_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "about": {
+      "@type": "Set",
+      "@class": "EntityType"
+    },
+    "created_by": {
+      "@type": "Set",
+      "@class": "Creation"
+    },
+    "represents": {
+      "@type": "Set",
+      "@class": "EntityType"
+    },
+    "represents_instance_of_type": {
+      "@type": "Set",
+      "@class": "Type"
+    },
+    "used_for": {
+      "@type": "Set",
+      "@class": "Activity"
+    },
     "digitally_shown_by": {
       "@type": "Set",
       "@class": "DigitalObject"
@@ -418,17 +585,41 @@
     "@documentation": [
       {"@label": "crm:E7_Activity"}
     ],
-    "@inherits": ["ActivityType"],
+    "@inherits": "Event",
     "@unfoldable": []
   },
   {
-    "@id": "Production",
+    "@id": "Acquisition",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@documentation": [
-      {"@label": "crm:E12_Production"}
+      {"@label": "crm:E8_Acquisition"}
     ],
-    "@inherits": "ActivityType",
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ],
+    "transferred_title_from": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "transferred_title_to": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "transferred_title_of": {
+      "@type": "Set",
+      "@class": "HumanMadeObject"
+    }
+  },
+  {
+    "@id": "Creation",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@inherits": "Activity",
+    "@documentation": [
+      {"@label": "crm:E65_Creation"}
+    ],
     "@subdocument": []
   },
   {
@@ -438,7 +629,7 @@
     "@documentation": [
       {"@label": "crm:E6_Destruction"}
     ],
-    "@inherits": "ActivityType",
+    "@inherits": "Event",
     "@subdocument": [],
     "referred_to_by": {
       "@type": "Set",
@@ -462,18 +653,14 @@
     }
   },
   {
-    "@id": "PartRemoval",
+    "@id": "Dissolution",
     "@type": "Class",
     "@key": {"@type": "Random"},
+    "@inherits": "Activity",
     "@documentation": [
-      {"@label": "crm:E80_Part_Removal"}
+      {"@label": "crm:E68_Dissolution"}
     ],
-    "@inherits": "ActivityType",
-    "@subdocument": [],
-    "diminished": {
-      "@type": "Set",
-      "@class": "HumanMadeObject"
-    }
+    "@subdocument": []
   },
   {
     "@id": "Encounter",
@@ -482,16 +669,155 @@
     "@documentation": [
       {"@label": "sci:S19_Encounter_Event"}
     ],
-    "@inherits": "ActivityType",
+    "@inherits": [
+      "Event",
+      "ProvenancePartType"
+    ],
     "@subdocument": []
+  },
+  {
+    "@id": "Formation",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@inherits": "Activity",
+    "@documentation": [
+      {"@label": "crm:E66_Formation"}
+    ],
+    "@subdocument": []
+  },
+  {
+    "@id": "Move",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "crm:E9_Move"}
+    ],
+    "@inherits": ["Activity", "ProvenancePartType"],
+    "moved_from": {
+      "@type": "Set",
+      "@class": "Place"
+    },
+    "moved_to": {
+      "@type": "Set",
+      "@class": "Place"
+    },
+    "moved": {
+      "@type": "Set",
+      "@class": "HumanMadeObject",
+      "@min_cardinality": 1
+    }
+  },
+  {
+    "@id": "PartRemoval",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "crm:E80_Part_Removal"}
+    ],
+    "@inherits": "Activity",
+    "@subdocument": [],
+    "diminished": {
+      "@type": "Set",
+      "@class": "HumanMadeObject"
+    }
+  },
+  {
+    "@id": "Payment",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "la:Payment"}
+    ],
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ],
+    "paid_from": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "paid_to": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "paid_amount": {
+      "@type": "Set",
+      "@class": "MonetaryAmount"
+    }
+  },
+  {
+    "@id": "Promise",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "crm:E7_Activity"}
+    ],
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ]
+  },
+  {
+    "@id": "Production",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "crm:E12_Production"}
+    ],
+    "@inherits": "Activity",
+    "@subdocument": []
+  },
+  {
+    "@id": "RightAcquisition",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "la:RightAcquisition"}
+    ],
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ],
+    "establishes": {
+      "@type": "Set",
+      "@class": "LegalRight",
+      "@min_cardinality": 1
+    },
+    "invalidates": {
+      "@type": "Set",
+      "@class": "LegalRight"
+    }
+  },
+  {
+    "@id": "TransferOfCustody",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": "crm:E10_Transfer_of_Custody"}
+    ],
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ],
+    "transferred_custody_from": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "transferred_custody_to": {
+      "@type": "Set",
+      "@class": "PersonOrGroupType"
+    },
+    "transferred_custody_of": {
+      "@type": "Set",
+      "@class": "HumanMadeObject",
+      "@min_cardinality": 1
+    }
   },
   {
     "@id": "AttributeAssignment",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": 
-      "ActivityType"
-    ,
+    "@inherits": "Activity",
     "@documentation": [
       {"@label": "crm:E13_Attribute_Assignment"}
     ],
@@ -504,17 +830,6 @@
       "@type": "Optional",
       "@class": "xsd:string"
     }
-  },
-  {
-    "@id": "Creation",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@inherits": 
-      "ActivityType",
-    "@documentation": [
-      {"@label": "crm:E65_Creation"}
-    ],
-    "@subdocument": []
   },
   {
     "@id": "DigitalService",
@@ -634,11 +949,12 @@
     "@documentation": [
       {"@label": "crm:E30_Right"}
     ],
-    "@inherits": [
-      "ActivityType",
-      "EntityType"
-    ],
+    "@inherits": "EntityType",
     "@subdocument": [],
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
     "created_by": {
       "@type": "Set",
       "@class": "Creation"
@@ -647,6 +963,16 @@
       "@type": "Set",
       "@class": "PersonOrGroupType"
     }
+  },
+  {
+    "@id": "LegalRight",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@documentation": [
+      {"@label": ""}
+    ],
+    "@inherits": "Right",
+    "@subdocument": []
   },
   {
     "@id": "TimeSpan",
@@ -687,38 +1013,119 @@
     }
   },
   {
-    "@id": "EventOrActivityType",
+    "@id": "Event",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@abstract": []
+    "@inherits": "EventOrActivityType",
+    "@documentation": [
+      {"@label": "crm:E5_Event"}
+    ]
+  },
+  {
+    "@id": "Birth",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@inherits": "Event",
+    "@documentation": [
+      {"@label": "crm:E67_Birth"}
+    ]
+  },
+  {
+    "@id": "Death",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@inherits": "Event",
+    "@documentation": [
+      {"@label": "crm:E69_Death"}
+    ]
   },
   {
     "@id": "Group",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "PersonOrGroupType",
-    "@base": "id/"
+    "@documentation": [
+      {"@label": "crm:E74_Group"}
+    ],
+    "@base": "id/",
+    "formed_by": {
+      "@type": "Set",
+      "@class": "Formation"
+    },
+    "dissolved_by": {
+      "@type": "Set",
+      "@class": "Dissolution"
+    }
+  },
+  {
+    "@id": "Period",
+    "@type": "Class",
+    "@key": {"@type": "Random"},
+    "@inherits": "PeriodType",
+    "@documentation": [
+      {"@label": "crm:E4_Period"}
+    ]
   },
   {
     "@id": "Person",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "PersonOrGroupType",
-    "@base": "id/"
-  },
-  {
-    "@id": "PersonOrGroupType",
-    "@type": "Class",
-    "@key": {"@type": "Random"},
-    "@abstract": [],
-    "@inherits": "EntityType"
+    "@documentation": [
+      {"@label": "crm:E21_Person"}
+    ],
+    "@base": "id/",
+    "born": {
+      "@type": "Set",
+      "@class": "Birth"
+    },
+    "died": {
+      "@type": "Set",
+      "@class": "Death"
+    }
   },
   {
     "@id": "Place",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "EntityType",
-    "@base": "id/"
+    "@base": "id/",
+    "referred_to_by": {
+      "@type": "Set",
+      "@class": "LinguisticObjectOrDigitalObjectType"
+    },
+    "equivalent": {
+      "@type": "Set",
+      "@class": "DigitalObject"
+    },
+    "representation": {
+      "@type": "Set",
+      "@class": "VisualItem"
+    },
+    "member_of": {
+      "@type": "Set",
+      "@class": "Set"
+    },
+    "subject_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
+    },
+    "attributed_by": {
+      "@type": "Set",
+      "@class": "AttributeAssignment"
+    },
+    "defined_by": {
+      "@type": "Optional",
+      "@class": "xsd:string"
+    },
+    "approximated_by": {
+      "@type": "Set",
+      "@class": "Place"
+    },
+    "part_of": {
+      "@type": "Set",
+      "@class": "Place"
+    }
   },
   {
     "@id": "Type",
@@ -742,6 +1149,14 @@
     "representation": {
       "@type": "Set",
       "@class": "VisualItem"
+    },
+    "member_of": {
+      "@type": "Set",
+      "@class": "Set"
+    },
+    "subject_of": {
+      "@type": "Set",
+      "@class": "LinguisticObject"
     },
     "attributed_by": {
       "@type": "Set",
