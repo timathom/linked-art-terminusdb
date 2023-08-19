@@ -599,6 +599,7 @@
       "Activity",
       "ProvenancePartType"
     ],
+    "@subdocument": [],
     "transferred_title_from": {
       "@type": "Set",
       "@class": "PersonOrGroupType"
@@ -693,6 +694,7 @@
       {"@label": "crm:E9_Move"}
     ],
     "@inherits": ["Activity", "ProvenancePartType"],
+    "@subdocument": [],
     "moved_from": {
       "@type": "Set",
       "@class": "Place"
@@ -732,6 +734,7 @@
       "Activity",
       "ProvenancePartType"
     ],
+    "@subdocument": [],
     "paid_from": {
       "@type": "Set",
       "@class": "PersonOrGroupType"
@@ -755,7 +758,8 @@
     "@inherits": [
       "Activity",
       "ProvenancePartType"
-    ]
+    ],
+    "@subdocument": []
   },
   {
     "@id": "Production",
@@ -778,6 +782,7 @@
       "Activity",
       "ProvenancePartType"
     ],
+    "@subdocument": [],
     "establishes": {
       "@type": "Set",
       "@class": "LegalRight",
@@ -799,6 +804,7 @@
       "Activity",
       "ProvenancePartType"
     ],
+    "@subdocument": [],
     "transferred_custody_from": {
       "@type": "Set",
       "@class": "PersonOrGroupType"
@@ -860,6 +866,7 @@
     "@documentation": [
       {"@label": "crm:E54_Dimension"}
     ],
+    "@subdocument": [],
     "value": "xsd:double",
     "lower_value_limit": {
       "@type": "Optional",
@@ -911,6 +918,7 @@
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "Dimension",
+    "@subdocument": [],
     "value": "xsd:double",
     "lower_value_limit": {
       "@type": "Optional",
@@ -1028,7 +1036,8 @@
     "@inherits": "Event",
     "@documentation": [
       {"@label": "crm:E67_Birth"}
-    ]
+    ],
+    "@subdocument": []
   },
   {
     "@id": "Death",
@@ -1037,7 +1046,8 @@
     "@inherits": "Event",
     "@documentation": [
       {"@label": "crm:E69_Death"}
-    ]
+    ],
+    "@subdocument": []
   },
   {
     "@id": "Group",
@@ -1048,6 +1058,7 @@
       {"@label": "crm:E74_Group"}
     ],
     "@base": "id/",
+    "@unfoldable": [],
     "formed_by": {
       "@type": "Set",
       "@class": "Formation"
@@ -1075,6 +1086,7 @@
       {"@label": "crm:E21_Person"}
     ],
     "@base": "id/",
+    "@unfoldable": [],
     "born": {
       "@type": "Set",
       "@class": "Birth"
@@ -1090,6 +1102,7 @@
     "@key": {"@type": "Random"},
     "@inherits": "EntityType",
     "@base": "id/",
+    "@unfoldable": [],
     "referred_to_by": {
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
@@ -1175,26 +1188,30 @@
     "@id": "Currency",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "Type"
+    "@inherits": "Type",
+    "@unfoldable", []
   },
   {
     "@id": "Language",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "Type",
-    "@base": "id/"
+    "@base": "id/",
+    "@unfoldable": []
   },
   {
     "@id": "Material",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "Type"
+    "@inherits": "Type",
+    "@unfoldable": []
   },
   {
     "@id": "MeasurementUnit",
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "Type",
-    "@base": "id/"
+    "@base": "id/",
+    "@unfoldable": []
   }
 ]
