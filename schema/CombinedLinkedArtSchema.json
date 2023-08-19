@@ -1,8 +1,12 @@
 [
   {
+    "@base": "terminusdb:///data/",
+    "@schema": "terminusdb:///schema#",
+    "@type": "@context"
+  },
+  {
     "@id": "EventOrActivityType",
     "@type": "Class",
-    "@key": {"@type": "Random"},
     "@abstract": [],
     "@inherits": "PeriodType",
     "referred_to_by": {
@@ -89,12 +93,11 @@
   {
     "@id": "PeriodType",
     "@type": "Class",
-    "@key": {"@type": "Random"},
     "@abstract": [],
     "@inherits": "EntityType",
     "equivalent": {
       "@type": "Set",
-      "@class": "DigitalObject"
+      "@class": "PeriodType"
     },
     "representation": {
       "@type": "Set",
@@ -116,7 +119,6 @@
   {
     "@id": "PersonOrGroupType",
     "@type": "Class",
-    "@key": {"@type": "Random"},
     "@abstract": [],
     "@inherits": "EntityType",
     "referred_to_by": {
@@ -161,7 +163,6 @@
     "@type": "Class",
     "@abstract": [],
     "@inherits": [
-      "EntityType",
       "PeriodType"
     ],
     "referred_to_by": {
@@ -635,22 +636,6 @@
     "referred_to_by": {
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
-    },
-    "took_place_at": {
-      "@type": "Set",
-      "@class": "Place"
-    },
-    "timespan": {
-      "@type": "Set",
-      "@class": "TimeSpan"
-    },
-    "caused_by": {
-      "@type": "Set",
-      "@class": "EventOrActivityType"
-    },
-    "part_of": {
-      "@type": "Set",
-      "@class": "EventOrActivityType"
     }
   },
   {
@@ -693,7 +678,10 @@
     "@documentation": [
       {"@label": "crm:E9_Move"}
     ],
-    "@inherits": ["Activity", "ProvenancePartType"],
+    "@inherits": [
+      "Activity",
+      "ProvenancePartType"
+    ],
     "@subdocument": [],
     "moved_from": {
       "@type": "Set",
