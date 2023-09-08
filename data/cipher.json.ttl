@@ -1,0 +1,177 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix la: <https://linked.art/ns/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://lux.collections.yale.edu/data/text/f772356c-d72d-4bb3-b78d-f0804c941b61> a crm:E33_Linguistic_Object ;
+    rdfs:label "Cipher manuscript" ;
+    crm:P129_is_about <https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591>,
+        <https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0>,
+        <https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240>,
+        <https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1> ;
+    crm:P129i_is_subject_of [ a crm:E33_Linguistic_Object ;
+            rdfs:label "Text of Repository Page" ;
+            la:digitally_carried_by [ a dig:D1_Digital_Object ;
+                    rdfs:label "Repository Page" ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "View this record on the Yale Library website" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ] ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d> ;
+                    la:access_point <https://search.library.yale.edu/catalog/11167038> ] ] ;
+    crm:P138_represents <https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8> ;
+    crm:P16i_was_used_for [ a crm:E7_Activity ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887> ;
+            crm:P7_took_place_at <https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387> ] ;
+    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Known as: Voynich manuscript" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d> ],
+        [ a crm:E42_Identifier ;
+            crm:P140i_was_attributed_by [ a crm:E13_Attribute_Assignment ;
+                    crm:P14_carried_out_by <https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9> ] ;
+            crm:P190_has_symbolic_content "ils:yul:11167038" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Cipher manuscript" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a>,
+                <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ] ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/63662486-bb41-4daa-90c5-1d8b7a53a08d>,
+        <https://lux.collections.yale.edu/data/concept/805ef371-2f95-4593-929e-556635b86809>,
+        <https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2>,
+        <https://lux.collections.yale.edu/data/concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd> ;
+    crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "ff. 102 +1" ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Extent" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "225 x 160 mm" ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Dimensions" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle." ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Summary, Etc." ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "In unidentified cipher." ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Language Note" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Binding: Modern (18th-19th centuries)." ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Note" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "[Central Europe?] ; [ca. 1401-1599?]" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University." ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Preferred Citation of Described Materials Note" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red." ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "Note" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> ] ;
+    la:equivalent <https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> .
+
+<https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Cipher manuscript" .
+
+<https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887> a crm:E55_Type ;
+    rdfs:label "Publishing" .
+
+<https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd> a crm:E55_Type ;
+    rdfs:label "Abstract" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d> a crm:E55_Type ;
+    rdfs:label "Web Page" .
+
+<https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a> a crm:E55_Type ;
+    rdfs:label "Sort Name" .
+
+<https://lux.collections.yale.edu/data/concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2> a crm:E55_Type ;
+    rdfs:label "Type of Work" .
+
+<https://lux.collections.yale.edu/data/concept/63662486-bb41-4daa-90c5-1d8b7a53a08d> a crm:E55_Type ;
+    rdfs:label "Textual Works" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2> .
+
+<https://lux.collections.yale.edu/data/concept/805ef371-2f95-4593-929e-556635b86809> a crm:E55_Type ;
+    rdfs:label "Manuscripts, Medieval -- Europe -- 16th century" .
+
+<https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd> a crm:E55_Type ;
+    rdfs:label "System-Assigned Number" .
+
+<https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591> a crm:E55_Type ;
+    rdfs:label "Manuscripts, Medieval -- Connecticut -- New Haven" .
+
+<https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2> a crm:E55_Type ;
+    rdfs:label "Collection Item" .
+
+<https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70> a crm:E55_Type ;
+    rdfs:label "Language Statement" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d> a crm:E55_Type ;
+    rdfs:label "Alternative Title" .
+
+<https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8> a crm:E55_Type ;
+    rdfs:label "Connecticut -- New Haven" .
+
+<https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711> a crm:E55_Type ;
+    rdfs:label "Preferred Citation Note" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd> a crm:E55_Type ;
+    rdfs:label "Manuscripts, Medieval -- Europe -- 15th century" .
+
+<https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0> a crm:E55_Type ;
+    rdfs:label "Ciphers" .
+
+<https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8> a crm:E55_Type ;
+    rdfs:label "Imprint Statement" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240> a crm:E55_Type ;
+    rdfs:label "Medieval and Renaissance Manuscripts in Beinecke Library" .
+
+<https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9> a crm:E74_Group ;
+    rdfs:label "Yale University Library" .
+
+<https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387> a crm:E53_Place ;
+    rdfs:label "Connecticut" .
+
+<https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1> a crm:E33_Linguistic_Object ;
+    rdfs:label "Voynich manuscript" .
+
+<https://search.library.yale.edu/catalog/11167038> a dig:D1_Digital_Object .
+
+<https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> a crm:E55_Type ;
+    rdfs:label "Dimension Statement" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> a crm:E55_Type ;
+    rdfs:label "Note" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> a crm:E55_Type ;
+    rdfs:label "Primary Name" .
+
+<https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> a crm:E55_Type ;
+    rdfs:label "Brief Text" .
+
+<https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> a crm:E55_Type ;
+    rdfs:label "Display Title" .
+

@@ -1,0 +1,274 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix la: <https://linked.art/ns/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lux.collections.yale.edu/data/person/854afcd6-ea24-40c0-a701-1a9276d59aec> a crm:E21_Person ;
+    rdfs:label "Wilfrid Voynich" ;
+    crm:P100i_died_in [ a crm:E69_Death ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "1930-03-19" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P4_has_time-span [ a crm:E52_Time-Span ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "1930-03-19" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+                    crm:P82a_begin_of_the_begin "1930-03-19T00:00:00"^^xsd:dateTime ;
+                    crm:P82b_end_of_the_end "1930-03-19T23:59:59"^^xsd:dateTime ] ;
+            crm:P7_took_place_at <https://lux.collections.yale.edu/data/place/f23964ce-4599-4029-afa3-c6df68871ddc> ] ;
+    crm:P138i_has_representation [ a crm:E36_Visual_Item ;
+            rdfs:label "Appearance of Wilfred Michael Voynich" ;
+            la:digitally_shown_by [ a dig:D1_Digital_Object ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "Michał Wojnicz c. 1885" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ] ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b28a48ef-4d40-44d1-81c9-27f0411b030b> ;
+                    crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
+                            crm:P190_has_symbolic_content "Michał Wojnicz c. 1885, Public domain" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60> ] ] ],
+        [ a crm:E36_Visual_Item ;
+            rdfs:label "Wikidata Image" ;
+            la:digitally_shown_by [ a dig:D1_Digital_Object ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "Wilfrid Voynich c1920" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ] ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b28a48ef-4d40-44d1-81c9-27f0411b030b> ;
+                    crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
+                            crm:P190_has_symbolic_content "Wilfrid Voynich" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ],
+                        [ a crm:E33_Linguistic_Object ;
+                            crm:P190_has_symbolic_content "Wilfrid Voynich c1920 by Unknown [1], Public domain" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60> ] ] ] ;
+    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Voynich, Wilfrid, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Voynich, W. M. (Wilfred Michael), 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wojnicz, Michał, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wilfrid Michael Voynich" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66>,
+                <https://lux.collections.yale.edu/data/concept/5abd8c6e-52ca-462f-8d7e-21f73068410c> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wilfrid M. Voynich" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353>,
+                <https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159>,
+                <https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "威尔弗雷德·伏尼契" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wilfred Michael Voynich" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Voynich, Wilfred Michael, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Voynich, Wilfred M." ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "ويلفريد فوينيتش" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wojnicz, Wilfrid Michał Habdank-, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Voiničius, Michailas Vilfridas 1865-1930" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Habdank-Wojnicz, Wilfrid Michał, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Michał Habdank Wojnicz" ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wilfrid Voynich" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "ウィルフリッド・ヴォイニッチ" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Kel'chevskii, Ivan, 1865-1930" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Wilfried Michael Voynich" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> ],
+        [ a crm:E33_E41_Linguistic_Appellation ;
+            crm:P190_has_symbolic_content "Войнич, В. 1865-1930 Вильфрид" ] ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/0d512f32-4dc7-453c-8f51-82e505d20e2d>,
+        <https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414>,
+        <https://lux.collections.yale.edu/data/concept/6bb2db37-527c-4a56-b1c0-0975865320a0>,
+        <https://lux.collections.yale.edu/data/concept/6fefe491-ea6d-47c1-b204-878d92e2ae78>,
+        <https://lux.collections.yale.edu/data/concept/9da4daae-cd1b-4a8c-b90a-a45a5291797f>,
+        <https://lux.collections.yale.edu/data/concept/a1b83ea9-81ec-4457-8c89-c8a52d74bff2>,
+        <https://lux.collections.yale.edu/data/concept/ba25ae7e-1cf7-4b37-a01d-0bcaa38ec8b1>,
+        <https://lux.collections.yale.edu/data/concept/cf13bc01-f670-4640-bac6-85eeed23610e>,
+        <https://lux.collections.yale.edu/data/concept/e12cb719-c707-4e01-8274-a256c71a3936> ;
+    crm:P67i_is_referred_to_by [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Polish revolutionary, antiquarian, bibliophile, historian and eponym of Voynich manuscript (1865-1930)" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Brit. Buchhändler, in USA tätig" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "US-amerikanischer Büchersammler und Antiquar polnischer Abstammung" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "chimiste américain" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "Amerikaans antiquaar (1865-1930)" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159> ],
+        [ a crm:E33_Linguistic_Object ;
+            crm:P190_has_symbolic_content "bibliófilo polaco-británico" ;
+            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> ;
+            crm:P72_has_language <https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7> ] ;
+    crm:P98i_was_born [ a crm:E67_Birth ;
+            crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                    crm:P190_has_symbolic_content "1865-11-12" ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+            crm:P4_has_time-span [ a crm:E52_Time-Span ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "1865-11-12" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ] ;
+                    crm:P82a_begin_of_the_begin "1865-11-12T00:00:00"^^xsd:dateTime ;
+                    crm:P82b_end_of_the_end "1865-11-12T23:59:59"^^xsd:dateTime ] ;
+            crm:P7_took_place_at <https://lux.collections.yale.edu/data/place/f4cceda2-0784-4776-9448-11caf4c13736> ] ;
+    la:equivalent <http://id.loc.gov/authorities/names/n88244649>,
+        <http://viaf.org/viaf/35552770>,
+        <http://www.wikidata.org/entity/Q336453>,
+        <https://d-nb.info/gnd/130074497>,
+        <https://linked-art.library.yale.edu/node/0624ccf5-522b-4846-b54d-62a61745075d>,
+        <https://linked-art.library.yale.edu/node/ab8e3fda-d5c9-4943-8396-8cf6f66144f7> .
+
+<http://id.loc.gov/authorities/names/n88244649> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<http://viaf.org/viaf/35552770> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<http://www.wikidata.org/entity/Q336453> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<https://d-nb.info/gnd/130074497> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<https://linked-art.library.yale.edu/node/0624ccf5-522b-4846-b54d-62a61745075d> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<https://linked-art.library.yale.edu/node/ab8e3fda-d5c9-4943-8396-8cf6f66144f7> a crm:E21_Person ;
+    rdfs:label "Voynich, Wilfred Michael, 1865-1930" .
+
+<https://lux.collections.yale.edu/data/concept/0d512f32-4dc7-453c-8f51-82e505d20e2d> a crm:E55_Type ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458> .
+
+<https://lux.collections.yale.edu/data/concept/5abd8c6e-52ca-462f-8d7e-21f73068410c> a crm:E56_Language ;
+    rdfs:label "Portuguese" .
+
+<https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414> a crm:E55_Type ;
+    rdfs:label "Male" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d> .
+
+<https://lux.collections.yale.edu/data/concept/6bb2db37-527c-4a56-b1c0-0975865320a0> a crm:E55_Type ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458> .
+
+<https://lux.collections.yale.edu/data/concept/6fefe491-ea6d-47c1-b204-878d92e2ae78> a crm:E55_Type ;
+    rdfs:label "us" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c> .
+
+<https://lux.collections.yale.edu/data/concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17> a crm:E56_Language ;
+    rdfs:label "Japanese" .
+
+<https://lux.collections.yale.edu/data/concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5> a crm:E56_Language ;
+    rdfs:label "Chinese" .
+
+<https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d> a crm:E55_Type ;
+    rdfs:label "Gender" .
+
+<https://lux.collections.yale.edu/data/concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b> a crm:E56_Language ;
+    rdfs:label "Arabic" .
+
+<https://lux.collections.yale.edu/data/concept/9da4daae-cd1b-4a8c-b90a-a45a5291797f> a crm:E55_Type ;
+    rdfs:label "Revolutionaries" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4> .
+
+<https://lux.collections.yale.edu/data/concept/a1b83ea9-81ec-4457-8c89-c8a52d74bff2> a crm:E55_Type ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458> .
+
+<https://lux.collections.yale.edu/data/concept/ba25ae7e-1cf7-4b37-a01d-0bcaa38ec8b1> a crm:E55_Type ;
+    rdfs:label "Antiquarian booksellers" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4> .
+
+<https://lux.collections.yale.edu/data/concept/cf13bc01-f670-4640-bac6-85eeed23610e> a crm:E55_Type ;
+    rdfs:label "pl" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c> .
+
+<https://lux.collections.yale.edu/data/concept/e12cb719-c707-4e01-8274-a256c71a3936> a crm:E55_Type ;
+    rdfs:label "gb" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c> .
+
+<https://lux.collections.yale.edu/data/place/f23964ce-4599-4029-afa3-c6df68871ddc> a crm:E53_Place ;
+    rdfs:label "New York (N.Y.)" .
+
+<https://lux.collections.yale.edu/data/place/f4cceda2-0784-4776-9448-11caf4c13736> a crm:E53_Place ;
+    rdfs:label "Telšiai (Lithuania)" .
+
+<https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449> a crm:E56_Language ;
+    rdfs:label "English" .
+
+<https://lux.collections.yale.edu/data/concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4> a crm:E55_Type ;
+    rdfs:label "Occupation" .
+
+<https://lux.collections.yale.edu/data/concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60> a crm:E55_Type ;
+    rdfs:label "Copyright/License Statement" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353> a crm:E56_Language ;
+    rdfs:label "French" .
+
+<https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66> a crm:E56_Language ;
+    rdfs:label "German" .
+
+<https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159> a crm:E56_Language ;
+    rdfs:label "Dutch" .
+
+<https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7> a crm:E56_Language ;
+    rdfs:label "Spanish" .
+
+<https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> a crm:E55_Type ;
+    rdfs:label "Brief Text" .
+
+<https://lux.collections.yale.edu/data/concept/b28a48ef-4d40-44d1-81c9-27f0411b030b> a crm:E55_Type ;
+    rdfs:label "Digital Image" .
+
+<https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c> a crm:E55_Type ;
+    rdfs:label "Nationality" .
+
+<https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458> a crm:E55_Type ;
+    rdfs:label "Occupation" .
+
+<https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> a crm:E55_Type ;
+    rdfs:label "Display Title" .
+
+<https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337> a crm:E55_Type ;
+    rdfs:label "Description" ;
+    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a> .
+
+<https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251> a crm:E55_Type ;
+    rdfs:label "Alternate Name",
+        "Merge: Alternate Name" .
+
+<https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> a crm:E55_Type ;
+    rdfs:label "Primary Name" .
+
