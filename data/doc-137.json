@@ -1,0 +1,12 @@
+{
+    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+    "@type": "crm:E55_Type",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Brief Text"
+        }
+    ],
+    "rdfs:label": "Description"
+}

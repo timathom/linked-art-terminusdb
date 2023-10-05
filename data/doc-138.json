@@ -1,0 +1,12 @@
+{
+    "@id": "concept/ba25ae7e-1cf7-4b37-a01d-0bcaa38ec8b1",
+    "@type": "crm:E55_Type",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Occupation"
+        }
+    ],
+    "rdfs:label": "Antiquarian booksellers"
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7150",
+    "@type": "crm:E33_Linguistic_Object",
+    "crm:P190_has_symbolic_content": "Staat in Mitteleuropa",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Brief Text"
+                }
+            ],
+            "rdfs:label": "Description"
+        }
+    ],
+    "crm:P72_has_language": [
+        {
+            "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+            "@type": "crm:E56_Language",
+            "rdfs:label": "German"
+        }
+    ]
+}

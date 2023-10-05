@@ -1,0 +1,12 @@
+{
+    "@id": "concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+    "@type": "crm:E55_Type",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Gender"
+        }
+    ],
+    "rdfs:label": "Male"
+}

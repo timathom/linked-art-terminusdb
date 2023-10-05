@@ -1,0 +1,18 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod72",
+    "@type": "dig:D1_Digital_Object",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Web Page"
+        }
+    ],
+    "rdfs:label": "Home Page",
+    "la:access_point": [
+        {
+            "@id": "https://www.czechia.eu/",
+            "@type": "dig:D1_Digital_Object"
+        }
+    ]
+}

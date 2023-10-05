@@ -1,0 +1,3154 @@
+{
+    "@id": "place/e1d81b5c-aa48-4c3c-95cb-28fa7d1b004f",
+    "@type": "crm:E53_Place",
+    "crm:P1_is_identified_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod710",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republik Ceko",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e7224953-bf15-4bd9-9cd8-87033c904440",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Indonesian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7100",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechesch Republik",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/d8325ddf-c247-4e80-b902-16663cb2b567",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Luxembourgish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7101",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Txeca",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7102",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Τσεχία",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/16f50a78-c14f-4af1-99b2-66d42fbc9661",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Greek"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7103",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czechia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                },
+                {
+                    "@id": "concept/f6de127d-74ad-4bd5-98da-9210db731aae",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Latin"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7104",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Chequia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7105",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "České země",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7106",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "चेक़ गणतंत्र",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/a995fc45-9c9b-424d-80ae-d9e645b822e7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Hindi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7107",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Cechia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/82cddfd6-44f6-47ba-a0b0-17e8e44b02ae",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Italian"
+                },
+                {
+                    "@id": "concept/f6de127d-74ad-4bd5-98da-9210db731aae",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Latin"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7108",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czech Socialist Republic",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7109",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "चेक प्रजासत्ताक",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/807c88c8-353d-47bd-8f8c-d14c13db3ec3",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Marathi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod711",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tchèque, République",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7110",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Gweriniaeth Tsiec",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/6ac5ab01-2903-46e7-9282-16210449fabc",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Welsh"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7111",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "เช็ก",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/4b890b46-5dcf-4d07-b677-d64bcbe1f80c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Thai"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7112",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Česká Republika",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7113",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "체코공화국",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5d9273f9-781c-450f-b6cd-06d231e02a1c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Korean"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7114",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Cheko Kyōwakoku",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7115",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Chechia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/0d4199ee-4632-4d0f-b5ed-4d35dbcfb3f8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Swahili"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7116",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschjechje",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7117",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Txèquia‏",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7118",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "チェコ共和国",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Japanese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7119",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "České Zemé",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod712",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Çekya",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/4690fa19-16da-4097-a34f-d12b1ca2a338",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Turkish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7120",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republika Czeska",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/2b11cdeb-f430-4247-8131-a84c44373e27",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Polish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7121",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Čekija",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9bd442bb-0c0f-4ebe-b47d-801088db7159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Lithuanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7122",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ČR",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7123",
+            "@type": "crm:E42_Identifier",
+            "crm:P190_has_symbolic_content": "ANT.04566",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/a1922667-5c32-4181-8897-3e71ecea0ce8",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "YPM EMu IRN",
+                        "YPM EMu Locality Number"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7124",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "చెకియా",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/d8c33d23-2887-4f08-9d27-02ad192d5174",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Telugu"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7125",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Europe. Czech Republic.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7126",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czechian"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7127",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czekh"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7128",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republica Cehă",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/78dfe5a4-854c-4382-b8fc-9c7ee2258aeb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Romanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7129",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Poblacht na Seice",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9339df30-3937-4c8f-b647-a2eb869b8ffb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Irish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod713",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Checa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7130",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "চেক প্রজাতন্ত্র",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/a3c601ea-347c-41a2-b715-9e75a47a757e",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bengali"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7131",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "CZE"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7132",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ܬܫܝܟ",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7133",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechenland",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7134",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Cehia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/78dfe5a4-854c-4382-b8fc-9c7ee2258aeb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Romanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7135",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republika Češka",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/c2b372a2-b14f-4c46-bfd2-1471af1d477b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Croatian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7136",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "An tSeic",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9339df30-3937-4c8f-b647-a2eb869b8ffb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Irish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7137",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republika e Çekisë",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e54c1793-a76d-4ef1-98c1-29ee7c3d1ded",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Albanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7138",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "捷克",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7139",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "สาธารณรัฐเช็ก",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/4b890b46-5dcf-4d07-b677-d64bcbe1f80c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Thai"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod714",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsiecia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/6ac5ab01-2903-46e7-9282-16210449fabc",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Welsh"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7140",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Čeehi"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7141",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Cseh Köztársaság",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5a46869b-de47-4fe1-a142-f697c79ddf75",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Magyar (Hungarian)"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7142",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "تشيك",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7143",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tchéquia",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7144",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Res publica Bohemica",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/f6de127d-74ad-4bd5-98da-9210db731aae",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Latin"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7145",
+            "@type": "crm:E42_Identifier",
+            "crm:P190_has_symbolic_content": "ypm:ecollectionevents:25937",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/a1922667-5c32-4181-8897-3e71ecea0ce8",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "YPM EMu IRN",
+                        "YPM EMu Locality Number"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7146",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ჩეხეთი",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/30e822a8-8460-4025-9f9a-bd3240377ddc",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Georgian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod715",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsjekkia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/28ab2e7c-be80-4a94-8b56-d75aaa878dcd",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Norwegian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod716",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Ucheki",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/0d4199ee-4632-4d0f-b5ed-4d35dbcfb3f8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Swahili"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod717",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsjechie",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod718",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czeskô Repùblika",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod719",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Txèquia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/fbb2eae0-b6df-40cb-89dc-1fa10b7cdfb8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Catalan"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod720",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "チェコ",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Japanese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod721",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsjechië",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod722",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "an tSeicia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9339df30-3937-4c8f-b647-a2eb869b8ffb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Irish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod723",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ਚੈਕੀਆ",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1552b745-2dd2-4a83-9e4b-ad1a1b0df34b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Punjabi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod724",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Чехия",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1bfe02c2-5b3b-47c4-b884-6e0b006edf54",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Russian"
+                },
+                {
+                    "@id": "concept/315e4a4b-2641-4a31-acc8-6ead7b809221",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bulgarian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod725",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Čekijos Respublika",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9bd442bb-0c0f-4ebe-b47d-801088db7159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Lithuanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod726",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tjeckien",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/8351691f-8622-4da8-8e8f-6ab2a8a0a83a",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Swedish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod727",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "České územi",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod728",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Cheko",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod729",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Чешка",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/91f7b7a4-e970-429d-95d8-6548e1783674",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Macedonian"
+                },
+                {
+                    "@id": "concept/f82330e7-bb8a-44a4-ba67-7395eb0708c2",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Serbian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod73",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Češka",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/b13b1a78-72b0-4674-a828-1f4592496df9",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bosnian"
+                },
+                {
+                    "@id": "concept/c2b372a2-b14f-4c46-bfd2-1471af1d477b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Croatian"
+                },
+                {
+                    "@id": "concept/e666ba1c-9fc4-42ae-8bf4-3213b8c90dcb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Slovenian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod730",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czech",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod731",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechische Rep.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod732",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Чешская Республика",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1bfe02c2-5b3b-47c4-b884-6e0b006edf54",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Russian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod733",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechische Republik",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod734",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "الجهور ةًا دًضىَ ةِ",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod735",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republique Tcheque",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod736",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "捷克共和国",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod737",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ČR",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod738",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "چک",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7721288f-88b1-4cdf-aee6-2e8c80684c06",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Farsi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod739",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "צ'כיה",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/c9204606-c7c4-4c46-9390-092597ec73f7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Hebrew"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod74",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "چیک جمہوریہ",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/569b961d-d381-4b05-8e1c-4925ac839764",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Urdu"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod740",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "చెక్ గణరాజ్యం",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/d8c33d23-2887-4f08-9d27-02ad192d5174",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Telugu"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod741",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Ceská Republika",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod742",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechien",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                },
+                {
+                    "@id": "concept/d8325ddf-c247-4e80-b902-16663cb2b567",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Luxembourgish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod743",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republika Çeke",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e54c1793-a76d-4ef1-98c1-29ee7c3d1ded",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Albanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod744",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Република Чехия",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/315e4a4b-2641-4a31-acc8-6ead7b809221",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bulgarian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod745",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "República Txeca",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/fbb2eae0-b6df-40cb-89dc-1fa10b7cdfb8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Catalan"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod746",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republiken Tjeckien",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/8351691f-8622-4da8-8e8f-6ab2a8a0a83a",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Swedish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod747",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "جمهورية التشيك",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod748",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "झेक प्रजासत्ताक",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/807c88c8-353d-47bd-8f8c-d14c13db3ec3",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Marathi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod749",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Ceko",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e7224953-bf15-4bd9-9cd8-87033c904440",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Indonesian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod75",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Chéquia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod750",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tchéquie",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod751",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Česko",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                },
+                {
+                    "@id": "concept/022bf78f-a4f7-4b98-ad22-43aea17e72a6",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Slovak"
+                },
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod752",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czechish"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod753",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "CZ",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod754",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "捷克共和國",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod755",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tšekki",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/b45062fc-9c2d-4dd9-920f-3ac4aa356ff4",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Finnish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod756",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "செசியா",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/07d63ead-b27f-4134-9c3c-45ee8477c6f8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Tamil"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod757",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czechy",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/2b11cdeb-f430-4247-8131-a84c44373e27",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Polish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod758",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Repubblica Ceca",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/82cddfd6-44f6-47ba-a0b0-17e8e44b02ae",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Italian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod759",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "चेक गणराज्य",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/a995fc45-9c9b-424d-80ae-d9e645b822e7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Hindi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod76",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechei",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod760",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Bohemia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod761",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "EZ",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod762",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czech Lands",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod763",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czechic"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod764",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "झेकिया",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/807c88c8-353d-47bd-8f8c-d14c13db3ec3",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Marathi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod765",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Česká Socialistická Republika",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod766",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsjechje",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod767",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "جمهوری چک",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7721288f-88b1-4cdf-aee6-2e8c80684c06",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Farsi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod768",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Çek Cumhuriyeti",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/4690fa19-16da-4097-a34f-d12b1ca2a338",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Turkish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod769",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Çekia",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e54c1793-a76d-4ef1-98c1-29ee7c3d1ded",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Albanian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod77",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ISO203"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod770",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ચેકીયા",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/84901c11-041f-495a-a437-2b1cf1c8022f",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Gujarati"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod771",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tsjeggië",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/31cdb12b-078d-443c-a16d-2b78da419526",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Afrikaans"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod772",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Républyique Tchèque"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod773",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "צ׳כיה",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/c9204606-c7c4-4c46-9390-092597ec73f7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Hebrew"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod774",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tšekin tasavalta",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/b45062fc-9c2d-4dd9-920f-3ac4aa356ff4",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Finnish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod775",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "செக் குடியரசு",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/07d63ead-b27f-4134-9c3c-45ee8477c6f8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Tamil"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod776",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Česká Republika",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/022bf78f-a4f7-4b98-ad22-43aea17e72a6",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Slovak"
+                },
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod777",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "República Checa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                },
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod778",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "التشيك",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod779",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tshekh"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod78",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "চেকিয়া",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/a3c601ea-347c-41a2-b715-9e75a47a757e",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bengali"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod780",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Češka Republika",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/c2b372a2-b14f-4c46-bfd2-1471af1d477b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Croatian"
+                },
+                {
+                    "@id": "concept/e666ba1c-9fc4-42ae-8bf4-3213b8c90dcb",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Slovenian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod781",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Czech Republic",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                },
+                {
+                    "@id": "concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Sort Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                },
+                {
+                    "@id": "concept/1552b745-2dd2-4a83-9e4b-ad1a1b0df34b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Punjabi"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod782",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Rèpublica tch·èca",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod783",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "체코",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5d9273f9-781c-450f-b6cd-06d231e02a1c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Korean"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod784",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Jamhuri ya Cheki",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/0d4199ee-4632-4d0f-b5ed-4d35dbcfb3f8",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Swahili"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod785",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "République tchèque",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod786",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "چیکیا",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/569b961d-d381-4b05-8e1c-4925ac839764",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Urdu"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod787",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tjekkiet",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/be849862-c586-4460-ac48-533c3a0b955c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Danish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod788",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tschechei (Tschechien)",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod789",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Chexiya"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod79",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "República Tcheca",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod790",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "České kraje",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/de1942bf-ac4e-4439-95b1-5e093a62ece1",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Czech"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod791",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Republiquetcheque",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod792",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Csehország",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5a46869b-de47-4fe1-a142-f697c79ddf75",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Magyar (Hungarian)"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod793",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ჩეხეთის რესპუბლიკა",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/30e822a8-8460-4025-9f9a-bd3240377ddc",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Georgian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod794",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tjeggiese Republiek",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/31cdb12b-078d-443c-a16d-2b78da419526",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Afrikaans"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod795",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Chekia",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/e7224953-bf15-4bd9-9cd8-87033c904440",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Indonesian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod796",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "চেকিয়া",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/a3c601ea-347c-41a2-b715-9e75a47a757e",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bengali"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod797",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Чешка Република",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/315e4a4b-2641-4a31-acc8-6ead7b809221",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Bulgarian"
+                },
+                {
+                    "@id": "concept/91f7b7a4-e970-429d-95d8-6548e1783674",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Macedonian"
+                },
+                {
+                    "@id": "concept/f82330e7-bb8a-44a4-ba67-7395eb0708c2",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Serbian"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod798",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ચેક રીપબ્લિક",
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/84901c11-041f-495a-a437-2b1cf1c8022f",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Gujarati"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod799",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Tékkland",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/0167670e-70fe-4b9d-a311-a1a05391f73b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Icelandic"
+                }
+            ]
+        }
+    ],
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/7f4cb292-6885-4a18-bd6a-5b4088788234",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Location"
+        },
+        {
+            "@id": "concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Collection Item"
+        },
+        {
+            "@id": "concept/ce2af8c9-1d34-46be-a3cb-434f332d678b",
+            "@type": "crm:E55_Type"
+        }
+    ],
+    "crm:P67i_is_referred_to_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7147",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "país da Europa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7148",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "دولة في أوروبا الوسطى",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7149",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "The Czech Republic lies in central Europe, occupying the traditional lands of Moravia and Bohemia, plus a southwestern piece of Silesia. It is bounded by Poland to the north, Germany to the west, Slovakia to the east, and Austria to the south. Since at least 4000 BCE it has been settled and farmed. The Celtic Boii, or Bohemian, inhabitants were supplanted by Slavs and Germanic tribes. Slavic Czechs were dominant by the 9th century. The area was part of the Přemysl kingdom from 895 to 1306. It was ruled by the Hapsburgs from 1526. It was integrated into Czechoslovakia after WW I. From 1948 to 1989, a Communist government was in control. The modern republic was created as of January 1, 1993. Major industries include electronics, engineering, food processing, and iron and steel manufacturing. The main language is Czech, though Slovak, Polish, and German are also spoken. The capital city is Prague. It measures some 30,450 square miles in area, and it 2003 estimated population was 10, 290,000.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7150",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Staat in Mitteleuropa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7151",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "land in Centraal-Europa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7152",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "país de Europa",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7153",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Selbständiger Staat ab 1.1.1993; 6.2.1990 wurde Petr Pithart erster nicht-kommunistischer Ministerpräsident der CSFR; Trennung der CSFR in zwei Staaten aber erst zum 1.1.1993 beschlossen",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7154",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "pays d'Europe centrale",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7155",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "歐洲國家",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7156",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "country in Central Europe",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7157",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "東ヨーロッパの国",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Japanese"
+                }
+            ]
+        }
+    ],
+    "rdfs:label": "Česko",
+    "la:equivalent": [
+        {
+            "@id": "wof:85633105",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "lc:names/n90718759",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "viaf:137159957",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "tgn:1001780",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "wd:Q213",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "dnb:4303381-7",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "ypm:place/f/cf/fcfc0f56-19ad-4f0c-b012-4ccb7ac2a6fe.json",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:076e0a04-ee1e-4d8b-95ce-b4b43918f8d4",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:12a624e2-99df-4e52-ac2c-6b304fa81a53",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:16d58c3c-85b1-4c8f-9833-921793d431e3",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:17fe8bae-ce7a-44c3-b80c-1720f5170d94",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:18199481-acf1-44d9-89b8-cce00efb50c1",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:1a0f8e3b-2449-4ed4-8a13-91a9f6dccac8",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:1bff5766-a6eb-401c-8ae9-985cd0bc883a",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:24432097-66c0-408a-be1e-72b5f997349f",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:28e8adbb-4d4c-4967-a1bb-c5dbb6dd831e",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:36aedf86-e294-452b-b7f1-7618a7a51bcc",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:3bc89e08-4009-4abb-8799-124e4c0ea75c",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:53cfbd51-cc4f-4833-8ffd-835d7385c27a",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:5f77fae5-b05d-4e3c-ab4d-603812430a1f",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:67b8faaf-379d-4ef8-be8a-a19d28c254b8",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:7431f3c3-37a2-46de-a079-75014f3ef7c3",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:752bf38a-8b8f-4a12-98f6-a1824ba441f1",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:8e70816a-2a47-4412-b221-3355a60e3219",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:c0a1e3b4-6c3f-4258-abb5-066b43be452a",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:c316b352-956c-472b-ac29-cffa35b71408",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:c424269f-b85a-4a69-9bad-e08f925df666",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:cb6c9656-562e-4a2c-8b51-8bb961e1e603",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:cf33f9a0-cc95-49f2-b136-6b4ce699f86a",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:e15a0dbc-492e-48fb-92f0-573585fda3ea",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:e560fb92-0be0-40bc-85f5-08b86be86ef3",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:f1365e07-61a1-4947-9d90-6e5978b6ec76",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:f749f5da-f317-4a09-830f-bf002c396dae",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "yul:f82bab79-43c1-40a6-8013-d37831904dcf",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "https://sws.geonames.org/3077311",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        },
+        {
+            "@id": "https://ycba-lux.s3.amazonaws.com/v3/place/53/53ceb6d3-9d37-4081-99da-8efcb19c351e.json",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czech Republic"
+        }
+    ],
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod71",
+            "@type": "crm:E33_Linguistic_Object",
+            "rdfs:label": "Website Text",
+            "la:digitally_carried_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod72",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Web Page"
+                        }
+                    ],
+                    "rdfs:label": "Home Page",
+                    "la:access_point": [
+                        {
+                            "@id": "https://www.czechia.eu/",
+                            "@type": "dig:D1_Digital_Object"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "crm:P168_place_is_defined_by": "POLYGON ((14.97704 48.78128, 14.95648 48.75838, 14.8813 48.78011, 14.80867 48.7788, 14.80814 48.73388, 14.72697 48.68707, 14.71235 48.6501, 14.72112 48.60234, 14.70153 48.58269, 14.66347 48.58196, 14.64811 48.60901, 14.62626 48.60457, 14.60715 48.62855, 14.56206 48.60333, 14.50288 48.61753, 14.46988 48.64849, 14.44377 48.64343, 14.45605 48.62514, 14.43142 48.58913, 14.38624 48.59267, 14.38809 48.57188, 14.35803 48.57467, 14.33321 48.55183, 14.27074 48.58143, 14.0665 48.59551, 14.069 48.60697, 14.04216 48.61287, 14.04814 48.62737, 14.01132 48.63906, 14.05353 48.65293, 14.05941 48.67374, 14.02466 48.68332, 14.00329 48.70858, 13.94131 48.72198, 13.87613 48.76661, 13.81362 48.77398, 13.80503 48.78111, 13.8156 48.79692, 13.79285 48.83125, 13.76707 48.83367, 13.73832 48.88593, 13.67125 48.88003, 13.6226 48.93861, 13.62871 48.94884, 13.60998 48.94077, 13.58049 48.97081, 13.50774 48.96902, 13.50864 48.94187, 13.49568 48.94142, 13.44329 48.96635, 13.4031 48.98768, 13.39915 49.04958, 13.28945 49.11841, 13.23693 49.11398, 13.18354 49.13462, 13.17078 49.14407, 13.17121 49.17304, 13.1101 49.20332, 13.11476 49.21751, 13.08844 49.22816, 13.08198 49.24727, 13.03383 49.26514, 13.02917 49.3043, 12.95028 49.34254, 12.87917 49.35029, 12.88882 49.33345, 12.87429 49.33345, 12.7792 49.34735, 12.75833 49.39425, 12.70738 49.42467, 12.65591 49.43471, 12.64933 49.46859, 12.63278 49.47592, 12.64495 49.52195, 12.58944 49.53783, 12.56078 49.61972, 12.52945 49.61829, 12.52258 49.63232, 12.5215 49.68653, 12.44338 49.70386, 12.40146 49.75393, 12.47375 49.78856, 12.46417 49.81004, 12.47327 49.83363, 12.49847 49.83885, 12.49784 49.85694, 12.54862 49.89896, 12.54791 49.92016, 12.47859 49.936, 12.47093 49.94902, 12.49912 49.97192, 12.4898 49.98168, 12.46046 49.9945, 12.43321 49.98503, 12.43118 50.00247, 12.36796 50.01793, 12.33868 50.04068, 12.32565 50.03376, 12.31762 50.05244, 12.26085 50.05835, 12.27549 50.07618, 12.19962 50.11013, 12.19545 50.14304, 12.21523 50.16872, 12.18943 50.19472, 12.19823 50.19846, 12.15992 50.2113, 12.15016 50.23592, 12.09098 50.25145, 12.13944 50.27663, 12.1055 50.32203, 12.18489 50.32163, 12.20185 50.30797, 12.20008 50.27238, 12.2548 50.27021, 12.26555 50.25122, 12.23977 50.24612, 12.29399 50.22131, 12.27468 50.19643, 12.29059 50.1771, 12.33452 50.17182, 12.32656 50.18136, 12.33755 50.1934, 12.32418 50.208, 12.33365 50.24227, 12.36 50.24185, 12.35288 50.26168, 12.37124 50.28428, 12.39849 50.29122, 12.40055 50.32173, 12.4324 50.32311, 12.46359 50.35119, 12.4889 50.34926, 12.49185 50.37488, 12.51368 50.39476, 12.6209 50.41529, 12.67387 50.41509, 12.70858 50.39529, 12.73269 50.42954, 12.79457 50.44789, 12.81176 50.43043, 12.81941 50.4583, 12.94758 50.40206, 12.9438 50.41129, 12.98381 50.41792, 13.02181 50.4462, 13.03236 50.50792, 13.08833 50.50053, 13.13358 50.51797, 13.13727 50.50547, 13.19606 50.50275, 13.25012 50.59285, 13.28019 50.59359, 13.29346 50.57379, 13.32363 50.58083, 13.32634 50.60711, 13.37759 50.62725, 13.37114 50.64836, 13.3912 50.64475, 13.41482 50.61599, 13.46416 50.60311, 13.52419 50.63969, 13.51489 50.65586, 13.54397 50.67773, 13.52578 50.70527, 13.59977 50.71019, 13.66395 50.73139, 13.70695 50.71756, 13.77466 50.73655, 13.85423 50.72705, 13.86163 50.74266, 13.8948 50.74262, 13.90112 50.75457, 13.88803 50.77037, 13.90255 50.79378, 13.93728 50.78992, 13.993 50.81911, 14.0297 50.80508, 14.07777 50.81324, 14.10101 50.82975, 14.22233 50.85861, 14.23758 50.88991, 14.30406 50.88457, 14.38554 50.89967, 14.38593 50.91634, 14.40119 50.92367, 14.38783 50.94153, 14.31278 50.95461, 14.30176 50.96603, 14.32678 50.97353, 14.32381 50.98389, 14.28602 50.97709, 14.25837 50.98783, 14.26048 51.00855, 14.28539 51.02761, 14.27343 51.04034, 14.30147 51.05532, 14.33785 51.03917, 14.36114 51.04521, 14.40756 51.01958, 14.45258 51.03624, 14.49063 51.02371, 14.49107 51.04323, 14.50832 51.04335, 14.4989 51.02252, 14.53207 51.01689, 14.5339 51.00412, 14.5634 51.00951, 14.59776 50.98633, 14.56493 50.91946, 14.65062 50.93266, 14.65203 50.90692, 14.61933 50.85814, 14.70765 50.84011, 14.71516 50.82367, 14.79869 50.82236, 14.83156 50.87349, 15.00384 50.8694, 14.99539 50.89289, 15.00821 50.90751, 14.99135 50.92267, 15.02328 50.96646, 15.00713 50.9864, 14.99009 50.97811, 14.96991 50.99104, 14.98677 51.01145, 15.02528 51.02398, 15.05943 51.014, 15.06298 51.02395, 15.10448 51.013, 15.10649 50.99252, 15.13033 50.99106, 15.14394 50.99223, 15.13428 50.99501, 15.14529 51.01402, 15.17381 51.02089, 15.17369 50.98718, 15.19263 50.9812, 15.24097 50.9993, 15.2492 50.98029, 15.27693 50.97966, 15.27675 50.96292, 15.29439 50.95377, 15.26988 50.93272, 15.2796 50.89345, 15.31093 50.86323, 15.36991 50.83827, 15.37633 50.77781, 15.39429 50.77645, 15.4418 50.80935, 15.52599 50.77709, 15.61817 50.77364, 15.70705 50.73783, 15.81844 50.75603, 15.86402 50.6753, 15.96635 50.69266, 15.99194 50.68576, 16.0033 50.64566, 16.02456 50.63068, 15.98926 50.61301, 16.02716 50.59951, 16.05781 50.61081, 16.06867 50.64047, 16.10207 50.66263, 16.17251 50.64649, 16.18889 50.62777, 16.22264 50.63683, 16.23494 50.67154, 16.34391 50.66273, 16.44823 50.57983, 16.40782 50.56945, 16.41377 50.54874, 16.38996 50.54276, 16.40323 50.52886, 16.3628 50.50162, 16.31187 50.5049, 16.29633 50.47937, 16.27401 50.48508, 16.2517 50.47436, 16.25832 50.46759, 16.23498 50.4669, 16.22393 50.4581, 16.2338 50.44377, 16.21486 50.45206, 16.19861 50.43026, 16.21298 50.41196, 16.2536 50.40684, 16.2493 50.39694, 16.26657 50.3931, 16.28093 50.36798, 16.30724 50.38336, 16.36138 50.38026, 16.36389 50.35079, 16.38699 50.32873, 16.43856 50.32206, 16.49223 50.26457, 16.56035 50.2205, 16.56112 50.17155, 16.58766 50.15371, 16.58353 50.14292, 16.63487 50.11244, 16.69624 50.09849, 16.72501 50.10523, 16.74662 50.13524, 16.78379 50.14518, 16.81277 50.19069, 16.85012 50.20807, 16.88384 50.20011, 16.90092 50.22355, 16.95799 50.22388, 16.97706 50.24538, 16.99927 50.21695, 17.03015 50.23067, 17.00361 50.25524, 17.02168 50.27802, 17.00449 50.30196, 16.94122 50.32083, 16.91207 50.38857, 16.86128 50.40813, 16.88303 50.44326, 16.90179 50.44877, 16.97703 50.41859, 17.00048 50.42848, 17.05523 50.40812, 17.11367 50.40556, 17.14562 50.38141, 17.20642 50.3859, 17.20256 50.36576, 17.27607 50.32245, 17.35071 50.32963, 17.34128 50.31436, 17.35655 50.30841, 17.34083 50.28428, 17.35403 50.26459, 17.36508 50.28165, 17.3911 50.28368, 17.42243 50.2785, 17.44222 50.25238, 17.45759 50.27035, 17.49685 50.27586, 17.59419 50.27945, 17.61374 50.26644, 17.68789 50.29901, 17.68845 50.32687, 17.72252 50.31923, 17.75501 50.29889, 17.72708 50.25683, 17.76753 50.23603, 17.76057 50.2067, 17.71988 50.20531, 17.70767 50.1856, 17.59628 50.1606, 17.65267 50.11154, 17.67874 50.1039, 17.69768 50.11735, 17.73338 50.09735, 17.77241 50.05173, 17.77963 50.02135, 17.83019 50.01, 17.8301 49.99457, 17.87096 49.97311, 17.91177 49.97705, 17.95532 50.00542, 18.00612 50.01768, 18.04705 50.00527, 18.0463 50.03603, 18.00569 50.03794, 18.00646 50.05337, 18.03986 50.06508, 18.09156 50.04412, 18.10779 50.00032, 18.15608 49.98282, 18.17409 50.00024, 18.20862 49.99839, 18.216 49.9726, 18.2778 49.96515, 18.28152 49.94113, 18.31783 49.91698, 18.3529 49.93521, 18.33631 49.94893, 18.43427 49.93792, 18.51551 49.90068, 18.54808 49.90946, 18.5407 49.92631, 18.57604 49.92191, 18.58241 49.90601, 18.5685 49.88025, 18.60866 49.86138, 18.57171 49.82966, 18.6319 49.74648, 18.62727 49.72331, 18.67062 49.70369, 18.71099 49.70504, 18.71835 49.68415, 18.74134 49.67752, 18.80608 49.67931, 18.82803 49.59744, 18.84025 49.59592, 18.83901 49.56302, 18.86103 49.55045, 18.8376 49.52406, 18.85075 49.51773, 18.80832 49.51593, 18.7545 49.48944, 18.67347 49.50811, 18.61717 49.49489, 18.59558 49.51089, 18.55225 49.50304, 18.53445 49.48677, 18.54591 49.46661, 18.48973 49.43306, 18.47537 49.40913, 18.44882 49.39356, 18.40357 49.39646, 18.41494 49.36924, 18.37731 49.32896, 18.18393 49.28767, 18.18402 49.27057, 18.14671 49.24868, 18.15436 49.21662, 18.13119 49.18959, 18.13695 49.16095, 18.10732 49.13536, 18.12041 49.11775, 18.09447 49.05906, 18.02242 49.02093, 17.92244 49.01831, 17.88531 48.92748, 17.78158 48.92529, 17.70382 48.86045, 17.63019 48.85411, 17.589 48.82551, 17.55477 48.83128, 17.52752 48.81227, 17.519 48.82905, 17.51116 48.81905, 17.45199 48.84656, 17.39625 48.81364, 17.36149 48.81379, 17.32012 48.84632, 17.20187 48.87822, 17.11022 48.8312, 17.08864 48.7861, 17.04428 48.76594, 16.96912 48.66671, 16.96286 48.63268, 16.94045 48.61672, 16.91918 48.62327, 16.92475 48.67227, 16.91057 48.67557, 16.91803 48.69939, 16.90226 48.71784, 16.79992 48.70605, 16.72477 48.73798, 16.68297 48.72787, 16.66378 48.78097, 16.59381 48.78264, 16.54072 48.81429, 16.51863 48.79825, 16.46041 48.80903, 16.435 48.76563, 16.37795 48.72848, 16.34297 48.74559, 16.33019 48.73128, 16.10268 48.74542, 15.99425 48.77977, 15.94984 48.80505, 15.95838 48.82306, 15.93396 48.81948, 15.91984 48.83877, 15.89382 48.83455, 15.90457 48.84101, 15.88406 48.8424, 15.87782 48.85914, 15.84154 48.86037, 15.85228 48.86741, 15.84128 48.87758, 15.77953 48.87488, 15.75364 48.85217, 15.68968 48.85567, 15.61243 48.89825, 15.51393 48.91436, 15.50171 48.93638, 15.46849 48.95181, 15.4247 48.95164, 15.36698 48.98188, 15.3057 48.97791, 15.27888 48.99465, 15.26132 48.95364, 15.22445 48.96014, 15.16069 48.94179, 15.16973 48.96276, 15.15109 48.98094, 15.15628 48.99329, 15.06527 48.99955, 15.06543 49.01421, 15.02173 49.02047, 14.99477 49.0149, 14.99725 48.99188, 14.9762 48.971, 14.99264 48.90156, 14.98383 48.87474, 14.97294 48.87465, 14.98453 48.84239, 14.96827 48.83679, 14.9533 48.79581, 14.97704 48.78128))",
+    "crm:P89_falls_within": [
+        {
+            "@id": "place/0505629e-5767-4c94-8c2e-bf86a32f851b",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Art"
+        },
+        {
+            "@id": "place/0e638a44-399c-4619-89e4-0005cedb9999",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "France"
+        },
+        {
+            "@id": "place/0e833f2b-1dca-4b8b-886c-b4d9ae00141c",
+            "@type": "crm:E53_Place"
+        },
+        {
+            "@id": "place/0f2fd734-915c-4e77-9abe-c3054d11fb6e",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "European Economic Area"
+        },
+        {
+            "@id": "place/1447a57b-80ec-422d-8f72-9d6c854f333f",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Czechoslovakia"
+        },
+        {
+            "@id": "place/1c3f9553-3142-4104-96c3-3176d42afe3c",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Prague"
+        },
+        {
+            "@id": "place/22e58687-c7c1-44d2-9a8a-70318fe256db",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Social aspects"
+        },
+        {
+            "@id": "place/25fa939e-d330-4b7c-84a1-206fd7ce1aa8",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Mladoboleslavsko"
+        },
+        {
+            "@id": "place/28261512-1120-47e3-85a1-b9a0c836af99",
+            "@type": "crm:E53_Place"
+        },
+        {
+            "@id": "place/2c87d814-27b1-451f-b66b-df268ebdff5a",
+            "@type": "crm:E53_Place"
+        },
+        {
+            "@id": "place/43c8689a-67e5-4154-8074-c8ae981b3b47",
+            "@type": "crm:E53_Place"
+        },
+        {
+            "@id": "place/6491145f-e4c7-4884-97fd-71f289528640",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Moravia"
+        },
+        {
+            "@id": "place/71b26d51-7957-4937-abf7-c2a5ed90a593",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Germany"
+        },
+        {
+            "@id": "place/82327872-3fb6-4c0e-91d5-8854c88e91e2",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Studený"
+        },
+        {
+            "@id": "place/9255e458-1e6d-4afe-8e6c-aac0fdb736f2",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Europe"
+        },
+        {
+            "@id": "place/96e460e0-76a2-4f32-b785-2c40f4a82b38",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Glassware"
+        },
+        {
+            "@id": "place/a52d0f47-f894-4134-b990-8291bead400f",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "London (England)"
+        },
+        {
+            "@id": "place/adcfa891-c4d1-4df8-90f0-a681e7d67bfe",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "European Union"
+        },
+        {
+            "@id": "place/af64ca69-9918-48e8-8072-55398c27b519",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Eastern Europe"
+        },
+        {
+            "@id": "place/b2073dda-a7e2-42a4-a513-94c6ea6bcc03",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Lipnice"
+        },
+        {
+            "@id": "place/bb929346-2841-448c-86c2-709282865c2b",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Historians"
+        },
+        {
+            "@id": "place/ddc50641-a2e1-4b0c-9d17-ffc0410e5a06",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Únětice (Bohemia, Czech Republic)"
+        },
+        {
+            "@id": "place/e1aef774-c5ce-445e-8e80-538a9dfab052",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Terezín (Ústecký kraj)"
+        },
+        {
+            "@id": "place/e359921b-f827-4143-98c7-616e1568a924",
+            "@type": "crm:E53_Place"
+        },
+        {
+            "@id": "place/e4716851-a6d4-44ad-b905-4cea1caf4035",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Germans"
+        },
+        {
+            "@id": "place/eabec75c-52da-480a-9c7b-82aa04f3ef47",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Bohemia"
+        },
+        {
+            "@id": "place/ed3264ef-f6d0-44be-ba52-38daac03ac22",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Konůvky Site"
+        },
+        {
+            "@id": "place/f2606aec-0996-4135-86f3-b1eac30998d4",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Holocaust, Jewish (1939-1945)"
+        },
+        {
+            "@id": "place/fb94c3ed-9435-48d8-8791-63b6307cfd9f",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Vodňany"
+        }
+    ]
+}

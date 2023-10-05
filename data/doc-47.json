@@ -1,0 +1,33 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/t2MGCx9YI5hdKXBD20",
+    "@type": "crm:E33_Linguistic_Object",
+    "crm:P190_has_symbolic_content": "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University.",
+    "crm:P1_is_identified_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/t2MGCx9YI5hdKXBD21",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Preferred Citation of Described Materials Note",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Display Title"
+                }
+            ]
+        }
+    ],
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Brief Text"
+                }
+            ],
+            "rdfs:label": "Preferred Citation Note"
+        }
+    ]
+}

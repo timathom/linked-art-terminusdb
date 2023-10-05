@@ -1,0 +1,1452 @@
+{
+    "@id": "person/854afcd6-ea24-40c0-a701-1a9276d59aec",
+    "@type": "crm:E21_Person",
+    "crm:P100i_died_in": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw1",
+            "@type": "crm:E69_Death",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw2",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": "1930-03-19",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Display Title"
+                        }
+                    ]
+                }
+            ],
+            "crm:P4_has_time-span": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw3",
+                    "@type": "crm:E52_Time-Span",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw4",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "1930-03-19",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Display Title"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P82a_begin_of_the_begin": "1930-03-18T23:59:59.900Z",
+                    "crm:P82b_end_of_the_end": "1930-03-19T23:59:58.900Z"
+                }
+            ],
+            "crm:P7_took_place_at": [
+                {
+                    "@id": "place/f23964ce-4599-4029-afa3-c6df68871ddc",
+                    "@type": "crm:E53_Place",
+                    "rdfs:label": "New York (N.Y.)"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI1",
+            "@type": "crm:E69_Death",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI2",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": "1930-03-19",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Display Title"
+                        }
+                    ]
+                }
+            ],
+            "crm:P4_has_time-span": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI3",
+                    "@type": "crm:E52_Time-Span",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI4",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "1930-03-19",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Display Title"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P82a_begin_of_the_begin": "1930-03-18T23:59:59.900Z",
+                    "crm:P82b_end_of_the_end": "1930-03-19T23:59:58.900Z"
+                }
+            ],
+            "crm:P7_took_place_at": [
+                {
+                    "@id": "place/f23964ce-4599-4029-afa3-c6df68871ddc",
+                    "@type": "crm:E53_Place",
+                    "rdfs:label": "New York (N.Y.)"
+                }
+            ]
+        }
+    ],
+    "crm:P138i_has_representation": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw5",
+            "@type": "crm:E36_Visual_Item",
+            "rdfs:label": "Appearance of Wilfred Michael Voynich",
+            "la:digitally_shown_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw6",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw7",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "Michał Wojnicz c. 1885",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Primary Name"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b28a48ef-4d40-44d1-81c9-27f0411b030b",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Digital Image"
+                        }
+                    ],
+                    "crm:P67i_is_referred_to_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw8",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Michał Wojnicz c. 1885, Public domain",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Copyright/License Statement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw9",
+            "@type": "crm:E36_Visual_Item",
+            "rdfs:label": "Wikidata Image",
+            "la:digitally_shown_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw10",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw11",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich c1920",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Primary Name"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b28a48ef-4d40-44d1-81c9-27f0411b030b",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Digital Image"
+                        }
+                    ],
+                    "crm:P67i_is_referred_to_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw12",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Description"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw13",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich c1920 by Unknown [1], Public domain",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Copyright/License Statement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI5",
+            "@type": "crm:E36_Visual_Item",
+            "rdfs:label": "Appearance of Wilfred Michael Voynich",
+            "la:digitally_shown_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI6",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI7",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "Michał Wojnicz c. 1885",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Primary Name"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b28a48ef-4d40-44d1-81c9-27f0411b030b",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Digital Image"
+                        }
+                    ],
+                    "crm:P67i_is_referred_to_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI8",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Michał Wojnicz c. 1885, Public domain",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Copyright/License Statement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI9",
+            "@type": "crm:E36_Visual_Item",
+            "rdfs:label": "Wikidata Image",
+            "la:digitally_shown_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI10",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI11",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich c1920",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Primary Name"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b28a48ef-4d40-44d1-81c9-27f0411b030b",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Digital Image"
+                        }
+                    ],
+                    "crm:P67i_is_referred_to_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI12",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Description"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI13",
+                            "@type": "crm:E33_Linguistic_Object",
+                            "crm:P190_has_symbolic_content": "Wilfrid Voynich c1920 by Unknown [1], Public domain",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                                    "@type": "crm:E55_Type",
+                                    "crm:P2_has_type": [
+                                        {
+                                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                                            "@type": "crm:E55_Type",
+                                            "rdfs:label": "Brief Text"
+                                        }
+                                    ],
+                                    "rdfs:label": "Copyright/License Statement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "crm:P1_is_identified_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw14",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfrid, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw15",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, W. M. (Wilfred Michael), 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw16",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wojnicz, Michał, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw17",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid Michael Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                },
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw18",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid M. Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                },
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                },
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw19",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "威尔弗雷德·伏尼契",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw20",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfred Michael Voynich"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw21",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfred Michael, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw22",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfred M.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw23",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ويلفريد فوينيتش",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw24",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wojnicz, Wilfrid Michał Habdank-, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw25",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voiničius, Michailas Vilfridas 1865-1930"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw26",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Habdank-Wojnicz, Wilfrid Michał, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw27",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Michał Habdank Wojnicz"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw28",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw29",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ウィルフリッド・ヴォイニッチ",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Japanese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw30",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Kel'chevskii, Ivan, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw31",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfried Michael Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw32",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Войнич, В. 1865-1930 Вильфрид"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI14",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfrid, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI15",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, W. M. (Wilfred Michael), 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI16",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wojnicz, Michał, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI17",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid Michael Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                },
+                {
+                    "@id": "concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Portuguese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI18",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid M. Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                },
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                },
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI19",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "威尔弗雷德·伏尼契",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Chinese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI20",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfred Michael Voynich"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI21",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfred Michael, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI22",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voynich, Wilfred M.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI23",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ويلفريد فوينيتش",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Arabic"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI24",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wojnicz, Wilfrid Michał Habdank-, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI25",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Voiničius, Michailas Vilfridas 1865-1930"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI26",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Habdank-Wojnicz, Wilfrid Michał, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI27",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Michał Habdank Wojnicz"
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI28",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfrid Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI29",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "ウィルフリッド・ヴォイニッチ",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Primary Name"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Japanese"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI30",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Kel'chevskii, Ivan, 1865-1930",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI31",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Wilfried Michael Voynich",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/c99c4343-b769-4a81-9f28-6aec5d281251",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternate Name",
+                        "Merge: Alternate Name"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI32",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Войнич, В. 1865-1930 Вильфрид"
+        }
+    ],
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/0d512f32-4dc7-453c-8f51-82e505d20e2d",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/1680a4ba-f5a1-490b-bbfa-e391199d4458",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Occupation"
+                }
+            ]
+        },
+        {
+            "@id": "concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Gender"
+                }
+            ],
+            "rdfs:label": "Male"
+        },
+        {
+            "@id": "concept/6bb2db37-527c-4a56-b1c0-0975865320a0",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/1680a4ba-f5a1-490b-bbfa-e391199d4458",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Occupation"
+                }
+            ]
+        },
+        {
+            "@id": "concept/6fefe491-ea6d-47c1-b204-878d92e2ae78",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Nationality"
+                }
+            ],
+            "rdfs:label": "us"
+        },
+        {
+            "@id": "concept/9da4daae-cd1b-4a8c-b90a-a45a5291797f",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Occupation"
+                }
+            ],
+            "rdfs:label": "Revolutionaries"
+        },
+        {
+            "@id": "concept/a1b83ea9-81ec-4457-8c89-c8a52d74bff2",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/1680a4ba-f5a1-490b-bbfa-e391199d4458",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Occupation"
+                }
+            ]
+        },
+        {
+            "@id": "concept/ba25ae7e-1cf7-4b37-a01d-0bcaa38ec8b1",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/2f025eda-4e62-43a4-b25b-1aec6a4186a4",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Occupation"
+                }
+            ],
+            "rdfs:label": "Antiquarian booksellers"
+        },
+        {
+            "@id": "concept/cf13bc01-f670-4640-bac6-85eeed23610e",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Nationality"
+                }
+            ],
+            "rdfs:label": "pl"
+        },
+        {
+            "@id": "concept/e12cb719-c707-4e01-8274-a256c71a3936",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Nationality"
+                }
+            ],
+            "rdfs:label": "gb"
+        }
+    ],
+    "crm:P67i_is_referred_to_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw33",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Polish revolutionary, antiquarian, bibliophile, historian and eponym of Voynich manuscript (1865-1930)",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw34",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Brit. Buchhändler, in USA tätig",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw35",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "US-amerikanischer Büchersammler und Antiquar polnischer Abstammung",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw36",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "chimiste américain",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw37",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Amerikaans antiquaar (1865-1930)",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw38",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "bibliófilo polaco-británico",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI33",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Polish revolutionary, antiquarian, bibliophile, historian and eponym of Voynich manuscript (1865-1930)",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "English"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI34",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Brit. Buchhändler, in USA tätig",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI35",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "US-amerikanischer Büchersammler und Antiquar polnischer Abstammung",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "German"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI36",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "chimiste américain",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "French"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI37",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Amerikaans antiquaar (1865-1930)",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Dutch"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI38",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "bibliófilo polaco-británico",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Brief Text"
+                        }
+                    ],
+                    "rdfs:label": "Description"
+                }
+            ],
+            "crm:P72_has_language": [
+                {
+                    "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+                    "@type": "crm:E56_Language",
+                    "rdfs:label": "Spanish"
+                }
+            ]
+        }
+    ],
+    "crm:P98i_was_born": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw39",
+            "@type": "crm:E67_Birth",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw40",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": "1865-11-12",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Display Title"
+                        }
+                    ]
+                }
+            ],
+            "crm:P4_has_time-span": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw41",
+                    "@type": "crm:E52_Time-Span",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw42",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "1865-11-12",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Display Title"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P82a_begin_of_the_begin": "1865-11-11T23:59:59.900Z",
+                    "crm:P82b_end_of_the_end": "1865-11-12T23:59:58.900Z"
+                }
+            ],
+            "crm:P7_took_place_at": [
+                {
+                    "@id": "place/f4cceda2-0784-4776-9448-11caf4c13736",
+                    "@type": "crm:E53_Place",
+                    "rdfs:label": "Telšiai (Lithuania)"
+                }
+            ]
+        },
+        {
+            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI39",
+            "@type": "crm:E67_Birth",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI40",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": "1865-11-12",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": "Display Title"
+                        }
+                    ]
+                }
+            ],
+            "crm:P4_has_time-span": [
+                {
+                    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI41",
+                    "@type": "crm:E52_Time-Span",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI42",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": "1865-11-12",
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": "Display Title"
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P82a_begin_of_the_begin": "1865-11-11T23:59:59.900Z",
+                    "crm:P82b_end_of_the_end": "1865-11-12T23:59:58.900Z"
+                }
+            ],
+            "crm:P7_took_place_at": [
+                {
+                    "@id": "place/f4cceda2-0784-4776-9448-11caf4c13736",
+                    "@type": "crm:E53_Place",
+                    "rdfs:label": "Telšiai (Lithuania)"
+                }
+            ]
+        }
+    ],
+    "rdfs:label": "Wilfrid Voynich",
+    "la:equivalent": [
+        {
+            "@id": "lc:names/n88244649",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        },
+        {
+            "@id": "viaf:35552770",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        },
+        {
+            "@id": "wd:Q336453",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        },
+        {
+            "@id": "dnb:130074497",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        },
+        {
+            "@id": "yul:0624ccf5-522b-4846-b54d-62a61745075d",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        },
+        {
+            "@id": "yul:ab8e3fda-d5c9-4943-8396-8cf6f66144f7",
+            "@type": "crm:E21_Person",
+            "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+        }
+    ]
+}

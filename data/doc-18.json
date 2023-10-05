@@ -1,0 +1,19 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI13",
+    "@type": "crm:E33_Linguistic_Object",
+    "crm:P190_has_symbolic_content": "Wilfrid Voynich c1920 by Unknown [1], Public domain",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Brief Text"
+                }
+            ],
+            "rdfs:label": "Copyright/License Statement"
+        }
+    ]
+}

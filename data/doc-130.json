@@ -1,0 +1,11 @@
+{
+    "@id": "concept/6bb2db37-527c-4a56-b1c0-0975865320a0",
+    "@type": "crm:E55_Type",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/1680a4ba-f5a1-490b-bbfa-e391199d4458",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Occupation"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
+    "@type": "crm:E55_Type",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Brief Text"
+        }
+    ],
+    "rdfs:label": "Language Statement"
+}

@@ -1,0 +1,33 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/t2MGCx9YI5hdKXBD13",
+    "@type": "crm:E33_Linguistic_Object",
+    "crm:P190_has_symbolic_content": "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle.",
+    "crm:P1_is_identified_by": [
+        {
+            "@id": "terminusdb:///data/Blank_Node/t2MGCx9YI5hdKXBD14",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": "Summary, Etc.",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Display Title"
+                }
+            ]
+        }
+    ],
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/25488723-087e-45fa-b5bc-65179c5389dd",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Brief Text"
+                }
+            ],
+            "rdfs:label": "Abstract"
+        }
+    ]
+}

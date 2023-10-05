@@ -1,0 +1,26 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7149",
+    "@type": "crm:E33_Linguistic_Object",
+    "crm:P190_has_symbolic_content": "The Czech Republic lies in central Europe, occupying the traditional lands of Moravia and Bohemia, plus a southwestern piece of Silesia. It is bounded by Poland to the north, Germany to the west, Slovakia to the east, and Austria to the south. Since at least 4000 BCE it has been settled and farmed. The Celtic Boii, or Bohemian, inhabitants were supplanted by Slavs and Germanic tribes. Slavic Czechs were dominant by the 9th century. The area was part of the Přemysl kingdom from 895 to 1306. It was ruled by the Hapsburgs from 1526. It was integrated into Czechoslovakia after WW I. From 1948 to 1989, a Communist government was in control. The modern republic was created as of January 1, 1993. Major industries include electronics, engineering, food processing, and iron and steel manufacturing. The main language is Czech, though Slovak, Polish, and German are also spoken. The capital city is Prague. It measures some 30,450 square miles in area, and it 2003 estimated population was 10, 290,000.",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@type": "crm:E55_Type",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": "Brief Text"
+                }
+            ],
+            "rdfs:label": "Description"
+        }
+    ],
+    "crm:P72_has_language": [
+        {
+            "@id": "concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+            "@type": "crm:E56_Language",
+            "rdfs:label": "English"
+        }
+    ]
+}

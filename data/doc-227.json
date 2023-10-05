@@ -1,0 +1,18 @@
+{
+    "@id": "terminusdb:///data/Blank_Node/t2MGCx9YI5hdKXBD4",
+    "@type": "crm:E7_Activity",
+    "crm:P2_has_type": [
+        {
+            "@id": "concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
+            "@type": "crm:E55_Type",
+            "rdfs:label": "Publishing"
+        }
+    ],
+    "crm:P7_took_place_at": [
+        {
+            "@id": "place/1550d3e5-2c76-4121-ab6d-f78e53936387",
+            "@type": "crm:E53_Place",
+            "rdfs:label": "Connecticut"
+        }
+    ]
+}
