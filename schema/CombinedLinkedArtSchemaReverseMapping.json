@@ -847,10 +847,11 @@
     "@id": "la:DigitalService",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "EntityType",
+    "@inherits": "EntityType",    
     "@documentation": [
       {"@label": "la:DigitalService"}
     ],
+    "@unfoldable": [],
     "crm:P67i_is_referred_to_by": {
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
@@ -927,7 +928,7 @@
     "@id": "crm:E97_Monetary_Amount",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "E54_Dimension",
+    "@inherits": "crm:E54_Dimension",
     "@subdocument": [],
     "crm:P90_has_value": "xsd:double",
     "crm:P90a_has_lower_value_limit": {
@@ -988,7 +989,7 @@
     "@documentation": [
       {"@label": ""}
     ],
-    "@inherits": "E30_Right",
+    "@inherits": "crm:E30_Right",
     "@subdocument": []
   },
   {
@@ -1036,7 +1037,8 @@
     "@inherits": "EventOrActivityType",
     "@documentation": [
       {"@label": "crm:E5_Event"}
-    ]
+    ],
+    "@unfoldable": []
   },
   {
     "@id": "crm:E67_Birth",
@@ -1193,28 +1195,28 @@
     "@id": "crm:E98_Currency",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "E55_Type",
+    "@inherits": "crm:E55_Type",
     "@unfoldable": []
   },
   {
     "@id": "crm:E56_Language",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "E55_Type",
+    "@inherits": "crm:E55_Type",
     "@unfoldable": []
   },
   {
     "@id": "crm:E57_Material",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "E55_Type",
+    "@inherits": "crm:E55_Type",
     "@unfoldable": []
   },
   {
     "@id": "crm:E58_Measurement_Unit",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "E55_Type",
+    "@inherits": "crm:E55_Type",
     "@unfoldable": []
   }
 ]
