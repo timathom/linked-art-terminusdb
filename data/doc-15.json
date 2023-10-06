@@ -1,26 +1,16 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw38",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "bibliófilo polaco-británico",
+    "@id": "concept/25488723-087e-45fa-b5bc-65179c5389dd",
+    "@type": "crm:E55_Type",
     "crm:P2_has_type": [
         {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
             "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
+            "rdfs:label": [
+                "Brief Text"
+            ]
         }
     ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "Spanish"
-        }
+    "rdfs:label": [
+        "Abstract"
     ]
 }

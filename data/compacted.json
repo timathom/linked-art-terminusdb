@@ -1,0 +1,53 @@
+{
+  "@id": "https://lux.collections.yale.edu/data/text/f772356c-d72d-4bb3-b78d-f0804c941b61",
+  "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+  "http://www.cidoc-crm.org/cidoc-crm/P129_is_about": [
+    {
+      "@id": "https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Voynich manuscript"
+    },
+    {
+      "@id": "https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Ciphers"
+    },
+    {
+      "@id": "https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Connecticut -- New Haven"
+    },
+    {
+      "@id": "https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Medieval and Renaissance Manuscripts in Beinecke Library"
+    }
+  ],
+  "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of": {
+    "@id": "https://lux.collections.yale.edu/data/text/abc",
+    "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+    "http://www.w3.org/2000/01/rdf-schema#label": "Text of Repository Page",
+    "https://linked.art/ns/terms/digitally_carried_by": {
+      "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
+        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "View this record on the Yale Library website",
+        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+          "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
+        }
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+        "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#label": "Repository Page",
+      "https://linked.art/ns/terms/access_point": {
+        "@id": "https://search.library.yale.edu/catalog/11167038",
+        "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"
+      }
+    }
+  }
+}

@@ -1,19 +1,7 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw8",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "Michał Wojnicz c. 1885, Public domain",
-    "crm:P2_has_type": [
-        {
-            "@id": "concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
-            "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Copyright/License Statement"
-        }
+    "@id": "concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Web Page"
     ]
 }

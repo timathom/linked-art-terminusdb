@@ -1,26 +1,553 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw35",
+    "@id": "text/f772356c-d72d-4bb3-b78d-f0804c941b61",
     "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "US-amerikanischer Büchersammler und Antiquar polnischer Abstammung",
+    "crm:P129_is_about": [
+        {
+            "@id": "concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Manuscripts, Medieval -- Connecticut -- New Haven"
+            ]
+        },
+        {
+            "@id": "concept/dec7271c-8384-451c-8a16-de18647fe1d0",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Ciphers"
+            ]
+        },
+        {
+            "@id": "concept/e936ebec-c5b2-42af-9cdc-256c459af240",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Medieval and Renaissance Manuscripts in Beinecke Library"
+            ]
+        },
+        {
+            "@id": "text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1",
+            "@type": "crm:E33_Linguistic_Object",
+            "rdfs:label": [
+                "Voynich manuscript"
+            ]
+        }
+    ],
+    "crm:P129i_is_subject_of": [
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ1",
+            "@type": "crm:E33_Linguistic_Object",
+            "rdfs:label": [
+                "Text of Repository Page"
+            ],
+            "la:digitally_carried_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ2",
+                    "@type": "dig:D1_Digital_Object",
+                    "crm:P1_is_identified_by": [
+                        {
+                            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ3",
+                            "@type": "crm:E33_E41_Linguistic_Appellation",
+                            "crm:P190_has_symbolic_content": [
+                                "View this record on the Yale Library website"
+                            ],
+                            "crm:P2_has_type": [
+                                {
+                                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                                    "@type": "crm:E55_Type",
+                                    "rdfs:label": [
+                                        "Primary Name"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Web Page"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Repository Page"
+                    ],
+                    "la:access_point": [
+                        {
+                            "@id": "cat:11167038",
+                            "@type": "dig:D1_Digital_Object"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "crm:P138_represents": [
+        {
+            "@id": "concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Connecticut -- New Haven"
+            ]
+        }
+    ],
+    "crm:P16i_was_used_for": [
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ4",
+            "@type": "crm:E7_Activity",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Publishing"
+                    ]
+                }
+            ],
+            "crm:P7_took_place_at": [
+                {
+                    "@id": "place/1550d3e5-2c76-4121-ab6d-f78e53936387",
+                    "@type": "crm:E53_Place",
+                    "rdfs:label": [
+                        "Connecticut"
+                    ]
+                }
+            ]
+        }
+    ],
+    "crm:P1_is_identified_by": [
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ5",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": [
+                "Known as: Voynich manuscript"
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Alternative Title"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ6",
+            "@type": "crm:E42_Identifier",
+            "crm:P140i_was_attributed_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ7",
+                    "@type": "crm:E13_Attribute_Assignment",
+                    "crm:P14_carried_out_by": [
+                        {
+                            "@id": "group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
+                            "@type": "crm:E74_Group",
+                            "rdfs:label": [
+                                "Yale University Library"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P190_has_symbolic_content": [
+                "ils:yul:11167038"
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/89630361-18a3-4c4b-bcd7-16894d95defd",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "System-Assigned Number"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ8",
+            "@type": "crm:E33_E41_Linguistic_Appellation",
+            "crm:P190_has_symbolic_content": [
+                "Cipher manuscript"
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Sort Name"
+                    ]
+                },
+                {
+                    "@id": "concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+                    "@type": "crm:E55_Type",
+                    "rdfs:label": [
+                        "Primary Name"
+                    ]
+                }
+            ]
+        }
+    ],
     "crm:P2_has_type": [
         {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@id": "concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
             "@type": "crm:E55_Type",
             "crm:P2_has_type": [
                 {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                    "@id": "concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
                     "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
+                    "rdfs:label": [
+                        "Type of Work"
+                    ]
                 }
             ],
-            "rdfs:label": "Description"
+            "rdfs:label": [
+                "Textual Works"
+            ]
+        },
+        {
+            "@id": "concept/805ef371-2f95-4593-929e-556635b86809",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Manuscripts, Medieval -- Europe -- 16th century"
+            ]
+        },
+        {
+            "@id": "concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Collection Item"
+            ]
+        },
+        {
+            "@id": "concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd",
+            "@type": "crm:E55_Type",
+            "rdfs:label": [
+                "Manuscripts, Medieval -- Europe -- 15th century"
+            ]
         }
     ],
-    "crm:P72_has_language": [
+    "crm:P67i_is_referred_to_by": [
         {
-            "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "German"
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ11",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "225 x 160 mm",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ12",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Dimensions"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/53922f57-dab5-43c5-a527-fc20a63fe128",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Dimension Statement"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ13",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle.",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ14",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Summary, Etc."
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/25488723-087e-45fa-b5bc-65179c5389dd",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Abstract"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ15",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "In unidentified cipher.",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ16",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Language Note"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Language Statement"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ17",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Binding: Modern (18th-19th centuries).",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ18",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Note"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Note"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ19",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "[Central Europe?] ; [ca. 1401-1599?]",
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Imprint Statement"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ20",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University.",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ21",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Preferred Citation of Described Materials Note"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Preferred Citation Note"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ22",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red.",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ23",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Note"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Note"
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "Blank_Node/NIawsDPcV9Jp9ELZ9",
+            "@type": "crm:E33_Linguistic_Object",
+            "crm:P190_has_symbolic_content": "ff. 102 +1",
+            "crm:P1_is_identified_by": [
+                {
+                    "@id": "Blank_Node/NIawsDPcV9Jp9ELZ10",
+                    "@type": "crm:E33_E41_Linguistic_Appellation",
+                    "crm:P190_has_symbolic_content": [
+                        "Extent"
+                    ],
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Display Title"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "crm:P2_has_type": [
+                {
+                    "@id": "concept/53922f57-dab5-43c5-a527-fc20a63fe128",
+                    "@type": "crm:E55_Type",
+                    "crm:P2_has_type": [
+                        {
+                            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+                            "@type": "crm:E55_Type",
+                            "rdfs:label": [
+                                "Brief Text"
+                            ]
+                        }
+                    ],
+                    "rdfs:label": [
+                        "Dimension Statement"
+                    ]
+                }
+            ]
+        }
+    ],
+    "rdfs:label": [
+        "Cipher manuscript"
+    ],
+    "la:equivalent": [
+        {
+            "@id": "yul:ecb5c78b-79fe-4d71-ba4b-a3f14790575c",
+            "@type": "crm:E33_Linguistic_Object",
+            "rdfs:label": [
+                "Cipher manuscript"
+            ]
         }
     ]
 }

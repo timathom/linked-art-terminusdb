@@ -1,19 +1,7 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7153",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "Selbständiger Staat ab 1.1.1993; 6.2.1990 wurde Petr Pithart erster nicht-kommunistischer Ministerpräsident der CSFR; Trennung der CSFR in zwei Staaten aber erst zum 1.1.1993 beschlossen",
-    "crm:P2_has_type": [
-        {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
-            "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
-        }
+    "@id": "concept/dec7271c-8384-451c-8a16-de18647fe1d0",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Ciphers"
     ]
 }

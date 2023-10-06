@@ -1,26 +1,16 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7148",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "دولة في أوروبا الوسطى",
+    "@id": "concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
+    "@type": "crm:E55_Type",
     "crm:P2_has_type": [
         {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
             "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
+            "rdfs:label": [
+                "Brief Text"
+            ]
         }
     ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "Arabic"
-        }
+    "rdfs:label": [
+        "Language Statement"
     ]
 }

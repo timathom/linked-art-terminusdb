@@ -1,5 +1,7 @@
 {
-    "@id": "yul:ab8e3fda-d5c9-4943-8396-8cf6f66144f7",
-    "@type": "crm:E21_Person",
-    "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+    "@id": "concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Connecticut -- New Haven"
+    ]
 }

@@ -1,26 +1,16 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI35",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "US-amerikanischer Büchersammler und Antiquar polnischer Abstammung",
+    "@id": "concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
+    "@type": "crm:E55_Type",
     "crm:P2_has_type": [
         {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@id": "concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
             "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
+            "rdfs:label": [
+                "Type of Work"
+            ]
         }
     ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/436c4c60-3478-440d-bb51-c67512ecff66",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "German"
-        }
+    "rdfs:label": [
+        "Textual Works"
     ]
 }

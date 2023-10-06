@@ -1,0 +1,44 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix la: <https://linked.art/ns/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://lux.collections.yale.edu/data/text/f772356c-d72d-4bb3-b78d-f0804c941b61> a crm:E33_Linguistic_Object ;
+    rdfs:label "Cipher manuscript" ;
+    crm:P129_is_about <https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591>,
+        <https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0>,
+        <https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240>,
+        <https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1> ;
+    crm:P129i_is_subject_of [ a crm:E33_Linguistic_Object ;
+            rdfs:label "Text of Repository Page" ;
+            la:digitally_carried_by [ a dig:D1_Digital_Object ;
+                    rdfs:label "Repository Page" ;
+                    crm:P1_is_identified_by [ a crm:E33_E41_Linguistic_Appellation ;
+                            crm:P190_has_symbolic_content "View this record on the Yale Library website" ;
+                            crm:P2_has_type <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ] ;
+                    crm:P2_has_type <https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d> ;
+                    la:access_point <https://search.library.yale.edu/catalog/11167038> ] ] ;
+    crm:P138_represents <https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8> .
+
+<https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591> a crm:E55_Type ;
+    rdfs:label "Manuscripts, Medieval -- Connecticut -- New Haven" .
+
+<https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0> a crm:E55_Type ;
+    rdfs:label "Ciphers" .
+    
+<https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240> a crm:E55_Type ;
+    rdfs:label "Medieval and Renaissance Manuscripts in Beinecke Library" .
+
+<https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1> a crm:E33_Linguistic_Object ;
+    rdfs:label "Voynich manuscript" .
+
+<https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> a crm:E55_Type ;
+    rdfs:label "Primary Name" .
+    
+<https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d> a crm:E55_Type ;
+    rdfs:label "Web Page" .
+
+<https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8> a crm:E55_Type ;
+    rdfs:label "Connecticut -- New Haven" .
+ 
+<https://search.library.yale.edu/catalog/11167038> a dig:D1_Digital_Object .

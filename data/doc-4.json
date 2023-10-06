@@ -1,5 +1,7 @@
 {
-    "@id": "dnb:130074497",
-    "@type": "crm:E21_Person",
-    "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+    "@id": "concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Web Page"
+    ]
 }

@@ -2,9 +2,8 @@
   {
     "@type": "@context",
     "@base": "https://lux.collections.yale.edu/data/",
-    "@schema": "terminusdb:///schema#",
+    "@schema": "http://www.cidoc-crm.org/cidoc-crm/",
     "aat": "http://vocab.getty.edu/aat/",  
-    "bnode": "terminusdb:///data/Blank_Node/",
     "cat": "https://search.library.yale.edu/catalog/",  
     "crm": "http://www.cidoc-crm.org/cidoc-crm/",
     "dc": "http://purl.org/dc/elements/1.1/",
@@ -401,7 +400,7 @@
     "@id": "crm:E33_Linguistic_Object",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@base": "text/",
+    "@base": "https://lux.collections.yale.edu/data/text/",
     "@documentation": [
       {"@label": "crm:E33_Linguistic_Object"}
     ],
@@ -1169,7 +1168,7 @@
     "@id": "crm:E55_Type",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@base": "concept/",
+    "@base": "https://lux.collections.yale.edu/data/concept/",
     "@inherits": "EntityType",
     "@documentation": [
       {"@label": "crm:E55_Type"}

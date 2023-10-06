@@ -1,26 +1,16 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/EthkUfxiwcBSMod7151",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "land in Centraal-Europa",
+    "@id": "concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
+    "@type": "crm:E55_Type",
     "crm:P2_has_type": [
         {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+            "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
             "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
+            "rdfs:label": [
+                "Brief Text"
+            ]
         }
     ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "Dutch"
-        }
+    "rdfs:label": [
+        "Preferred Citation Note"
     ]
 }

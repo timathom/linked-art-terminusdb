@@ -1,26 +1,7 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI36",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "chimiste américain",
-    "crm:P2_has_type": [
-        {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
-            "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
-        }
-    ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "French"
-        }
+    "@id": "concept/805ef371-2f95-4593-929e-556635b86809",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Manuscripts, Medieval -- Europe -- 16th century"
     ]
 }

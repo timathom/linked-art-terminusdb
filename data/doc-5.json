@@ -1,5 +1,7 @@
 {
-    "@id": "yul:0624ccf5-522b-4846-b54d-62a61745075d",
-    "@type": "crm:E21_Person",
-    "rdfs:label": "Voynich, Wilfred Michael, 1865-1930"
+    "@id": "concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Manuscripts, Medieval -- Connecticut -- New Haven"
+    ]
 }

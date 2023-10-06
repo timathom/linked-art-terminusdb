@@ -1,26 +1,7 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/cpProjWKRo_LazfI38",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "bibliófilo polaco-británico",
-    "crm:P2_has_type": [
-        {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
-            "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
-        }
-    ],
-    "crm:P72_has_language": [
-        {
-            "@id": "concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
-            "@type": "crm:E56_Language",
-            "rdfs:label": "Spanish"
-        }
+    "@id": "concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
+    "@type": "crm:E55_Type",
+    "rdfs:label": [
+        "Manuscripts, Medieval -- Connecticut -- New Haven"
     ]
 }

@@ -1,19 +1,4 @@
 {
-    "@id": "terminusdb:///data/Blank_Node/B11dnd7k4u5G0nRw34",
-    "@type": "crm:E33_Linguistic_Object",
-    "crm:P190_has_symbolic_content": "Brit. Buchhändler, in USA tätig",
-    "crm:P2_has_type": [
-        {
-            "@id": "concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
-            "@type": "crm:E55_Type",
-            "crm:P2_has_type": [
-                {
-                    "@id": "concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-                    "@type": "crm:E55_Type",
-                    "rdfs:label": "Brief Text"
-                }
-            ],
-            "rdfs:label": "Description"
-        }
-    ]
+    "@id": "cat:11167038",
+    "@type": "dig:D1_Digital_Object"
 }

@@ -5,52 +5,21 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.w3.org/2000/01/rdf-schema#label": "Text of Repository Page",
       "https://linked.art/ns/terms/digitally_carried_by": {
-        "@id": "_:b1",
-        "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
-        "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-          "@id": "_:b2",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "View this record on the Yale Library website",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
-          }
-        },
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Repository Page",
-        "https://linked.art/ns/terms/access_point": {
-          "@id": "https://search.library.yale.edu/catalog/11167038",
-          "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"
-        }
+        "@id": "_:b1"
       }
     },
     {
       "@id": "_:b1",
       "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b2",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "View this record on the Yale Library website",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
-        }
+        "@id": "_:b2"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
+        "@id": "https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Repository Page",
       "https://linked.art/ns/terms/access_point": {
-        "@id": "https://search.library.yale.edu/catalog/11167038",
-        "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"
+        "@id": "https://search.library.yale.edu/catalog/11167038"
       }
     },
     {
@@ -58,24 +27,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ff. 102 +1",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b11",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Extent",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b11"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/53922f57-dab5-43c5-a527-fc20a63fe128",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Dimension Statement"
+        "@id": "https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128"
       }
     },
     {
@@ -83,9 +38,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Extent",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -93,24 +46,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "225 x 160 mm",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b13",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Dimensions",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b13"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/53922f57-dab5-43c5-a527-fc20a63fe128",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Dimension Statement"
+        "@id": "https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128"
       }
     },
     {
@@ -118,9 +57,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Dimensions",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -128,24 +65,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red.",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b15",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b15"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Note"
+        "@id": "https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020"
       }
     },
     {
@@ -153,9 +76,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -163,24 +84,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Binding: Modern (18th-19th centuries).",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b17",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b17"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Note"
+        "@id": "https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020"
       }
     },
     {
@@ -188,9 +95,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -198,14 +103,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "[Central Europe?] ; [ca. 1401-1599?]",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Imprint Statement"
+        "@id": "https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8"
       }
     },
     {
@@ -213,24 +111,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle.",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b20",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Summary, Etc.",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b20"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/25488723-087e-45fa-b5bc-65179c5389dd",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Abstract"
+        "@id": "https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd"
       }
     },
     {
@@ -238,9 +122,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "View this record on the Yale Library website",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
+        "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
       }
     },
     {
@@ -248,9 +130,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Summary, Etc.",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -258,24 +138,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University.",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b22",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Preferred Citation of Described Materials Note",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b22"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Preferred Citation Note"
+        "@id": "https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711"
       }
     },
     {
@@ -283,23 +149,17 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Preferred Citation of Described Materials Note",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
       "@id": "_:b3",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Publishing"
+        "@id": "https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": {
-        "@id": "../place/1550d3e5-2c76-4121-ab6d-f78e53936387",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Connecticut"
+        "@id": "https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387"
       }
     },
     {
@@ -308,14 +168,10 @@
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Cipher manuscript",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [
         {
-          "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
         },
         {
-          "@id": "../concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Sort Name"
+          "@id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a"
         }
       ]
     },
@@ -323,28 +179,18 @@
       "@id": "_:b5",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
       "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by": {
-        "@id": "_:b6",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-        "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by": {
-          "@id": "../group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Yale University Library"
-        }
+        "@id": "_:b6"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ils:yul:11167038",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/89630361-18a3-4c4b-bcd7-16894d95defd",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "System-Assigned Number"
+        "@id": "https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd"
       }
     },
     {
       "@id": "_:b6",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
       "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by": {
-        "@id": "../group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Yale University Library"
+        "@id": "https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9"
       }
     },
     {
@@ -352,9 +198,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Known as: Voynich manuscript",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Alternative Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d"
       }
     },
     {
@@ -362,24 +206,10 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "In unidentified cipher.",
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-        "@id": "_:b9",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-        "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Language Note",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-        }
+        "@id": "_:b9"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-        },
-        "http://www.w3.org/2000/01/rdf-schema#label": "Language Statement"
+        "@id": "https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70"
       }
     },
     {
@@ -387,9 +217,7 @@
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
       "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Language Note",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
+        "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
       }
     },
     {
@@ -398,477 +226,236 @@
       "http://www.w3.org/2000/01/rdf-schema#label": "Cipher manuscript"
     },
     {
-      "@id": "../concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
+      "@id": "https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Publishing"
     },
     {
-      "@id": "../concept/25488723-087e-45fa-b5bc-65179c5389dd",
+      "@id": "https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Abstract"
     },
     {
-      "@id": "../concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+      "@id": "https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
     },
     {
-      "@id": "../concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+      "@id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Sort Name"
     },
     {
-      "@id": "../concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
+      "@id": "https://lux.collections.yale.edu/data/concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Type of Work"
     },
     {
-      "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
+      "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
     },
     {
-      "@id": "../concept/53922f57-dab5-43c5-a527-fc20a63fe128",
+      "@id": "https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Dimension Statement"
     },
     {
-      "@id": "../concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
+      "@id": "https://lux.collections.yale.edu/data/concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Type of Work"
+        "@id": "https://lux.collections.yale.edu/data/concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Textual Works"
     },
     {
-      "@id": "../concept/805ef371-2f95-4593-929e-556635b86809",
+      "@id": "https://lux.collections.yale.edu/data/concept/805ef371-2f95-4593-929e-556635b86809",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Europe -- 16th century"
     },
     {
-      "@id": "../concept/89630361-18a3-4c4b-bcd7-16894d95defd",
+      "@id": "https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "System-Assigned Number"
     },
     {
-      "@id": "../concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
+      "@id": "https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Connecticut -- New Haven"
     },
     {
-      "@id": "../concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
+      "@id": "https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Note"
     },
     {
-      "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+      "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
     },
     {
-      "@id": "../concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2",
+      "@id": "https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Collection Item"
     },
     {
-      "@id": "../concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
+      "@id": "https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Language Statement"
     },
     {
-      "@id": "../concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d",
+      "@id": "https://lux.collections.yale.edu/data/concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Alternative Title"
     },
     {
-      "@id": "../concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8",
+      "@id": "https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Connecticut -- New Haven"
     },
     {
-      "@id": "../concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
+      "@id": "https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Preferred Citation Note"
     },
     {
-      "@id": "../concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd",
+      "@id": "https://lux.collections.yale.edu/data/concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Europe -- 15th century"
     },
     {
-      "@id": "../concept/dec7271c-8384-451c-8a16-de18647fe1d0",
+      "@id": "https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Ciphers"
     },
     {
-      "@id": "../concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
+      "@id": "https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-        "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+        "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
       },
       "http://www.w3.org/2000/01/rdf-schema#label": "Imprint Statement"
     },
     {
-      "@id": "../concept/e936ebec-c5b2-42af-9cdc-256c459af240",
+      "@id": "https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Medieval and Renaissance Manuscripts in Beinecke Library"
     },
     {
-      "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+      "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
       "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
     },
     {
-      "@id": "../group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
+      "@id": "https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
       "http://www.w3.org/2000/01/rdf-schema#label": "Yale University Library"
     },
     {
-      "@id": "../place/1550d3e5-2c76-4121-ab6d-f78e53936387",
+      "@id": "https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
       "http://www.w3.org/2000/01/rdf-schema#label": "Connecticut"
     },
     {
-      "@id": "7ef864d8-076a-4c6c-b931-819cb2f9f3c1",
+      "@id": "https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.w3.org/2000/01/rdf-schema#label": "Voynich manuscript"
     },
     {
-      "@id": "f772356c-d72d-4bb3-b78d-f0804c941b61",
+      "@id": "https://lux.collections.yale.edu/data/text/f772356c-d72d-4bb3-b78d-f0804c941b61",
       "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
       "http://www.cidoc-crm.org/cidoc-crm/P129_is_about": [
         {
-          "@id": "7ef864d8-076a-4c6c-b931-819cb2f9f3c1",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Voynich manuscript"
+          "@id": "https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1"
         },
         {
-          "@id": "../concept/dec7271c-8384-451c-8a16-de18647fe1d0",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Ciphers"
+          "@id": "https://lux.collections.yale.edu/data/concept/dec7271c-8384-451c-8a16-de18647fe1d0"
         },
         {
-          "@id": "../concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Connecticut -- New Haven"
+          "@id": "https://lux.collections.yale.edu/data/concept/94dea4a6-75bc-4ad3-a3ec-71d3c8259591"
         },
         {
-          "@id": "../concept/e936ebec-c5b2-42af-9cdc-256c459af240",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Medieval and Renaissance Manuscripts in Beinecke Library"
+          "@id": "https://lux.collections.yale.edu/data/concept/e936ebec-c5b2-42af-9cdc-256c459af240"
         }
       ],
       "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of": {
-        "@id": "_:b0",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Text of Repository Page",
-        "https://linked.art/ns/terms/digitally_carried_by": {
-          "@id": "_:b1",
-          "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b2",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "View this record on the Yale Library website",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
-              "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-              "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
-          },
-          "http://www.w3.org/2000/01/rdf-schema#label": "Repository Page",
-          "https://linked.art/ns/terms/access_point": {
-            "@id": "https://search.library.yale.edu/catalog/11167038",
-            "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"
-          }
-        }
+        "@id": "_:b0"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P138_represents": {
-        "@id": "../concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Connecticut -- New Haven"
+        "@id": "https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for": {
-        "@id": "_:b3",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
-        "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-          "@id": "../concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Publishing"
-        },
-        "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": {
-          "@id": "../place/1550d3e5-2c76-4121-ab6d-f78e53936387",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Connecticut"
-        }
+        "@id": "_:b3"
       },
       "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": [
         {
-          "@id": "_:b4",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Cipher manuscript",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [
-            {
-              "@id": "../concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
-            },
-            {
-              "@id": "../concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
-              "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-              "http://www.w3.org/2000/01/rdf-schema#label": "Sort Name"
-            }
-          ]
+          "@id": "_:b4"
         },
         {
-          "@id": "_:b5",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-          "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by": {
-            "@id": "_:b6",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-            "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by": {
-              "@id": "../group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9",
-              "@type": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
-              "http://www.w3.org/2000/01/rdf-schema#label": "Yale University Library"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ils:yul:11167038",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/89630361-18a3-4c4b-bcd7-16894d95defd",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.w3.org/2000/01/rdf-schema#label": "System-Assigned Number"
-          }
+          "@id": "_:b5"
         },
         {
-          "@id": "_:b7",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Known as: Voynich manuscript",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.w3.org/2000/01/rdf-schema#label": "Alternative Title"
-          }
+          "@id": "_:b7"
         }
       ],
       "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [
         {
-          "@id": "../concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.w3.org/2000/01/rdf-schema#label": "Type of Work"
-          },
-          "http://www.w3.org/2000/01/rdf-schema#label": "Textual Works"
+          "@id": "https://lux.collections.yale.edu/data/concept/63662486-bb41-4daa-90c5-1d8b7a53a08d"
         },
         {
-          "@id": "../concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Europe -- 15th century"
+          "@id": "https://lux.collections.yale.edu/data/concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd"
         },
         {
-          "@id": "../concept/805ef371-2f95-4593-929e-556635b86809",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Manuscripts, Medieval -- Europe -- 16th century"
+          "@id": "https://lux.collections.yale.edu/data/concept/805ef371-2f95-4593-929e-556635b86809"
         },
         {
-          "@id": "../concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-          "http://www.w3.org/2000/01/rdf-schema#label": "Collection Item"
+          "@id": "https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2"
         }
       ],
       "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by": [
         {
-          "@id": "_:b8",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "In unidentified cipher.",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b9",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Language Note",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717",
-              "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-              "http://www.w3.org/2000/01/rdf-schema#label": "Display Title"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
-              "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-              "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Language Statement"
-          }
+          "@id": "_:b8"
         },
         {
-          "@id": "_:b10",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ff. 102 +1",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b11",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Extent",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/53922f57-dab5-43c5-a527-fc20a63fe128",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Dimension Statement"
-          }
+          "@id": "_:b10"
         },
         {
-          "@id": "_:b12",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "225 x 160 mm",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b13",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Dimensions",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/53922f57-dab5-43c5-a527-fc20a63fe128"
-          }
+          "@id": "_:b12"
         },
         {
-          "@id": "_:b14",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red.",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b15",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Note"
-          }
+          "@id": "_:b14"
         },
         {
-          "@id": "_:b16",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Binding: Modern (18th-19th centuries).",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b17",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Note",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020"
-          }
+          "@id": "_:b16"
         },
         {
-          "@id": "_:b18",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "[Central Europe?] ; [ca. 1401-1599?]",
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Imprint Statement"
-          }
+          "@id": "_:b18"
         },
         {
-          "@id": "_:b19",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle.",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b20",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Summary, Etc.",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/25488723-087e-45fa-b5bc-65179c5389dd",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Abstract"
-          }
+          "@id": "_:b19"
         },
         {
-          "@id": "_:b21",
-          "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-          "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University.",
-          "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": {
-            "@id": "_:b22",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
-            "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Preferred Citation of Described Materials Note",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
-            }
-          },
-          "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-            "@id": "../concept/ceef9d2e-1a07-4269-827f-8c407e4d4711",
-            "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-            "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
-              "@id": "../concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": "Preferred Citation Note"
-          }
+          "@id": "_:b21"
         }
       ],
       "http://www.w3.org/2000/01/rdf-schema#label": "Cipher manuscript",
       "https://linked.art/ns/terms/equivalent": {
-        "@id": "https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c",
-        "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
-        "http://www.w3.org/2000/01/rdf-schema#label": "Cipher manuscript"
+        "@id": "https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c"
       }
     },
     {
