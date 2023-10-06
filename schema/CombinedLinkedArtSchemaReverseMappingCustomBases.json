@@ -3,8 +3,8 @@
     "@type": "@context",
     "@base": "https://lux.collections.yale.edu/data/",
     "@schema": "http://www.cidoc-crm.org/cidoc-crm/",
-    "aat": "http://vocab.getty.edu/aat/",  
-    "cat": "https://search.library.yale.edu/catalog/",  
+    "aat": "http://vocab.getty.edu/aat/",
+    "cat": "https://search.library.yale.edu/catalog/",
     "crm": "http://www.cidoc-crm.org/cidoc-crm/",
     "dc": "http://purl.org/dc/elements/1.1/",
     "dcterms": "http://purl.org/dc/terms/",
@@ -17,7 +17,7 @@
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "foaf": "http://xmlns.com/foaf/0.1/",
     "sci": "http://www.ics.forth.gr/isl/CRMsci/",
-    "tgn": "http://vocab.getty.edu/tgn/",    
+    "tgn": "http://vocab.getty.edu/tgn/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "viaf": "http://viaf.org/viaf/",
     "wd": "http://www.wikidata.org/entity/",
@@ -76,9 +76,8 @@
     "@type": "Class",
     "@abstract": [],
     "rdfs:label": {
-      "@type": "Set",
-      "@class": "xsd:string",
-      "@min_cardinality": 0
+      "@type": "Optional",
+      "@class": "xsd:string"
     },
     "crm:P1_is_identified_by": {
       "@type": "Set",
@@ -95,11 +94,7 @@
     "@abstract": [],
     "@subdocument": [],
     "@inherits": "EntityType",
-    "crm:P190_has_symbolic_content": {
-      "@type": "Set",
-      "@class": "xsd:string",
-      "@min_cardinality": 1
-    }
+    "crm:P190_has_symbolic_content": "xsd:string"
   },
   {
     "@id": "HumanMadeObjectOrSetType",
@@ -147,7 +142,7 @@
     "crm:P67i_is_referred_to_by": {
       "@type": "Set",
       "@class": "LinguisticObjectOrDigitalObjectType"
-    },    
+    },
     "crm:P138i_has_representation": {
       "@type": "Set",
       "@class": "crm:E36_Visual_Item"
@@ -851,7 +846,7 @@
     "@id": "la:DigitalService",
     "@type": "Class",
     "@key": {"@type": "Random"},
-    "@inherits": "EntityType",    
+    "@inherits": "EntityType",
     "@documentation": [
       {"@label": "la:DigitalService"}
     ],
@@ -954,7 +949,7 @@
     "@type": "Class",
     "@key": {"@type": "Random"},
     "@inherits": "IdentifierOrNameType",
-    "@subdocument": [],    
+    "@subdocument": [],
     "crm:P72_has_language": {
       "@type": "Set",
       "@class": "crm:E56_Language"
