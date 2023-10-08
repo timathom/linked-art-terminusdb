@@ -1,0 +1,1432 @@
+{
+  "@graph": [
+    {
+      "@id": "_:b0",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Website Text",
+      "https://linked.art/ns/terms/digitally_carried_by": {
+        "@id": "_:b1"
+      }
+    },
+    {
+      "@id": "_:b1",
+      "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "2eca07bd-be42-4ef5-9ec5-87c1bbfe639d"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#label": "Home Page",
+      "https://linked.art/ns/terms/access_point": {
+        "@id": "https://d-nb.info/gnd/4037220-0/about"
+      }
+    },
+    {
+      "@id": "_:b10",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b11",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ouvrage peint",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b12",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "peintures",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b13",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Art de la peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b14",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Attitude envers la peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b15",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Connaissances -- Peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b16",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Et la peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b17",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Oeuvre peinte",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b18",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Oeuvres peintes",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b19",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Oeuvres -- Peinture",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b2",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "painting",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [
+        {
+          "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        },
+        {
+          "@id": "31497b4e-24ad-47fe-88ad-af2007d7fb5a"
+        }
+      ],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b20",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Peinture artistique",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b21",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Pittura",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b22",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Tableaux (peinture)",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b23",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Malerei",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b24",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Gemälde",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b25",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Malereien",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b26",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderen",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b27",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "geschilderd",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b28",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderstuk",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b29",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderstukken",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b3",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "painted",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b30",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schildering",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b31",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderij",
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b32",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderijen",
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b33",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderingen",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b34",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "schilderkunst",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b35",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "繪畫",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b36",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "hui hua",
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b37",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "hui hua",
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b38",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "huì huà",
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b39",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "畫作",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b4",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "paintings",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b40",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "绘画",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b41",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "pintura",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+      }
+    },
+    {
+      "@id": "_:b42",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ציור",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "c9204606-c7c4-4c46-9390-092597ec73f7"
+      }
+    },
+    {
+      "@id": "_:b43",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "絵画",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+      }
+    },
+    {
+      "@id": "_:b44",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "رسم",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "9113a7a4-8078-49ac-8bf4-1e5c5c9c939b"
+      }
+    },
+    {
+      "@id": "_:b45",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "चित्रकला",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "a995fc45-9c9b-424d-80ae-d9e645b822e7"
+      }
+    },
+    {
+      "@id": "_:b46",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "絵画作品",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+      }
+    },
+    {
+      "@id": "_:b47",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "لوحة فنية",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "9113a7a4-8078-49ac-8bf4-1e5c5c9c939b"
+      }
+    },
+    {
+      "@id": "_:b48",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Paintings (visual works)",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      }
+    },
+    {
+      "@id": "_:b49",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Painting, Primitive",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      }
+    },
+    {
+      "@id": "_:b5",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "art of painting",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [],
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b50",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Oil painting",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      }
+    },
+    {
+      "@id": "_:b51",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Holztafelmalerei",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      }
+    },
+    {
+      "@id": "_:b52",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Tafelbild <Malerei>",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      }
+    },
+    {
+      "@id": "_:b53",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Tafelmalerei",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      }
+    },
+    {
+      "@id": "_:b54",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "The art and practice of applying pigments suspended in water, oil, egg yolk, molten wax, or other liquid to a surface to create an expressive or communicative image. Paint is usually, but not always, applied with a brush. For the application of paint primarily to protect a surface or add a general color, use \"painting (coating).\"",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b55",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Wordt gebruikt voor het aanbrengen van pigmenten op een oppervlak met als doel een expressief of communicatief beeld te vormen. Gebruik 'verven (bedekken)' voor het hoofdzakelijk ter bescherming aanbrengen van verf op een oppervlak.",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b56",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "是指稱將懸浮在水、油、蛋液、熔蠟或其他液體中的顏料，塗繪在一個表面之上，以創作出一幅具表達性或溝通性的圖像。如果運用顏料的主要用途是為了保護一個表面，或是全面性、非特定性的上色，請使用「繪畫（塗層）」。",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b57",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "A arte e a prática de aplicar pigmentos suspensos em água, óleo, gema de ovo, cera fundida ou outro líquido a uma superfície para criar uma imagem expressiva ou comunicativa. A tinta é geralmente, mas nem sempre, aplicada com um pincel. Para a aplicação de tinta principalmente para proteger uma superfície ou adicionar uma cor geral, use \"pintura (revestimento).\" ",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+      }
+    },
+    {
+      "@id": "_:b58",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "La práctica de aplicar los pigmentos suspendió en agua, aceite, yema de huevo, cera fundida, u otro líquido a una superficie para crear una imagen expresiva o comunicativa. Para el uso de la pintura sobre todo para proteger una superficie o para agregar un color general, refierase a \"pintura (capa).”",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "_:b59",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Unique works in which images are formed primarily by the direct application of pigments suspended in oil, water, egg yolk, molten wax, or other liquid, arranged in masses of color, onto a generally two-dimensional surface.",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      }
+    },
+    {
+      "@id": "_:b6",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "pintura",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": [
+        {
+          "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+        },
+        {
+          "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+        }
+      ]
+    },
+    {
+      "@id": "_:b60",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Úsese para obras únicas en que las imágenes son formadas principalmente por la aplicación directa de pigmentos suspendidos en aceite, agua, yema de huevo, cera fundida u otro líquido, dispuesto en masas de color, sobre una superficie generalmente bidimensional.",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "_:b61",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Obras únicas nas quais as imagens são formadas principalmente pela aplicação direta de pigmentos suspensos em óleo, água, gema de ovo, cera fundida ou outro líquido, dispostos em massas de cor, sobre uma superfície geralmente bidimensional. ",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+      }
+    },
+    {
+      "@id": "_:b62",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Beeldende werken waarin de voorstelling hoofdzakelijk wordt gevormd door het direct aanbrengen van pigment, in de vorm van kleurmassa's, op een over het algemeen tweedimensionaal vlak.",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b63",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Individuelles Werk, bei dem die Darstellungen hauptsächlich durch das direkte Auftragen von Farbstoffen gebildet werden, die in Öl, Wasser, Eigelb, geschmolzenem Wachs oder anderer Flüssigkeit aufgelöst sind und bei dem die Farbmasse auf eine meist zweidimensionale Oberfläche aufgetragen wird. ",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b64",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Use as a topical subdivision under individual materials and types of materials and individual land vehicles and types of land vehicles.",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "acc79f08-f8f7-4f7c-8179-1c8f03aa9020"
+      }
+    },
+    {
+      "@id": "_:b65",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Trésor de la langue française. - . - Nouveau petit Robert 1993. - . -",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b66",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "S'emploie également en subdivision",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b67",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Voir aussi les vedettes du type Peinture [adjectif de civilisation, ethnique, de nationalité ou géographique, de religion ou de style]",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b68",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "visual artwork, surface artistically covered with paint",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b69",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "superficie cubierta artísticamente de pintura",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "_:b7",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "pinturas",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": [
+        {
+          "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+        },
+        {
+          "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+        }
+      ]
+    },
+    {
+      "@id": "_:b70",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "œuvre artistique peinte sur une surface",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b71",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "superfície coberta artisticamente de tinta",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+      }
+    },
+    {
+      "@id": "_:b72",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "künstlerische Darstellung eines Bildes auf einem Träger",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b73",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "op een drager geschilderd kunstwerk",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+      }
+    },
+    {
+      "@id": "_:b74",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "藝術性地以顏料覆蓋的表面",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b75",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "人工物",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+      }
+    },
+    {
+      "@id": "_:b76",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "عمل فني بصري يكون فيه السطح مطلياً بالألوان بطريقة فنية",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "9113a7a4-8078-49ac-8bf4-1e5c5c9c939b"
+      }
+    },
+    {
+      "@id": "_:b77",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "practice of applying paint, pigment, color or other medium to a surface",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+      }
+    },
+    {
+      "@id": "_:b78",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "arte de la representación gráfica utilizando pigmentos mezclados con otras sustancias aglutinantes",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "_:b79",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "pratique artistique",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353"
+      }
+    },
+    {
+      "@id": "_:b8",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Pintura artística",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "_:b80",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "prática artística",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c"
+      }
+    },
+    {
+      "@id": "_:b81",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "klassische Gattung der bildenden Kunst",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "436c4c60-3478-440d-bb51-c67512ecff66"
+      }
+    },
+    {
+      "@id": "_:b82",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "以一個表面作為支撐面，再在其之上加上顏色的行為",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+      }
+    },
+    {
+      "@id": "_:b83",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "ウィキメディアのカテゴリ",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+      }
+    },
+    {
+      "@id": "_:b9",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation",
+      "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content": "Cuadros (Pintura)",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "c99c4343-b769-4a81-9f28-6aec5d281251"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P72_has_language": {
+        "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+      }
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/subjects/sh00006877",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "http://id.loc.gov/authorities/subjects/sh85096661",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "http://vocab.getty.edu/aat/300033618",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "http://vocab.getty.edu/aat/300054216",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q11629",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "http://www.wikidata.org/entity/Q3305213",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://d-nb.info/gnd/4037220-0",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://d-nb.info/gnd/4037220-0/about",
+      "@type": "http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object"
+    },
+    {
+      "@id": "https://data.bnf.fr/ark:/12148/cb11932942c",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://datos.bne.es/resource/XX525398",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://linked-art.library.yale.edu/node/3dc8a61f-3461-4ac6-bef2-d98e6d6d73f1",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://linked-art.library.yale.edu/node/67108a22-0014-43f3-b430-c444bdbd5401",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://linked-art.library.yale.edu/node/68765918-dd05-4480-b4d7-22e3dca8a899",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://linked-art.library.yale.edu/node/7c488c1d-f8f2-41a8-868e-fa48010b9fc1",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "https://linked-art.library.yale.edu/node/9911b151-68e6-4bfe-a49f-ecf859c8898c",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua"
+    },
+    {
+      "@id": "1680a4ba-f5a1-490b-bbfa-e391199d4458",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    },
+    {
+      "@id": "1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "English"
+    },
+    {
+      "@id": "2bae5ca3-7dbd-4977-a19f-ebfeca81286a",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "form"
+    },
+    {
+      "@id": "2eca07bd-be42-4ef5-9ec5-87c1bbfe639d",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Web Page"
+    },
+    {
+      "@id": "2f025eda-4e62-43a4-b25b-1aec6a4186a4",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    },
+    {
+      "@id": "31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Sort Name"
+    },
+    {
+      "@id": "33175c5f-4d70-4efd-a387-b2b7d3a5030d",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of": {
+        "@id": "_:b0"
+      },
+      "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by": [
+        {
+          "@id": "_:b2"
+        },
+        {
+          "@id": "_:b3"
+        },
+        {
+          "@id": "_:b4"
+        },
+        {
+          "@id": "_:b5"
+        },
+        {
+          "@id": "_:b6"
+        },
+        {
+          "@id": "_:b7"
+        },
+        {
+          "@id": "_:b8"
+        },
+        {
+          "@id": "_:b9"
+        },
+        {
+          "@id": "_:b10"
+        },
+        {
+          "@id": "_:b11"
+        },
+        {
+          "@id": "_:b12"
+        },
+        {
+          "@id": "_:b13"
+        },
+        {
+          "@id": "_:b14"
+        },
+        {
+          "@id": "_:b15"
+        },
+        {
+          "@id": "_:b16"
+        },
+        {
+          "@id": "_:b17"
+        },
+        {
+          "@id": "_:b18"
+        },
+        {
+          "@id": "_:b19"
+        },
+        {
+          "@id": "_:b20"
+        },
+        {
+          "@id": "_:b21"
+        },
+        {
+          "@id": "_:b22"
+        },
+        {
+          "@id": "_:b23"
+        },
+        {
+          "@id": "_:b24"
+        },
+        {
+          "@id": "_:b25"
+        },
+        {
+          "@id": "_:b26"
+        },
+        {
+          "@id": "_:b27"
+        },
+        {
+          "@id": "_:b28"
+        },
+        {
+          "@id": "_:b29"
+        },
+        {
+          "@id": "_:b30"
+        },
+        {
+          "@id": "_:b31"
+        },
+        {
+          "@id": "_:b32"
+        },
+        {
+          "@id": "_:b33"
+        },
+        {
+          "@id": "_:b34"
+        },
+        {
+          "@id": "_:b35"
+        },
+        {
+          "@id": "_:b36"
+        },
+        {
+          "@id": "_:b37"
+        },
+        {
+          "@id": "_:b38"
+        },
+        {
+          "@id": "_:b39"
+        },
+        {
+          "@id": "_:b40"
+        },
+        {
+          "@id": "_:b41"
+        },
+        {
+          "@id": "_:b42"
+        },
+        {
+          "@id": "_:b43"
+        },
+        {
+          "@id": "_:b44"
+        },
+        {
+          "@id": "_:b45"
+        },
+        {
+          "@id": "_:b46"
+        },
+        {
+          "@id": "_:b47"
+        },
+        {
+          "@id": "_:b48"
+        },
+        {
+          "@id": "_:b49"
+        },
+        {
+          "@id": "_:b50"
+        },
+        {
+          "@id": "_:b51"
+        },
+        {
+          "@id": "_:b52"
+        },
+        {
+          "@id": "_:b53"
+        }
+      ],
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": [
+        {
+          "@id": "2bae5ca3-7dbd-4977-a19f-ebfeca81286a"
+        },
+        {
+          "@id": "fca77d7e-3238-4227-86a0-41e955403b12"
+        },
+        {
+          "@id": "2f025eda-4e62-43a4-b25b-1aec6a4186a4"
+        },
+        {
+          "@id": "1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        },
+        {
+          "@id": "4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2"
+        }
+      ],
+      "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by": [
+        {
+          "@id": "_:b54"
+        },
+        {
+          "@id": "_:b55"
+        },
+        {
+          "@id": "_:b56"
+        },
+        {
+          "@id": "_:b57"
+        },
+        {
+          "@id": "_:b58"
+        },
+        {
+          "@id": "_:b59"
+        },
+        {
+          "@id": "_:b60"
+        },
+        {
+          "@id": "_:b61"
+        },
+        {
+          "@id": "_:b62"
+        },
+        {
+          "@id": "_:b63"
+        },
+        {
+          "@id": "_:b64"
+        },
+        {
+          "@id": "_:b65"
+        },
+        {
+          "@id": "_:b66"
+        },
+        {
+          "@id": "_:b67"
+        },
+        {
+          "@id": "_:b68"
+        },
+        {
+          "@id": "_:b69"
+        },
+        {
+          "@id": "_:b70"
+        },
+        {
+          "@id": "_:b71"
+        },
+        {
+          "@id": "_:b72"
+        },
+        {
+          "@id": "_:b73"
+        },
+        {
+          "@id": "_:b74"
+        },
+        {
+          "@id": "_:b75"
+        },
+        {
+          "@id": "_:b76"
+        },
+        {
+          "@id": "_:b77"
+        },
+        {
+          "@id": "_:b78"
+        },
+        {
+          "@id": "_:b79"
+        },
+        {
+          "@id": "_:b80"
+        },
+        {
+          "@id": "_:b81"
+        },
+        {
+          "@id": "_:b82"
+        },
+        {
+          "@id": "_:b83"
+        }
+      ],
+      "http://www.w3.org/2000/01/rdf-schema#label": "hui hua",
+      "http://www.w3.org/2004/02/skos/core#broader": [
+        {
+          "@id": "93385982-cb22-4c45-8a9f-fef13e032491"
+        },
+        {
+          "@id": "3f43037c-6f86-496a-b485-af539a8a23a5"
+        },
+        {
+          "@id": "c4925c56-6874-4407-bff8-b4da590bf8fc"
+        },
+        {
+          "@id": "ff51cfcf-8854-4ef7-864a-0342c76e94e4"
+        }
+      ],
+      "https://linked.art/ns/terms/equivalent": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q3305213"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/subjects/sh85096661"
+        },
+        {
+          "@id": "https://linked-art.library.yale.edu/node/67108a22-0014-43f3-b430-c444bdbd5401"
+        },
+        {
+          "@id": "https://linked-art.library.yale.edu/node/68765918-dd05-4480-b4d7-22e3dca8a899"
+        },
+        {
+          "@id": "http://id.loc.gov/authorities/subjects/sh00006877"
+        },
+        {
+          "@id": "https://linked-art.library.yale.edu/node/9911b151-68e6-4bfe-a49f-ecf859c8898c"
+        },
+        {
+          "@id": "http://www.wikidata.org/entity/Q11629"
+        },
+        {
+          "@id": "https://d-nb.info/gnd/4037220-0"
+        },
+        {
+          "@id": "https://datos.bne.es/resource/XX525398"
+        },
+        {
+          "@id": "http://vocab.getty.edu/aat/300054216"
+        },
+        {
+          "@id": "https://data.bnf.fr/ark:/12148/cb11932942c"
+        },
+        {
+          "@id": "http://vocab.getty.edu/aat/300033618"
+        },
+        {
+          "@id": "https://linked-art.library.yale.edu/node/7c488c1d-f8f2-41a8-868e-fa48010b9fc1"
+        },
+        {
+          "@id": "https://linked-art.library.yale.edu/node/3dc8a61f-3461-4ac6-bef2-d98e6d6d73f1"
+        }
+      ]
+    },
+    {
+      "@id": "3f43037c-6f86-496a-b485-af539a8a23a5",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "<visual works by material or technique>"
+    },
+    {
+      "@id": "416a8d83-430d-4ae9-8039-41b8c84e1353",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "French"
+    },
+    {
+      "@id": "436c4c60-3478-440d-bb51-c67512ecff66",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "German"
+    },
+    {
+      "@id": "4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    },
+    {
+      "@id": "5abd8c6e-52ca-462f-8d7e-21f73068410c",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Portuguese"
+    },
+    {
+      "@id": "5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Dutch"
+    },
+    {
+      "@id": "7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Japanese"
+    },
+    {
+      "@id": "7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Chinese"
+    },
+    {
+      "@id": "7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Spanish"
+    },
+    {
+      "@id": "9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Arabic"
+    },
+    {
+      "@id": "93385982-cb22-4c45-8a9f-fef13e032491",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "<painting and painting techniques>"
+    },
+    {
+      "@id": "a995fc45-9c9b-424d-80ae-d9e645b822e7",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Hindi"
+    },
+    {
+      "@id": "acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b079998d-bb47-470a-ad7d-d938bd091f8a"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#label": "Note"
+    },
+    {
+      "@id": "b079998d-bb47-470a-ad7d-d938bd091f8a",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Brief Text"
+    },
+    {
+      "@id": "b9d84f17-662e-46ef-ab8b-7499717f8337",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.cidoc-crm.org/cidoc-crm/P2_has_type": {
+        "@id": "b079998d-bb47-470a-ad7d-d938bd091f8a"
+      },
+      "http://www.w3.org/2000/01/rdf-schema#label": "Description"
+    },
+    {
+      "@id": "c4925c56-6874-4407-bff8-b4da590bf8fc",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Graphic arts"
+    },
+    {
+      "@id": "c9204606-c7c4-4c46-9390-092597ec73f7",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Hebrew"
+    },
+    {
+      "@id": "c99c4343-b769-4a81-9f28-6aec5d281251",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": [
+        "Alternate Name",
+        "Merge: Alternate Name"
+      ]
+    },
+    {
+      "@id": "f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Primary Name"
+    },
+    {
+      "@id": "fca77d7e-3238-4227-86a0-41e955403b12",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+      "http://www.w3.org/2000/01/rdf-schema#label": "Genre"
+    },
+    {
+      "@id": "ff51cfcf-8854-4ef7-864a-0342c76e94e4",
+      "@type": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+    }
+  ]
+}
