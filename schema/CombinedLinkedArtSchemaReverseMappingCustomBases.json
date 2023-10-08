@@ -296,7 +296,7 @@
             "@class": "la:Set",
             "@type": "Set"
         },
-        "referred_to_by": "LinguisticObjectOrDigitalObjectType",
+        "crm:P67i_is_referred_to_by": "LinguisticObjectOrDigitalObjectType",
         "sci:O19i_was_object_encountered_at": {
             "@class": "sci:S19_Encounter_Event",
             "@type": "Set"

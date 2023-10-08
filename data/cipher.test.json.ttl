@@ -10,7 +10,7 @@
         <https://lux.collections.yale.edu/data/concept/805ef371-2f95-4593-929e-556635b86809>,
         <https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2>,
         <https://lux.collections.yale.edu/data/concept/d34f07af-47e4-4ec2-85ba-44a64ee9d4fd> ;
-    tdb:equivalent <https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> ;
+    tdb:equivalent <https://lux.collections.yale.edu/data/text/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> ;
     tdb:identified_by [ a tdb:Identifier ;
             tdb:attributed_by [ a tdb:AttributeAssignment ;
                     tdb:carried_out_by <https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9> ] ;
@@ -23,67 +23,64 @@
         [ a tdb:Name ;
             tdb:classified_as <https://lux.collections.yale.edu/data/concept/be4f0b2e-c58e-43af-ade0-236eb2dc4a7d> ;
             tdb:content "Known as: Voynich manuscript" ] ;
-    tdb:referred_to_by [ a tdb:LinguisticObject ;
-            tdb:classified_as <https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70> ;
-            tdb:content "In unidentified cipher." ;
-            tdb:identified_by [ a tdb:Name ;
-                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
-                    tdb:content "Language Note" ] ],
-        [ a tdb:LinguisticObject ;
-            tdb:classified_as <https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> ;
-            tdb:content "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red." ;
-            tdb:identified_by [ a tdb:Name ;
-                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
-                    tdb:content "Note" ] ],
-        [ a tdb:LinguisticObject ;
-            tdb:classified_as <https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8> ;
-            tdb:content "[Central Europe?] ; [ca. 1401-1599?]" ],
-        [ a tdb:LinguisticObject ;
+    tdb:referred_to_by [ a tdb:LinguisticObjectSubdoc ;
             tdb:classified_as <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> ;
-            tdb:content "225 x 160 mm" ;
+            tdb:content "ff. 102 +1" ;
             tdb:identified_by [ a tdb:Name ;
                     tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
-                    tdb:content "Dimensions" ] ],
-        [ a tdb:LinguisticObject ;
+                    tdb:content "Extent" ] ],
+        [ a tdb:LinguisticObjectSubdoc ;
             tdb:classified_as <https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd> ;
             tdb:content "Scientific or magical text in an unidentified language, in cipher, apparently based on Roman minuscule characters; the text is believed by some scholars to be the work of Roger Bacon since the themes of the illustrations seem to represent topics known to have interested Bacon (see also Provenance below.)  A history of the numerous attempts to decipher the manuscript can be found in a volume edited by R. S. Brumbaugh, The Most Mysterious Manuscript: The Voynich \"Roger Bacon\" Cipher Manuscript (Carbondale, Illinois, 1978). Although several scholars have claimed decipherments of the manuscript,  for the most part the text remains an unsolved puzzle." ;
             tdb:identified_by [ a tdb:Name ;
                     tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
                     tdb:content "Summary, Etc." ] ],
-        [ a tdb:LinguisticObject ;
-            tdb:classified_as <https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711> ;
-            tdb:content "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University." ;
-            tdb:identified_by [ a tdb:Name ;
-                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
-                    tdb:content "Preferred Citation of Described Materials Note" ] ],
-        [ a tdb:LinguisticObject ;
+        [ a tdb:LinguisticObjectSubdoc ;
             tdb:classified_as <https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> ;
             tdb:content "Binding: Modern (18th-19th centuries)." ;
             tdb:identified_by [ a tdb:Name ;
                     tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
                     tdb:content "Note" ] ],
-        [ a tdb:LinguisticObject ;
-            tdb:classified_as <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> ;
-            tdb:content "ff. 102 +1" ;
+        [ a tdb:LinguisticObjectSubdoc ;
+            tdb:classified_as <https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020> ;
+            tdb:content "Decoration: Almost every page contains botanical and scientific drawings, many full-page, of a provincial but lively character, in ink with washes in various shades of green, brown, yellow, blue and red." ;
             tdb:identified_by [ a tdb:Name ;
                     tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
-                    tdb:content "Extent" ] ] ;
+                    tdb:content "Note" ] ],
+        [ a tdb:LinguisticObjectSubdoc ;
+            tdb:classified_as <https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70> ;
+            tdb:content "In unidentified cipher." ;
+            tdb:identified_by [ a tdb:Name ;
+                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
+                    tdb:content "Language Note" ] ],
+        [ a tdb:LinguisticObjectSubdoc ;
+            tdb:classified_as <https://lux.collections.yale.edu/data/concept/ceef9d2e-1a07-4269-827f-8c407e4d4711> ;
+            tdb:content "Cipher manuscript (Voynich manuscript). General Collection, Beinecke Rare Book and Manuscript Library, Yale University." ;
+            tdb:identified_by [ a tdb:Name ;
+                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
+                    tdb:content "Preferred Citation of Described Materials Note" ] ],
+        [ a tdb:LinguisticObjectSubdoc ;
+            tdb:classified_as <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> ;
+            tdb:content "225 x 160 mm" ;
+            tdb:identified_by [ a tdb:Name ;
+                    tdb:classified_as <https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717> ;
+                    tdb:content "Dimensions" ] ],
+        [ a tdb:LinguisticObjectSubdoc ;
+            tdb:classified_as <https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8> ;
+            tdb:content "[Central Europe?] ; [ca. 1401-1599?]" ] ;
     tdb:represents <https://lux.collections.yale.edu/data/concept/ca18ae2e-83f2-40b8-9f23-cda78bdfdbc8> ;
-    tdb:subject_of [ a tdb:LinguisticObject ;
+    tdb:subject_of [ a tdb:LinguisticObjectSubdoc ;
             tdb:_label "Text of Repository Page" ;
-            tdb:digitally_carried_by [ a tdb:DigitalObject ;
+            tdb:digitally_carried_by [ a tdb:DigitalObjectSubdoc ;
                     tdb:_label "Repository Page" ;
-                    tdb:access_point <https://search.library.yale.edu/catalog/11167038> ;
+                    tdb:access_point <https://lux.collections.yale.edu/data/object/11167038> ;
                     tdb:classified_as <https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d> ;
                     tdb:identified_by [ a tdb:Name ;
                             tdb:classified_as <https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec> ;
                             tdb:content "View this record on the Yale Library website" ] ] ] ;
-    tdb:used_for [ a tdb:Activity ;
+    tdb:used_for [ a tdb:ActivitySubdoc ;
             tdb:classified_as <https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887> ;
             tdb:took_place_at <https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387> ] .
-
-<https://linked-art.library.yale.edu/node/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> a tdb:LinguisticObject ;
-    tdb:_label "Cipher manuscript" .
 
 <https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887> a tdb:Type ;
     tdb:_label "Publishing" .
@@ -147,13 +144,16 @@
 <https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9> a tdb:Group ;
     tdb:_label "Yale University Library" .
 
+<https://lux.collections.yale.edu/data/object/11167038> a tdb:DigitalObject .
+
 <https://lux.collections.yale.edu/data/place/1550d3e5-2c76-4121-ab6d-f78e53936387> a tdb:Place ;
     tdb:_label "Connecticut" .
 
 <https://lux.collections.yale.edu/data/text/7ef864d8-076a-4c6c-b931-819cb2f9f3c1> a tdb:LinguisticObject ;
     tdb:_label "Voynich manuscript" .
 
-<https://search.library.yale.edu/catalog/11167038> a tdb:DigitalObject .
+<https://lux.collections.yale.edu/data/text/ecb5c78b-79fe-4d71-ba4b-a3f14790575c> a tdb:LinguisticObject ;
+    tdb:_label "Cipher manuscript" .
 
 <https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128> a tdb:Type ;
     tdb:_label "Dimension Statement" ;

@@ -1,0 +1,2706 @@
+{
+  "@context": {
+    "tdb": "terminusdb:///schema#",
+    "PropositionalObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PropositionalObject"
+    },
+    "removed": {
+      "@type": "@id",
+      "@id": "tdb:removed"
+    },
+    "BiologicalObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:BiologicalObject"
+    },
+    "added": {
+      "@type": "@id",
+      "@id": "tdb:added"
+    },
+    "sales_price_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:sales_price_of"
+    },
+    "MeasurementUnit": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:MeasurementUnit"
+    },
+    "incorporated_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:incorporated_in"
+    },
+    "lost_member_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:lost_member_by"
+    },
+    "Purchase": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Purchase"
+    },
+    "made_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:made_of"
+    },
+    "schema": "http://schema.org/",
+    "HumanMadeObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:HumanMadeObject"
+    },
+    "separated": {
+      "@type": "@id",
+      "@id": "tdb:separated"
+    },
+    "Period": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Period"
+    },
+    "during": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:during"
+    },
+    "location_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:location_of"
+    },
+    "CRMEntity": {"@id": "tdb:CRMEntity"},
+    "Set": {
+      "@context": {
+        "member": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Set"
+    },
+    "duration_of": {
+      "@type": "@id",
+      "@id": "tdb:duration_of"
+    },
+    "dig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "transferred_custody_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_custody_to"
+    },
+    "exemplified_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:exemplified_by"
+    },
+    "ends_before_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_before_the_end_of"
+    },
+    "right_on": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:right_on"
+    },
+    "at_some_place_within": {"@id": "tdb:at_some_place_within"},
+    "death_of": {
+      "@type": "@id",
+      "@id": "tdb:death_of"
+    },
+    "used_constituent": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_constituent"
+    },
+    "formed": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:formed"
+    },
+    "moved_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:moved_by"
+    },
+    "dissolved_by": {
+      "@type": "@id",
+      "@id": "tdb:dissolved_by"
+    },
+    "classified_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:classified_by"
+    },
+    "terminated": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:terminated"
+    },
+    "intended_use_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:intended_use_of"
+    },
+    "type_assigned_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:type_assigned_by"
+    },
+    "PhysicalHumanMadeThing": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PhysicalHumanMadeThing"
+    },
+    "exemplifies": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:exemplifies"
+    },
+    "specific_technique": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:specific_technique"
+    },
+    "surrendered_title_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:surrendered_title_through"
+    },
+    "used_object_of_type": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_object_of_type"
+    },
+    "curated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:curated_by"
+    },
+    "unit": {
+      "@type": "@id",
+      "@id": "tdb:unit"
+    },
+    "encountered_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:encountered_by"
+    },
+    "LinguisticObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:LinguisticObject"
+    },
+    "CurationActivity": {"@id": "tdb:CurationActivity"},
+    "produced": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:produced"
+    },
+    "died": {
+      "@type": "@id",
+      "@id": "tdb:died"
+    },
+    "exact_match": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:exact_match"
+    },
+    "currency_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:currency_of"
+    },
+    "specific_purpose_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:specific_purpose_of"
+    },
+    "TemporalEntity": {"@id": "tdb:TemporalEntity"},
+    "brought_into_existence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:brought_into_existence"
+    },
+    "translation_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:translation_of"
+    },
+    "shown_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:shown_by"
+    },
+    "MonetaryAmount": {"@id": "tdb:MonetaryAmount"},
+    "subState_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:subState_of"
+    },
+    "section": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:section"
+    },
+    "motivated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:motivated_by"
+    },
+    "augmented_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:augmented_by"
+    },
+    "digitally_carried_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_carried_by"
+    },
+    "diminished_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:diminished_by"
+    },
+    "assigned_property": {
+      "@type": "@vocab",
+      "@id": "tdb:assigned_property"
+    },
+    "Dimension": {"@id": "tdb:Dimension"},
+    "dimension": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:dimension"
+    },
+    "Payment": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Payment"
+    },
+    "formed_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:formed_from"
+    },
+    "former_or_current_keeper": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_keeper"
+    },
+    "technique_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:technique_of"
+    },
+    "produced_thing_of_product_type": {
+      "@type": "@id",
+      "@id": "tdb:produced_thing_of_product_type"
+    },
+    "acquired_custody_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:acquired_custody_through"
+    },
+    "measured": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:measured"
+    },
+    "residence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:residence"
+    },
+    "approximated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:approximated_by"
+    },
+    "father_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:father_for"
+    },
+    "general_purpose": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:general_purpose"
+    },
+    "used_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_in"
+    },
+    "Place": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Place"
+    },
+    "used_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_for"
+    },
+    "deassigned_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:deassigned_by"
+    },
+    "Material": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Material"
+    },
+    "use_foreseen_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:use_foreseen_by"
+    },
+    "c_part_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:part_of"
+    },
+    "TypeAssignment": {"@id": "tdb:TypeAssignment"},
+    "refers_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:refers_to"
+    },
+    "influenced_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:influenced_by"
+    },
+    "listed_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:listed_in"
+    },
+    "features_are_also_found_on": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:features_are_also_found_on"
+    },
+    "preferred_identifier": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:preferred_identifier"
+    },
+    "involved": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:involved"
+    },
+    "Site": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Site"
+    },
+    "moved_to": {
+      "@type": "@id",
+      "@id": "tdb:moved_to"
+    },
+    "establishes": {
+      "@type": "@id",
+      "@id": "tdb:establishes"
+    },
+    "took_place_on_or_within": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:took_place_on_or_within"
+    },
+    "Dissolution": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Dissolution"
+    },
+    "dcterms": "http://purl.org/dc/terms/",
+    "assigned_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:assigned_by"
+    },
+    "depicts": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:depicts"
+    },
+    "narrower": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:part"
+    },
+    "production_tool_for": {
+      "@type": "@id",
+      "@id": "tdb:production_tool_for"
+    },
+    "current_custodian": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_custodian"
+    },
+    "resulted_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:resulted_in"
+    },
+    "created": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:created"
+    },
+    "separated_from": {
+      "@type": "@id",
+      "@id": "tdb:separated_from"
+    },
+    "destination_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:destination_of"
+    },
+    "current_or_former_residence_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_or_former_residence_of"
+    },
+    "spacetime_volume_is_defined_by": {"@id": "tdb:spacetime_volume_is_defined_by"},
+    "removed_from": {
+      "@type": "@id",
+      "@id": "tdb:removed_from"
+    },
+    "ProductType": {"@id": "tdb:ProductType"},
+    "Identifier": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Identifier"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "provides_access_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:provides_access_to"
+    },
+    "former_or_current_location": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_location"
+    },
+    "gave_birth": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:gave_birth"
+    },
+    "AttributeAssignment": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:AttributeAssignment"
+    },
+    "ends_after_or_with_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_after_or_with_the_start_of"
+    },
+    "modified": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:modified"
+    },
+    "begin_of_the_begin": {
+      "@type": "xsd:dateTime",
+      "@id": "tdb:begin_of_the_begin"
+    },
+    "current_owner_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_owner_of"
+    },
+    "Transformation": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Transformation"
+    },
+    "born": {
+      "@type": "@id",
+      "@id": "tdb:born"
+    },
+    "joined": {
+      "@type": "@id",
+      "@id": "tdb:joined"
+    },
+    "end_of_the_end": {
+      "@type": "xsd:dateTime",
+      "@id": "tdb:end_of_the_end"
+    },
+    "spatial_projection": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:spatial_projection"
+    },
+    "topConceptOf": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:topConceptOf"
+    },
+    "documented_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:documented_in"
+    },
+    "parent": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:parent"
+    },
+    "identifies": {
+      "@type": "@id",
+      "@id": "tdb:identifies"
+    },
+    "changed_ownership_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:changed_ownership_through"
+    },
+    "type_of_object_used_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:type_of_object_used_in"
+    },
+    "subject_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:subject_of"
+    },
+    "current_permanent_location_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_permanent_location_of"
+    },
+    "transferred_title_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_title_from"
+    },
+    "used_specific_object": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_specific_object"
+    },
+    "PersistentItem": {"@id": "tdb:PersistentItem"},
+    "equivalent": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:equivalent"
+    },
+    "intention_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:intention_of"
+    },
+    "inScheme": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:inScheme"
+    },
+    "presence_of_thing": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:presence_of_thing"
+    },
+    "transformed_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transformed_by"
+    },
+    "initiated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:initiated_by"
+    },
+    "end_is_qualified_by": {"@id": "tdb:end_is_qualified_by"},
+    "initiated": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:initiated"
+    },
+    "transformed": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transformed"
+    },
+    "paid_amount": {
+      "@type": "@id",
+      "@id": "tdb:paid_amount"
+    },
+    "based_on": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:based_on"
+    },
+    "represents": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:represents"
+    },
+    "Name": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Name"
+    },
+    "assigned_type": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:assigned_type"
+    },
+    "InformationObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:InformationObject"
+    },
+    "by_mother": {
+      "@type": "@id",
+      "@id": "tdb:by_mother"
+    },
+    "current_permanent_location": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_permanent_location"
+    },
+    "AP25_occurs_during": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:AP25_occurs_during"
+    },
+    "ends_after_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_after_the_start_of"
+    },
+    "thing_presence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:thing_presence"
+    },
+    "parent_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:parent_of"
+    },
+    "carried_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:carried_by"
+    },
+    "HumanMadeThing": {"@id": "tdb:HumanMadeThing"},
+    "defines_typical_parts_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:defines_typical_parts_of"
+    },
+    "represents_instance_of_type": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:represents_instance_of_type"
+    },
+    "assigned_to": {
+      "@type": "@id",
+      "@id": "tdb:assigned_to"
+    },
+    "depicted_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:depicted_by"
+    },
+    "temporal_projection": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:temporal_projection"
+    },
+    "Removal": {"@id": "tdb:Removal"},
+    "conforms_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:conforms_to"
+    },
+    "former_or_current_location_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_location_of"
+    },
+    "removed_from_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:removed_from_by"
+    },
+    "beginning_is_qualified_by": {"@id": "tdb:beginning_is_qualified_by"},
+    "current_owner": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_owner"
+    },
+    "resulted_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:resulted_from"
+    },
+    "representation": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:representation"
+    },
+    "spatially_contains": {"@id": "tdb:spatially_contains"},
+    "joined_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:joined_by"
+    },
+    "type_produced_by": {
+      "@type": "@id",
+      "@id": "tdb:type_produced_by"
+    },
+    "modified_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:modified_by"
+    },
+    "hasTopConcept": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:hasTopConcept"
+    },
+    "ongoing_throughout": {"@id": "tdb:ongoing_throughout"},
+    "SpacetimeVolume": {"@id": "tdb:SpacetimeVolume"},
+    "invalidated_by": {
+      "@type": "@id",
+      "@id": "tdb:invalidated_by"
+    },
+    "defined_by": {"@id": "tdb:defined_by"},
+    "occupies": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:occupies"
+    },
+    "employed": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:employed"
+    },
+    "requires_production_tool": {
+      "@type": "@id",
+      "@id": "tdb:requires_production_tool"
+    },
+    "referred_to_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:referred_to_by"
+    },
+    "Mark": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Mark"
+    },
+    "distinct_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:distinct_from"
+    },
+    "Acquisition": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Acquisition"
+    },
+    "about": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:about"
+    },
+    "alternative": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:alternative"
+    },
+    "acquired_title_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:acquired_title_through"
+    },
+    "paid_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:paid_to"
+    },
+    "Thing": {"@id": "tdb:Thing"},
+    "created_by": {
+      "@type": "@id",
+      "@id": "tdb:created_by"
+    },
+    "BeginningOfExistence": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:BeginningOfExistence"
+    },
+    "assigned": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:assigned"
+    },
+    "subject_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:subject_to"
+    },
+    "number_of_parts": {"@id": "tdb:number_of_parts"},
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "attributed_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:attributed_by"
+    },
+    "current_custodian_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_custodian_of"
+    },
+    "applies_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:applies_to"
+    },
+    "place_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:place_of"
+    },
+    "influenced": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:influenced"
+    },
+    "PartAddition": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PartAddition"
+    },
+    "provides_reference_space_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:provides_reference_space_for"
+    },
+    "TransferOfCustody": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:TransferOfCustody"
+    },
+    "observed_dimension": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:observed_dimension"
+    },
+    "deassigned": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:deassigned"
+    },
+    "preferred_identifier_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:preferred_identifier_of"
+    },
+    "c_part": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:part"
+    },
+    "broader": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:part_of"
+    },
+    "production_plan": {
+      "@type": "@id",
+      "@id": "tdb:production_plan"
+    },
+    "lower_value_limit": {"@id": "tdb:lower_value_limit"},
+    "Activity": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Activity"
+    },
+    "at_rest_relative_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:at_rest_relative_to"
+    },
+    "use_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:use_of"
+    },
+    "left_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:left_by"
+    },
+    "measured_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:measured_by"
+    },
+    "participated_in_formation": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:participated_in_formation"
+    },
+    "origin_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:origin_of"
+    },
+    "general_use": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:general_use"
+    },
+    "diminished": {
+      "@type": "@id",
+      "@id": "tdb:diminished"
+    },
+    "technique": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:technique"
+    },
+    "EndOfExistence": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:EndOfExistence"
+    },
+    "time_is_defined_by": {"@id": "tdb:time_is_defined_by"},
+    "former_or_current_keeper_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_keeper_of"
+    },
+    "augmented": {
+      "@type": "@id",
+      "@id": "tdb:augmented"
+    },
+    "dimension_of": {
+      "@type": "@id",
+      "@id": "tdb:dimension_of"
+    },
+    "upper_value_limit": {"@id": "tdb:upper_value_limit"},
+    "shows_features_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:shows_features_of"
+    },
+    "currency": {
+      "@type": "@id",
+      "@id": "tdb:currency"
+    },
+    "CuratedHolding": {"@id": "tdb:CuratedHolding"},
+    "starts_before_or_with_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_before_or_with_the_start_of"
+    },
+    "Currency": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Currency"
+    },
+    "motivated": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:motivated"
+    },
+    "Formation": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Formation"
+    },
+    "partially_covered_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:partially_covered_by"
+    },
+    "contact_point": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:contact_point"
+    },
+    "brought_into_existence_by": {
+      "@type": "@id",
+      "@id": "tdb:brought_into_existence_by"
+    },
+    "value": {"@id": "tdb:value"},
+    "created_type": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:created_type"
+    },
+    "subState": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:subState"
+    },
+    "Appellation": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Appellation"
+    },
+    "SymbolicObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:SymbolicObject"
+    },
+    "translation": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:translation"
+    },
+    "specific_purpose": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:specific_purpose"
+    },
+    "possessed_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:possessed_by"
+    },
+    "from_father": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:from_father"
+    },
+    "RightAcquisition": {"@id": "tdb:RightAcquisition"},
+    "Move": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Move"
+    },
+    "transferred_custody_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_custody_from"
+    },
+    "Destruction": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Destruction"
+    },
+    "encountered": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:encountered"
+    },
+    "identifier_assigned_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:identifier_assigned_by"
+    },
+    "falls_within": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:falls_within"
+    },
+    "curated": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:curated"
+    },
+    "unit_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:unit_of"
+    },
+    "produced_by": {
+      "@type": "@id",
+      "@id": "tdb:produced_by"
+    },
+    "incorporated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:incorporated_by"
+    },
+    "DesignOrProcedure": {"@id": "tdb:DesignOrProcedure"},
+    "note": {"@id": "tdb:note"},
+    "foresees_use_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:foresees_use_of"
+    },
+    "took_place_at": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:took_place_at"
+    },
+    "at": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:at"
+    },
+    "see_also": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:see_also"
+    },
+    "supported_type_creation": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:supported_type_creation"
+    },
+    "took_out_of_existence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:took_out_of_existence"
+    },
+    "Encounter": {"@id": "tdb:Encounter"},
+    "formed_by": {
+      "@type": "@id",
+      "@id": "tdb:formed_by"
+    },
+    "classified": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:classified"
+    },
+    "dissolved": {
+      "@type": "@id",
+      "@id": "tdb:dissolved"
+    },
+    "taken_out_of_existence_by": {
+      "@type": "@id",
+      "@id": "tdb:taken_out_of_existence_by"
+    },
+    "VisualItem": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:VisualItem"
+    },
+    "moved": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:moved"
+    },
+    "starts_after_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_after_the_start_of"
+    },
+    "assessed_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:assessed_by"
+    },
+    "type_created_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:type_created_by"
+    },
+    "participant": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:participant"
+    },
+    "terminated_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:terminated_by"
+    },
+    "ends_after_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_after_the_end_of"
+    },
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "HumanMadeFeature": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:HumanMadeFeature"
+    },
+    "property_classified_as": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:property_classified_as"
+    },
+    "Leaving": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Leaving"
+    },
+    "duration": {
+      "@type": "@id",
+      "@id": "tdb:duration"
+    },
+    "Death": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Death"
+    },
+    "starts_before_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_before_the_start_of"
+    },
+    "volume_overlaps_with": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:volume_overlaps_with"
+    },
+    "possesses": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:possesses"
+    },
+    "located_on_or_within": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:located_on_or_within"
+    },
+    "digitally_makes_available": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_makes_available"
+    },
+    "archaeo": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/",
+    "holds_or_supports": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:holds_or_supports"
+    },
+    "la": "https://linked.art/ns/terms/",
+    "Actor": {"@id": "tdb:Actor"},
+    "_label": {"@id": "tdb:_label"},
+    "intended_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:intended_for"
+    },
+    "access_point": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:access_point"
+    },
+    "Person": {
+      "@context": {
+        "member": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Person"
+    },
+    "lists": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:lists"
+    },
+    "ConditionState": {"@id": "tdb:ConditionState"},
+    "sales_price": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:sales_price"
+    },
+    "IdentifierAssignment": {"@id": "tdb:IdentifierAssignment"},
+    "removed_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:removed_by"
+    },
+    "shows": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:shows"
+    },
+    "moved_from": {
+      "@type": "@id",
+      "@id": "tdb:moved_from"
+    },
+    "starts_with_or_after_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_with_or_after_the_start_of"
+    },
+    "ends_with_or_after_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_with_or_after_the_end_of"
+    },
+    "PhysicalObject": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PhysicalObject"
+    },
+    "has_phase": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:has_phase"
+    },
+    "added_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:added_by"
+    },
+    "transferred_title_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_title_of"
+    },
+    "former_or_current_owner_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_owner_of"
+    },
+    "starts_after_or_with_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_after_or_with_the_end_of"
+    },
+    "ConceptualObject": {"@id": "tdb:ConceptualObject"},
+    "PhysicalThing": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PhysicalThing"
+    },
+    "present_at": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:present_at"
+    },
+    "condition_identified_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:condition_identified_by"
+    },
+    "related_entity": {
+      "@type": "@id",
+      "@id": "tdb:related_entity"
+    },
+    "DigitalObject": {"@id": "tdb:DigitalObject"},
+    "timespan": {
+      "@type": "@id",
+      "@id": "tdb:timespan"
+    },
+    "end_of_the_begin": {
+      "@type": "xsd:dateTime",
+      "@id": "tdb:end_of_the_begin"
+    },
+    "current_permanent_custodian": {
+      "@type": "@id",
+      "@id": "tdb:current_permanent_custodian"
+    },
+    "TimeSpan": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:TimeSpan"
+    },
+    "employed_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:employed_in"
+    },
+    "format": {"@id": "tdb:format"},
+    "starts_before_or_with_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_before_or_with_the_end_of"
+    },
+    "@version": 1.1,
+    "purpose_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:purpose_of"
+    },
+    "occupied_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:occupied_by"
+    },
+    "defines": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:defines"
+    },
+    "Title": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Title"
+    },
+    "relationship": {
+      "@type": "@id",
+      "@id": "tdb:relationship"
+    },
+    "title": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:title"
+    },
+    "ends_before_or_with_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_before_or_with_the_start_of"
+    },
+    "Joining": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Joining"
+    },
+    "invalidates": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:invalidates"
+    },
+    "documents": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:documents"
+    },
+    "LegalObject": {"@id": "tdb:LegalObject"},
+    "language": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:language"
+    },
+    "current_or_former_curator_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_or_former_curator_of"
+    },
+    "Language": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Language"
+    },
+    "witnessed": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:witnessed"
+    },
+    "Inscription": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Inscription"
+    },
+    "used_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:used_by"
+    },
+    "sci": "http://www.ics.forth.gr/isl/CRMsci/",
+    "overlaps_with": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:overlaps_with"
+    },
+    "PartRemoval": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PartRemoval"
+    },
+    "TypeCreation": {"@id": "tdb:TypeCreation"},
+    "content": {"@id": "tdb:content"},
+    "carried_out": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:carried_out"
+    },
+    "Production": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Production"
+    },
+    "brought_into_life": {
+      "@type": "@id",
+      "@id": "tdb:brought_into_life"
+    },
+    "destroyed": {
+      "@type": "@id",
+      "@id": "tdb:destroyed"
+    },
+    "added_member": {
+      "@type": "@id",
+      "@id": "tdb:added_member"
+    },
+    "instance_represented_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:instance_represented_by"
+    },
+    "carries": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:carries"
+    },
+    "continued_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:continued_by"
+    },
+    "removed_member": {
+      "@type": "@id",
+      "@id": "tdb:removed_member"
+    },
+    "production_plan_for": {
+      "@type": "@id",
+      "@id": "tdb:production_plan_for"
+    },
+    "held_or_supported_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:held_or_supported_by"
+    },
+    "added_to": {
+      "@type": "@id",
+      "@id": "tdb:added_to"
+    },
+    "Event": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Event"
+    },
+    "type": "@type",
+    "Type": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Type"
+    },
+    "assigned_identifier": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:assigned_identifier"
+    },
+    "starts_after_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_after_the_end_of"
+    },
+    "identified": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:identified"
+    },
+    "presence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:presence"
+    },
+    "Presence": {"@id": "tdb:Presence"},
+    "id": "@id",
+    "caused": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:caused"
+    },
+    "transferred_title_to": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_title_to"
+    },
+    "condition": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:condition"
+    },
+    "Document": {"@id": "tdb:Document"},
+    "Phase": {"@id": "tdb:Phase"},
+    "gained_member_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:gained_member_by"
+    },
+    "timespan_of_presence": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:timespan_of_presence"
+    },
+    "caused_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:caused_by"
+    },
+    "identified_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:identified_by"
+    },
+    "currently_holds": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:currently_holds"
+    },
+    "begin_of_the_end": {
+      "@type": "xsd:dateTime",
+      "@id": "tdb:begin_of_the_end"
+    },
+    "phase_of": {
+      "@type": "@id",
+      "@id": "tdb:phase_of"
+    },
+    "condition_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:condition_of"
+    },
+    "starts_before_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:starts_before_the_end_of"
+    },
+    "presence_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:presence_of"
+    },
+    "current_location": {
+      "@type": "@id",
+      "@id": "tdb:current_location"
+    },
+    "ends_before_the_start_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_before_the_start_of"
+    },
+    "added_to_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:added_to_by"
+    },
+    "defines_typical_wholes_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:defines_typical_wholes_for"
+    },
+    "type_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:type_of"
+    },
+    "Modification": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Modification"
+    },
+    "digitally_shows": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_shows"
+    },
+    "observed_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:observed_in"
+    },
+    "Right": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Right"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "Addition": {"@id": "tdb:Addition"},
+    "Measurement": {"@id": "tdb:Measurement"},
+    "found_on": {
+      "@type": "@id",
+      "@id": "tdb:found_on"
+    },
+    "joined_with": {
+      "@type": "@id",
+      "@id": "tdb:joined_with"
+    },
+    "destroyed_by": {
+      "@type": "@id",
+      "@id": "tdb:destroyed_by"
+    },
+    "continued": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:continued"
+    },
+    "a_presence_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:a_presence_of"
+    },
+    "paid_from": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:paid_from"
+    },
+    "surrendered_custody_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:surrendered_custody_through"
+    },
+    "DigitalService": {"@id": "tdb:DigitalService"},
+    "carried_out_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:carried_out_by"
+    },
+    "ConditionAssessment": {"@id": "tdb:ConditionAssessment"},
+    "removed_member_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:removed_member_by"
+    },
+    "added_member_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:added_member_by"
+    },
+    "language_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:language_of"
+    },
+    "borders_with": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:borders_with"
+    },
+    "digitally_available_via": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_available_via"
+    },
+    "close_match": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:close_match"
+    },
+    "title_of": {
+      "@type": "@id",
+      "@id": "tdb:title_of"
+    },
+    "custody_transferred_through": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:custody_transferred_through"
+    },
+    "AuthorityDocument": {"@id": "tdb:AuthorityDocument"},
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "classified_as": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:classified_as"
+    },
+    "at_some_time_within": {"@id": "tdb:at_some_time_within"},
+    "thing_defined_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:thing_defined_by"
+    },
+    "current_or_former_curator": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_or_former_curator"
+    },
+    "established_by": {
+      "@type": "@id",
+      "@id": "tdb:established_by"
+    },
+    "right_held_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:right_held_by"
+    },
+    "participated_in": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:participated_in"
+    },
+    "transferred_custody_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:transferred_custody_of"
+    },
+    "ends_before_or_with_the_end_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:ends_before_or_with_the_end_of"
+    },
+    "associated_with": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:associated_with"
+    },
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "Birth": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Birth"
+    },
+    "related_entity_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:related_entity_of"
+    },
+    "former_or_current_owner": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:former_or_current_owner"
+    },
+    "PhysicalFeature": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:PhysicalFeature"
+    },
+    "contains": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:contains"
+    },
+    "Group": {
+      "@context": {
+        "member": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Group"
+    },
+    "digitally_carries": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_carries"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "made_for": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:made_for"
+    },
+    "Creation": {
+      "@context": {
+        "part_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part_of"
+        },
+        "part": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:part"
+        },
+        "member_of": {
+          "@container": "@set",
+          "@type": "@id",
+          "@id": "tdb:member_of"
+        }
+      },
+      "@id": "tdb:Creation"
+    },
+    "covered_parts_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:covered_parts_of"
+    },
+    "current_permanent_custodian_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:current_permanent_custodian_of"
+    },
+    "concerned": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:concerned"
+    },
+    "bears": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:bears"
+    },
+    "timespan_of": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:timespan_of"
+    },
+    "digitally_shown_by": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:digitally_shown_by"
+    },
+    "approximates": {
+      "@container": "@set",
+      "@type": "@id",
+      "@id": "tdb:approximates"
+    }
+  }
+}
