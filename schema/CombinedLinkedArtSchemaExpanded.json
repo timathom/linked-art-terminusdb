@@ -1,6 +1,6 @@
 [
     {
-        "@base": "https://lux.collections.yale.edu/data/",
+        "@base": "https://lux-front-sbx.collections.yale.edu/data/",
         "@schema": "terminusdb:///schema#",
         "@type": "@context",
         "aat": "http://vocab.getty.edu/aat/",
@@ -205,6 +205,10 @@
         },
         "members_exemplified_by": {
             "@class": "EntityType",
+            "@type": "Set"
+        },
+        "crm:P16i_was_used_for": {
+            "@class": "crm:E7_Activity",
             "@type": "Set"
         }
     },
@@ -507,6 +511,10 @@
         },
         "la:member_of": {
             "@class": "la:Set",
+            "@type": "Set"
+        },
+        "crm:P104_is_subject_to": {
+            "@class": "crm:E30_Right",
             "@type": "Set"
         }
     },
@@ -934,7 +942,7 @@
         },
         "rdfs:label": {
             "@class": "xsd:string",
-            "@type": "Optional"
+            "@type": "Set"
         }
     },
     {
@@ -1166,6 +1174,10 @@
         "la:member_of": {
             "@class": "la:Set",
             "@type": "Set"
+        },
+        "crm:P107i_is_current_or_former_member_of": {
+          "@class": "crm:E74_Group",
+          "@type": "Set"
         }
     },
     {
