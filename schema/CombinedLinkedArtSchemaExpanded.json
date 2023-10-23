@@ -811,7 +811,7 @@
      "crm:P14i_performed": {
       "@class": "crm:E7_Activity",
       "@type": "Set"
-    },
+    }
   },
   {
     "@abstract": [],
