@@ -807,7 +807,11 @@
     "la:member_of": {
       "@class": "la:Set",
       "@type": "Set"
-    }
+    },
+     "crm:P14i_performed": {
+      "@class": "crm:E7_Activity",
+      "@type": "Set"
+    },
   },
   {
     "@abstract": [],
