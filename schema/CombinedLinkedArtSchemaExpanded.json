@@ -84,6 +84,10 @@
     "crm:P177_assigned_property_of_type": {
       "@class": "xsd:string",
       "@type": "Optional"
+    },
+    "crm:P17_was_motivated_by": {
+      "@class": "la:Set",
+      "@type": "Set"
     }
   },
   {
@@ -143,7 +147,7 @@
     "@type": "Class",
     "@unfoldable": [],
     "crm:P129_is_about": {
-      "@class": "crm:E55_Type",
+      "@class": "EntityType",
       "@type": "Set"
     },
     "crm:P129i_is_subject_of": {
@@ -256,7 +260,7 @@
       "@type": "Set"
     },
     "crm:P55_has_current_location": {
-      "@class": "PersonOrGroupType",
+      "@class": "crm:E53_Place",
       "@type": "Set"
     },
     "crm:P65_shows_visual_item": {
@@ -275,9 +279,20 @@
       "@class": "la:Set",
       "@type": "Set"
     },
-    "crm:P67i_is_referred_to_by": "LinguisticObjectOrDigitalObjectType",
+    "crm:P67i_is_referred_to_by": {
+      "@class": "LinguisticObjectOrDigitalObjectType",
+      "@type": "Set" 
+    },
     "sci:O19i_was_object_encountered_at": {
       "@class": "sci:S19_Encounter_Event",
+      "@type": "Set"
+    },
+    "crm:P57_has_number_of_parts": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "crm:P94i_was_created_by": {
+      "@class": "crm:E65_Creation",
       "@type": "Set"
     }
   },
@@ -352,6 +367,7 @@
     }
   },
   {
+    "@base": "digital/",
     "@documentation": {"@label": "la:DigitalService"},
     "@id": "la:DigitalService",
     "@inherits": "EntityType",
@@ -395,7 +411,7 @@
     }
   },
   {
-    "@base": "object/",
+    "@base": "digital/",
     "@documentation": {"@label": "dig:D1_Digital_Object"},
     "@id": "dig:D1_Digital_Object",
     "@inherits": "LinguisticObjectOrDigitalObjectType",
@@ -676,7 +692,7 @@
       "@type": "Optional"
     },
     "crm:P91_has_unit": {
-      "@class": "crm:E58_Measurement_Unit",
+      "@class": "crm:E55_Type",
       "@type": "Set"
     }
   },
@@ -837,7 +853,7 @@
     "@inherits": "LinguisticObjectOrDigitalObjectType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
+    "@subdocument": [],
     "crm:P104_is_subject_to": {
       "@class": "crm:E30_Right",
       "@type": "Set"
@@ -855,7 +871,7 @@
       "@type": "Set"
     },
     "crm:P138_represents": {
-      "@class": "crm:E55_Type",
+      "@class": "EntityType",
       "@type": "Set"
     },
     "crm:P138i_has_representation": {
@@ -1046,6 +1062,10 @@
     },
     "crm:P107i_is_current_or_former_member_of": {
       "@class": "crm:E74_Group",
+      "@type": "Set"
+    },
+    "crm:P11i_participated_in": {
+      "@class": "EventOrActivityType",
       "@type": "Set"
     }
   },
