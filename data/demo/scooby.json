@@ -1,0 +1,280 @@
+{
+  "id": "https://lux.collections.yale.edu/data/person/2bb83f0b-4aba-4fda-9eb4-3a3196b1fe45",
+  "born": {
+    "type": "Birth",
+    "took_place_at": [
+      {
+        "id": "https://lux.collections.yale.edu/data/place/e1b4e5a8-4798-4154-894a-bcb10b676c8e",
+        "type": "Place"
+      }
+    ]
+  },
+  "type": "Person",
+  "_label": "Scooby-Doo",
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "member_of": [
+    {
+      "id": "https://lux.collections.yale.edu/data/group/926be0ae-1745-437f-99bd-cda81c58ce74",
+      "type": "Group"
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q901323",
+      "type": "Person",
+      "_label": "Scooby-Doo (Fictitious character)"
+    },
+    {
+      "id": "http://viaf.org/viaf/103146461545427731543",
+      "type": "Person",
+      "_label": "Scooby-Doo (Fictitious character)"
+    },
+    {
+      "id": "https://linked-art.library.yale.edu/node/3741a975-1755-4070-b884-7e2cdaab90ff",
+      "type": "Person",
+      "_label": "Scooby-Doo (Fictitious character)"
+    },
+    {
+      "id": "http://id.loc.gov/authorities/names/nb2016010383",
+      "type": "Person",
+      "_label": "Scooby-Doo (Fictitious character)"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+      "type": "Type",
+      "_label": "Male",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d",
+          "type": "Type",
+          "_label": "Gender"
+        }
+      ]
+    },
+    {
+      "id": "https://lux.collections.yale.edu/data/concept/6c3d337d-88ed-46a8-be00-46e518ec8ffa",
+      "type": "Type",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458",
+          "type": "Type",
+          "_label": "Occupation"
+        }
+      ]
+    },
+    {
+      "id": "https://lux.collections.yale.edu/data/concept/6fefe491-ea6d-47c1-b204-878d92e2ae78",
+      "type": "Type",
+      "_label": "us",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c",
+          "type": "Type",
+          "_label": "Nationality"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Scooby-Doo",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+          "type": "Language",
+          "_label": "English"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7",
+          "type": "Language",
+          "_label": "Spanish"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+          "type": "Language",
+          "_label": "French"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/5abd8c6e-52ca-462f-8d7e-21f73068410c",
+          "type": "Language",
+          "_label": "Portuguese"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66",
+          "type": "Language",
+          "_label": "German"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+          "type": "Language",
+          "_label": "Dutch"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+          "type": "Type",
+          "_label": "Sort Name"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "content": "史酷比",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5",
+          "type": "Language",
+          "_label": "Chinese"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "content": "スクービー・ドゥー (キャラクター)",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17",
+          "type": "Language",
+          "_label": "Japanese"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "content": "سكوبي دو (شخصية خيالية)",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b",
+          "type": "Language",
+          "_label": "Arabic"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "content": "Scooby-Doo (Fictitious character)",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ]
+    },
+    {
+      "type": "Name",
+      "content": "סקובי דו (דמות פיקטיבית)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "animated cartoon dog",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449",
+          "type": "Language",
+          "_label": "English"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "chien de fiction",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353",
+          "type": "Language",
+          "_label": "French"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "fiktiver Hund",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66",
+          "type": "Language",
+          "_label": "German"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "personage",
+      "language": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159",
+          "type": "Language",
+          "_label": "Dutch"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ]
+    }
+  ]
+}

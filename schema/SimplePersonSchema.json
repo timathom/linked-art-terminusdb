@@ -1,0 +1,92 @@
+[
+  {
+    "@base": "https://lux.collections.yale.edu/data/",
+    "@metadata": {
+      "DFRNT": {"defaultLabelProperty": "rdfs:label"}
+    },
+    "@schema": "http://www.cidoc-crm.org/cidoc-crm/",
+    "@type": "@context",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  {
+    "@documentation": {"@label": "Birth"},
+    "@id": "E67_Birth",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P7_took_place_at": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Place",
+      "@properties": {
+        "rdfs:label": {"@label": "_label"}
+      }
+    },
+    "@id": "E53_Place",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P1_is_identified_by": {
+      "@class": "E33_E41_Linguistic_Appellation",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Name",
+      "@properties": {
+        "P190_has_symbolic_content": {"@label": "content"}
+      }
+    },
+    "@id": "E33_E41_Linguistic_Appellation",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@abstract": [],
+    "@documentation": {
+      "@properties": {
+        "rdfs:label": {"@label": "_label"}
+      }
+    },
+    "@id": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "rdfs:label": {
+      "@class": "xsd:string",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Person",
+      "@properties": {
+        "P1_is_identified_by": {"@label": "identified by"},
+        "rdfs:label": {"@label": "_label"}
+      }
+    },
+    "@id": "E21_Person",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P1_is_identified_by": {
+      "@class": "E33_E41_Linguistic_Appellation",
+      "@type": "Set"
+    },
+    "P98i_was_born": {
+      "@class": "E67_Birth",
+      "@type": "Set"
+    }
+  }
+]

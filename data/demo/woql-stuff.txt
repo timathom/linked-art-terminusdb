@@ -1,0 +1,163 @@
+let v = Vars("branch", "head", "commit", "path", "id", "author", "message", "timestamp")
+using("_commits")
+.select(v.author, v.timestamp, v.message, v.id)
+.triple(v.branch, "name", string("main"))
+.triple(v.branch,"head", v.head)
+.path(v.head, "parent*", v.commit, v.path)
+.triple(v.commit, "identifier", v.id)
+.triple(v.commit, "author", v.author)
+.triple(v.commit, "message", v.message)
+.triple(v.commit, "timestamp", v.timestamp)
+
+let v = Vars("person1", "person2", "path");
+path(v.person1, "(<pilot,pilot>)+", v.person2, v.path).not().eq(v.person1, v.person2)
+
+
+
+WOQL.and(
+    WOQL.quad("v:sub", "sys:subdocument", "rdf:nil", "schema"),
+      WOQL.eq("v:sub", "@schema:SubDocumentType"),
+      WOQL.eq("v:sub", "v:subDocIsaType"),
+    WOQL.triple("v:subdoc", "rdf:type", "v:subDocIsaType"),
+    WOQL.path("v:doc", ".*", "v:subdoc"),
+    WOQL.triple("v:doc", "rdf:type", "v:typeoftype"),
+    WOQL.not().quad("v:typeoftype", "sys:subdocument", "rdf:nil", "schema"),
+    WOQL.read_document("v:doc", "v:document")
+)
+
+
+let v = Vars("containing", "id", "type");
+and(path(v.containing, ".*", 'MySubdocumentID_Here'),
+    triple(v.containing, "rdf:type", v.type), 
+    or(quad(v.type, "rdf:type", "sys:Class", "schema"),
+       quad(v.type, "rdf:type", "sys:TaggedUnion", "schema"),
+       eq(v.type, "sys:JSONDocument")),
+    not(quad(v.type,"sys:subdocument", "rdf:nil", "schema")))
+    
+    
+
+let v = Vars("Node","Tag","Name","Result")
+group_by(
+  [v.Node,v.Name],
+  v.Tag,
+  v.Result,
+  and(triple(v.Node, "name",v.Name),
+      triple(v.Node, "tags",v.Tag)),
+)
+
+
+let v = Vars("From","To","PersonName","CompanyName", "Company", "Person", "v:Relationship");
+select(v.From,v.To, v.PersonName,v.CompanyName)
+.isa(v.Relationship,"Relationship")
+.triple(v.Relationship,"from",v.From)
+.triple(v.Relationship,"to",v.To)
+.triple(v.Relationship,"heldBy",v.Person)
+.triple(v.Person,"name",v.PersonName)
+.triple(v.Relationship,"inCompany",v.Company)
+.triple(v.Company,"name",v.CompanyName)
+
+
+
+let v = Vars("Person");
+select("*")
+.isa(v.Person,"@schema:Person")
+
+
+
+select("v:Doc").isa("v:Subject","@schema:Person").read_document("v:Subject", "v:Doc")
+
+
+let v = Vars("Person", "People")
+limit(10).or(
+  and(
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person)
+    .triple(v.Person, "rdf:type", "@schema:Person")  
+  ),
+  and(
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People)
+    .triple(v.People, "rdf:type", "@schema:People")
+  )
+  
+)
+
+
+
+
+let v = Vars("Person", "People", "Name")
+limit(10).or(
+  
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person, v.Name)
+    .triple(v.Person, "rdf:type", "@schema:Person")
+    .path(v.Person, "is_identified_by,content*", v.Name),
+  
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People)
+    .triple(v.People, "rdf:type", "@schema:People")
+   
+)
+
+
+let v = Vars("Person", "People", "Name", "Doc")
+limit(10).or(
+  
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person, v.Name)
+    .triple(v.Person, "rdf:type", "@schema:Person")
+    .path(v.Person, "identified_by,content", v.Name),
+  
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People)
+    .triple(v.People, "rdf:type", "@schema:People")
+    .triple(v.People, "name", v.Name)
+   
+)
+
+
+let v = Vars("Person", "People", "Name", "Doc")
+limit(10).or(
+  
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person, v.Name)
+    .triple(v.Person, "rdf:type", "@schema:Person")
+    .path(v.Person, "identified_by,content", v.Name),
+  
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People)
+    .triple(v.People, "rdf:type", "@schema:People")
+    .triple(v.People, "label", v.Name)
+   
+)
+
+let v = Vars("Person", "People", "Name", "Doc")
+limit(10).or(
+  
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person, v.Name)
+    .triple(v.Person, "rdf:type", "@schema:Person")
+    .path(v.Person, "identified_by,content", v.Name),
+  
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People, v.Name)
+    .triple(v.People, "rdf:type", "@schema:People")
+    .triple(v.People, "label", v.Name)
+   
+)
+
+
+let v = Vars("Person", "People", "Name", "Doc")
+limit(10).or(
+  
+    using("lux_collections_yale_edu/halloween")
+    .select(v.Person, v.Name)
+    .triple(v.Person, "rdf:type", "@schema:Person")
+    .path(v.Person, "identified_by,.", v.Name),
+  
+    using("lux_collections_yale_edu/star_wars")
+    .select(v.People, v.Name)
+    .triple(v.People, "rdf:type", "@schema:People")
+    .triple(v.People, "label", v.Name)
+   
+)

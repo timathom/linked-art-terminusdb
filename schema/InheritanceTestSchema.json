@@ -1,0 +1,80 @@
+[
+  {
+    "@base": "https://lux.collections.yale.edu/data/",
+    "@metadata": {
+      "DFRNT": {"defaultLabelProperty": "label"}
+    },
+    "@schema": "terminusdb:///schema#",
+    "@type": "@context"
+  },
+  {
+    "@abstract": [],
+    "@id": "EntityType",
+    "@type": "Class",
+    "label": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "My Record"
+    },
+    "@id": "MyRecord",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "references": {
+      "@class": "EntityType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Place"
+    },
+    "@id": "E53_Place",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P1_is_identified_by": {
+      "@class": "E33_E41_Linguistic_Appellation",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Name",
+      "@properties": {
+        "P190_has_symbolic_content": {"@label": "content"}
+      }
+    },
+    "@id": "E33_E41_Linguistic_Appellation",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {
+      "@label": "Person",
+      "@properties": {
+        "P1_is_identified_by": {"@label": "identified by"}
+      }
+    },
+    "@id": "E21_Person",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P1_is_identified_by": {
+      "@class": "E33_E41_Linguistic_Appellation",
+      "@type": "Set"
+    }
+  }
+]

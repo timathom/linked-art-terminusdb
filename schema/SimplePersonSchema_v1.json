@@ -1,0 +1,74 @@
+[
+  {
+    "@base": "https://lux.collections.yale.edu/data/",
+    "@schema": "http://www.cidoc-crm.org/cidoc-crm/",
+    "tdb": "terminusdb:///schema#",
+    "@type": "@context",
+    "@metadata": {
+      "DFRNT": {"defaultLabelProperty": "rdfs:label"}
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:EntityType",
+    "@type": "Class",
+    "P1_is_identified_by": {
+      "@class": "tdb:IdentifierOrNameType",
+      "@type": "Set"
+    },
+    "rdfs:label": {
+      "@class": "xsd:string",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:IdentifierOrNameType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class",
+    "@subdocument": [],
+    "P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {"@label": "Person"},
+    "@id": "E21_Person",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P98i_was_born": {
+      "@class": "E67_Birth",
+      "@type": "Set"
+    }
+  },
+  {
+    "@id": "E53_Place",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@documentation": {"@label": "crm:E67_Birth"},
+    "@id": "E67_Birth",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P7_took_place_at": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    }
+  },
+  {
+    "@id": "E33_E41_Linguistic_Appellation",
+    "@inherits": "tdb:IdentifierOrNameType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  }
+]

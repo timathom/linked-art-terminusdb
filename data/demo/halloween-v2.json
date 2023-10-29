@@ -1,0 +1,537 @@
+{
+  "used_for": [
+    {
+      "took_place_at": [
+        {
+          "label": "Michigan",
+          "@type": "Place",
+          "@id": "https://lux.collections.yale.edu/data/place/e0edb607-db0d-4537-b1ce-c3e3be0fa663"
+        }
+      ],
+      "timespan": {
+        "_seconds_since_epoch_end_of_the_end": 1.167609599E9,
+        "_seconds_since_epoch_begin_of_the_begin": 1.1360736E9,
+        "begin_of_the_begin": "2006-01-01T00:00:00",
+        "end_of_the_end": "2006-12-31T23:59:59",
+        "@type": "TimeSpan",
+        "identified_by": [
+          {
+            "content": "2006",
+            "@type": "Name",
+            "classified_as": [
+              {
+                "label": "Display Title",
+                "@type": "Type",
+                "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+              }
+            ]
+          }
+        ]
+      },
+      "@type": "Activity",
+      "classified_as": [
+        {
+          "label": "Publishing",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/22d325c7-0d09-48ab-97bd-b8a1de9fb887"
+        }
+      ]
+    }
+  ],
+  "subject_of": [
+    {
+      "digitally_carried_by": [
+        {
+          "label": "Repository Page",
+          "access_point": [
+            {
+              "eq": "https://search.library.yale.edu/catalog/13597022",
+              "@type": "DigitalObject"
+            }
+          ],
+          "@type": "DigitalObject",
+          "identified_by": [
+            {
+              "content": "View this record on the Yale Library website",
+              "@type": "Name",
+              "classified_as": [
+                {
+                  "label": "Primary Name",
+                  "@type": "Type",
+                  "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "label": "Web Page",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/2eca07bd-be42-4ef5-9ec5-87c1bbfe639d"
+            }
+          ]
+        }
+      ],
+      "label": "Text of Repository Page",
+      "@type": "LinguisticObject"
+    }
+  ],
+  "equivalent": [
+    {
+      "eq": "https://linked-art.library.yale.edu/node/81065324-7104-4788-8265-06eac01a19a2",
+      "label": "Halloween : 25 years of terror",
+      "@type": "LinguisticObject"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "content": "Not closed-captioned for the hearing impaired.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Language Note",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Language Statement",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b7ae3f24-564d-4122-8013-8ad6ce05fe70",
+          "classified_as": [
+            {
+              "label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "a Paranormal Pictures production in association with Masimedia & Rehab 54 ; produced by Anthony Masi & Stefan Hutchinson ; writers, Stefan Hutchinson & Anthony Masi ; directed by Stefan Hutchinson.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Attribution",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Attribution Statement",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/da560708-9f9f-47a6-817e-4d017cf2ed50",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        },
+        {
+          "label": "Transcribed",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f5ab1a08-dfaa-4870-ab3f-6812fa00107f"
+        }
+      ]
+    },
+    {
+      "content": "2 videodiscs",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Extent",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Dimension Statement",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        }
+      ]
+    },
+    {
+      "content": "4 3/4 in.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Dimensions",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/53922f57-dab5-43c5-a527-fc20a63fe128"
+      ]
+    },
+    {
+      "content": "Film is 84 min., with over 4 hours of extra features.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Note",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Note",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/acc79f08-f8f7-4f7c-8179-1c8f03aa9020",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        }
+      ]
+    },
+    {
+      "content": "[Troy, MI] : Anchor Bay Entertainment, ©2006.",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "label": "Imprint Statement",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/e29bcdc8-e35d-4a6d-a7ae-fd3702611fb8",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        }
+      ]
+    },
+    {
+      "content": "'The night everyone came home! The definitive Halloween documentary, narrated by P.J. Soles. In 1978, his horrific rampage through the town of Haddonfield changed movie history forever. His name was Michael Myers ... and the night was HALLOWEEN. Eight films and a quarter of a century later, discover the triumphs, controversies and groundbreaking influence of the series with the most comprehensive HALLOWEEN documentary ever produced. This is the true story behind every film in the franchise, featuring rare behind-the-scenes footage and over 80 interviews with cast and crew'--Container.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Summary, Etc.",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Abstract",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/25488723-087e-45fa-b5bc-65179c5389dd",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Disc 1: Full-frame feature presentation\nFeaturettes: Horror's hallowed ground\nFans of Halloween\nHalloween II and Halloween III extended interviews\nExtended celebrity interviews\nHalloween 5 on-set footage\nHalloween convention montage\nFans of Halloween: collection of props & memorabilia. Disc 2: Panel discussions: Halloween ; Halloween II ; Halloween 6 ; Ellie Cornell ; Dean Cundey ; Halloween producers\nHalloween location still gallery\nHalloween convention behind-the-scenes gallery\nOriginal artwork gallery.",
+      "@type": "LinguisticObject",
+      "identified_by": [
+        {
+          "content": "Table of Contents Note",
+          "@type": "Name",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "label": "Table of Contents",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/72ee1318-c100-4470-8cdd-b24a7e218927",
+          "classified_as": [
+            "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "label": "Horror films -- History and criticism",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/42e851d6-d5fb-4a4c-a21f-d327640052b9"
+    },
+    {
+      "label": "Motion pictures",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/4aa074f3-00ae-438d-aa8d-917fee3acae6"
+    },
+    {
+      "label": "Halloween (Motion picture : 1978) -- History and criticism",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/08f87530-e3cf-4a40-bc7a-b1f4b205da6b"
+    },
+    {
+      "label": "Halloween (Motion picture : 1978)",
+      "@type": "LinguisticObject",
+      "@id": "https://lux.collections.yale.edu/data/text/71c524c0-8682-4aee-9de7-2e44afa467d6"
+    },
+    {
+      "label": "Horror films",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/4c7c14b3-7de3-439d-bad9-34ccf62908d1"
+    }
+  ],
+  "created_by": {
+    "part": [
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Paranormal Pictures (Firm)",
+            "@type": "Group",
+            "@id": "https://lux.collections.yale.edu/data/group/f28ad80e-0a21-4bf1-9f18-44d183fbed1d"
+          }
+        ],
+        "classified_as": [
+          {
+            "label": "Contributor",
+            "@type": "Type",
+            "@id": "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+          }
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Masimedia (Firm)",
+            "@type": "Group",
+            "@id": "https://lux.collections.yale.edu/data/group/148373ac-4167-4c91-8884-26df91df9eec"
+          }
+        ],
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Rehab 54 (Firm)",
+            "@type": "Group",
+            "@id": "https://lux.collections.yale.edu/data/group/7e43d2f6-5acb-443f-a59f-5f5e0c010358"
+          }
+        ],
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Anchor Bay Entertainment, Inc",
+            "@type": "Group",
+            "@id": "https://lux.collections.yale.edu/data/group/73f2cce4-e852-41ce-bdbb-f1b95f7dd425"
+          }
+        ],
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Masi, Anthony",
+            "@type": "Person",
+            "@id": "https://lux.collections.yale.edu/data/person/5cd1d088-dca8-4207-8b89-5b97641aa176"
+          }
+        ],
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Hutchinson, Stefan",
+            "@type": "Person",
+            "@id": "https://lux.collections.yale.edu/data/person/4dea5669-709e-40a0-a864-5b3b02a94afc"
+          }
+        ],
+        "classified_as": [
+          {
+            "label": "film director",
+            "@type": "Type",
+            "@id": "https://lux.collections.yale.edu/data/concept/8a5859fc-99f5-4f61-984e-b99212ea3aae"
+          }
+        ]
+      },
+      {
+        "label": "Creation",
+        "@type": "Creation",
+        "carried_out_by": [
+          {
+            "label": "Soles, P. J.",
+            "@type": "Person",
+            "@id": "https://lux.collections.yale.edu/data/person/ad3458d1-fe1a-4b56-83ba-3e240807c331"
+          }
+        ],
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/44f25a05-a9af-458b-a7e8-8b953997aa72"
+        ]
+      }
+    ],
+    "@type": "Creation"
+  },
+  "label": "Halloween : 25 years of terror",
+  "language": [
+    {
+      "label": "English",
+      "@type": "Language",
+      "@id": "https://lux.collections.yale.edu/data/concept/dfa53b96-4eda-4c9a-b091-10008a726c38"
+    }
+  ],
+  "@type": "LinguisticObject",
+  "@id": "https://lux.collections.yale.edu/data/text/09b960d5-b5dd-42b6-b21a-674df4816b4d",
+  "identified_by": [
+    {
+      "content": "Halloween : 25 years of terror",
+      "@type": "Name",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+        {
+          "label": "Sort Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a"
+        }
+      ]
+    },
+    {
+      "attributed_by": [
+        {
+          "@type": "AttributeAssignment",
+          "carried_out_by": [
+            {
+              "label": "Yale University Library",
+              "@type": "Group",
+              "@id": "https://lux.collections.yale.edu/data/group/d07b9b86-0a1e-4026-aa4c-8ecba8bbd9c9"
+            }
+          ]
+        }
+      ],
+      "content": "ils:yul:13597022",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "label": "System-Assigned Number",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd"
+        }
+      ]
+    },
+    {
+      "content": "DV14354 (Anchor Bay Entertainment)",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "label": "Publisher/Distributor Number",
+          "@type": "Type"
+        }
+      ]
+    },
+    {
+      "content": "DV143541 (Anchor Bay Entertainment)",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "label": "Publisher/Distributor Number",
+          "@type": "Type"
+        }
+      ]
+    },
+    {
+      "content": "DV143542 (Anchor Bay Entertainment)",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "label": "Publisher/Distributor Number",
+          "@type": "Type"
+        }
+      ]
+    },
+    {
+      "attributed_by": [
+        {
+          "@type": "AttributeAssignment",
+          "carried_out_by": [
+            {
+              "label": "OCLC",
+              "@type": "Group",
+              "@id": "https://lux.collections.yale.edu/data/group/1f0f5fea-0654-4ca7-b51a-520f28b80ac4"
+            }
+          ]
+        }
+      ],
+      "content": "(OCoLC)ocm71199051",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "label": "Owner-Assigned Number",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/a1922667-5c32-4181-8897-3e71ecea0ce8"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "label": "Textual Works",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/63662486-bb41-4daa-90c5-1d8b7a53a08d",
+      "classified_as": [
+        {
+          "label": "Type of Work",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/4ea65dc4-76bc-45b7-b54c-a1ca4783d4e2"
+        }
+      ]
+    },
+    {
+      "label": "Documentary films",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/1163591d-33a2-4f67-bcf7-53369f7c1fd8"
+    },
+    {
+      "label": "Criticism, interpretation, etc",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/df48b0b5-6948-4ca3-b90b-61ee8059bcc2"
+    },
+    {
+      "label": "Documentary",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/781001a8-f8d1-4e67-9e65-ad96392622f5"
+    },
+    {
+      "label": "Collection Item",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/b34ad31c-4a2f-4cef-aee3-ae8d824e42a2"
+    }
+  ]
+}

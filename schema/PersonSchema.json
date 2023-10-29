@@ -1,0 +1,411 @@
+[
+  {
+    "@base": "https://lux-front-sbx.collections.yale.edu/data/",
+    "@schema": "terminusdb:///schema#",
+    "@type": "@context",
+    "@metadata": {
+      "DFRNT": {"defaultLabelProperty": "rdfs:label"}
+    },
+    "aat": "http://vocab.getty.edu/aat/",
+    "cat": "https://search.library.yale.edu/catalog/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dig": "http://www.ics.forth.gr/isl/CRMdig/",
+    "dnb": "https://d-nb.info/gnd/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "la": "https://linked.art/ns/terms/",
+    "lc": "http://id.loc.gov/authorities/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "sci": "http://www.ics.forth.gr/isl/CRMsci/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "tgn": "http://vocab.getty.edu/tgn/",
+    "viaf": "http://viaf.org/viaf/",
+    "wd": "http://www.wikidata.org/entity/",
+    "wof": "http://data.whosonfirst.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ypm": "https://images.peabody.yale.edu/data/",
+    "yul": "https://linked-art.library.yale.edu/node/"
+  },
+  {
+    "@abstract": [],
+    "@id": "EntityType",
+    "@type": "Class",
+    "crm:P1_is_identified_by": {
+      "@class": "IdentifierOrNameType",
+      "@type": "Set"
+    },
+    "crm:P2_has_type": {
+      "@class": "crm:E55_Type",
+      "@type": "Set"
+    },
+    "rdfs:label": {
+      "@class": "xsd:string",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "EventOrActivityType",
+    "@inherits": "PeriodType",
+    "@type": "Class",
+    "crm:P15_was_influenced_by": {
+      "@class": "EntityType",
+      "@type": "Set"
+    },
+    "crm:P16_used_specific_object": {
+      "@class": "HumanMadeObjectOrSetType",
+      "@type": "Set"
+    },
+    "crm:P32_used_general_technique": {
+      "@class": "crm:E55_Type",
+      "@type": "Set"
+    },
+    "crm:P4_has_time-span": {
+      "@class": "crm:E52_Time-Span",
+      "@type": "Set"
+    },
+    "crm:P7_took_place_at": {
+      "@class": "crm:E53_Place",
+      "@type": "Set"
+    },
+    "crm:P9_consists_of": {
+      "@class": "PeriodType",
+      "@type": "Set"
+    },
+    "crm:P9i_forms_part_of": {
+      "@class": "PeriodType",
+      "@type": "Set"
+    },
+    "sci:O13i_is_triggered_by": {
+      "@class": "PeriodType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "HumanMadeObjectOrSetType",
+    "@inherits": "EntityType",
+    "@type": "Class"
+  },
+  {
+    "@abstract": [],
+    "@id": "IdentifierOrNameType",
+    "@inherits": "EntityType",
+    "@type": "Class",
+    "crm:P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "PeriodType",
+    "@inherits": "EntityType",
+    "@type": "Class",
+    "crm:P140i_was_attributed_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "crm:P14_carried_out_by": {
+      "@class": "PersonOrGroupType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "PersonOrGroupType",
+    "@inherits": "EntityType",
+    "@type": "Class",
+    "crm:P140i_was_attributed_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "crm:P74_has_current_or_former_residence": {
+      "@class": "crm:E53_Place",
+      "@type": "Set"
+    },
+    "crm:P76_has_contact_point": {
+      "@class": "crm:E42_Identifier",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "crm:P107i_is_current_or_former_member_of": {
+      "@class": "crm:E74_Group",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "person/",
+    "@documentation": {"@label": "crm:E21_Person"},
+    "@id": "crm:E21_Person",
+    "@inherits": "PersonOrGroupType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "crm:P100i_died_in": {
+      "@class": "crm:E69_Death",
+      "@type": "Set"
+    },
+    "crm:P98i_was_born": {
+      "@class": "crm:E67_Birth",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E13_Attribute_Assignment"},
+    "@id": "crm:E13_Attribute_Assignment",
+    "@inherits": "crm:E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "crm:P141_assigned": {
+      "@class": "EntityType",
+      "@type": "Set"
+    },
+    "crm:P177_assigned_property_of_type": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "crm:P17_was_motivated_by": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E69_Death"},
+    "@id": "crm:E69_Death",
+    "@inherits": "crm:E5_Event",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@base": "activity/",
+    "@documentation": {
+      "@label": "crm:E7_Activity",
+      "@comment": ""
+    },
+    "@id": "crm:E7_Activity",
+    "@inherits": "crm:E5_Event",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@base": "event/",
+    "@documentation": {"@label": "crm:E5_Event"},
+    "@id": "crm:E5_Event",
+    "@inherits": "EventOrActivityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@base": "group/",
+    "@documentation": {"@label": "crm:E74_Group"},
+    "@id": "crm:E74_Group",
+    "@inherits": "PersonOrGroupType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "crm:P95i_was_formed_by": {
+      "@class": "crm:E66_Formation",
+      "@type": "Set"
+    },
+    "crm:P99i_was_dissolved_by": {
+      "@class": "crm:E68_Dissolution",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E42_Identifier"},
+    "@id": "crm:E42_Identifier",
+    "@inherits": "IdentifierOrNameType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "crm:P106_is_composed_of": {
+      "@class": "crm:E42_Identifier",
+      "@type": "Set"
+    },
+    "crm:P140i_was_attributed_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "crm:P141i_was_assigned_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "crm:P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@base": "place/",
+    "@id": "crm:E53_Place",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E67_Birth"},
+    "@id": "crm:E67_Birth",
+    "@inherits": "crm:E5_Event",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "crm:E66_Formation"},
+    "@id": "crm:E66_Formation",
+    "@inherits": "crm:E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "crm:E68_Dissolution"},
+    "@id": "crm:E68_Dissolution",
+    "@inherits": "crm:E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@base": "set/",
+    "@documentation": {"@label": "la:Set"},
+    "@id": "la:Set",
+    "@inherits": "HumanMadeObjectOrSetType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "crm:P129_is_about": {
+      "@class": "EntityType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "concept/",
+    "@documentation": {"@label": "crm:E55_Type"},
+    "@id": "crm:E55_Type",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "crm:P140i_was_attributed_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "crm:P94i_was_created_by": {
+      "@class": "crm:E65_Creation",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E65_Creation"},
+    "@id": "crm:E65_Creation",
+    "@inherits": "crm:E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "crm:E52_Time-Span"},
+    "@id": "crm:E52_Time-Span",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "_seconds_since_epoch_begin_of_the_begin": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "_seconds_since_epoch_end_of_the_end": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "crm:P191_had_duration": {
+      "@class": "crm:E54_Dimension",
+      "@type": "Set"
+    },
+    "crm:P81a_end_of_the_begin": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "crm:P81b_begin_of_the_end": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "crm:P82a_begin_of_the_begin": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "crm:P82b_end_of_the_end": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {"@label": "crm:E54_Dimension"},
+    "@id": "crm:E54_Dimension",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "crm:P141i_was_assigned_by": {
+      "@class": "crm:E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "crm:P90_has_value": "xsd:double",
+    "crm:P90a_has_lower_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    },
+    "crm:P90b_has_upper_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    },
+    "crm:P91_has_unit": {
+      "@class": "crm:E55_Type",
+      "@type": "Set"
+    }
+  },
+  {
+    "@id": "crm:E33_E41_Linguistic_Appellation",
+    "@inherits": "IdentifierOrNameType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",    
+    "crm:P72_has_language": {
+      "@class": "crm:E56_Language",
+      "@type": "Set"
+    }
+  },
+   {
+    "@base": "concept/",
+    "@id": "crm:E56_Language",
+    "@inherits": "crm:E55_Type",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  }
+]

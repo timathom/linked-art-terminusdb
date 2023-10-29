@@ -1,0 +1,55 @@
+{
+  "id": "https://lux.collections.yale.edu/data/person/5cd1d088-dca8-4207-8b89-5b97641aa176",
+  "type": "Person",
+  "_label": "Masi, Anthony",
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "equivalent": [
+    {
+      "id": "https://linked-art.library.yale.edu/node/478591be-1b0b-494f-8213-9787fff7d1d3",
+      "type": "Person",
+      "_label": "Masi, Anthony"
+    },
+    {
+      "id": "http://viaf.org/viaf/75677900",
+      "type": "Person",
+      "_label": "Masi, Anthony"
+    },
+    {
+      "id": "http://id.loc.gov/authorities/names/n2002090663",
+      "type": "Person",
+      "_label": "Masi, Anthony"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+      "type": "Type",
+      "_label": "Male",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d",
+          "type": "Type",
+          "_label": "Gender"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Masi, Anthony",
+      "classified_as": [
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec",
+          "type": "Type",
+          "_label": "Primary Name"
+        },
+        {
+          "id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a",
+          "type": "Type",
+          "_label": "Sort Name"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1343 @@
+<array xmlns="http://www.w3.org/2005/xpath-functions">
+  <map>
+    <string key="@base">https://lux.collections.yale.edu/data/</string>
+    <string key="@schema">http://www.cidoc-crm.org/cidoc-crm/</string>
+    <string key="@type">@context</string>
+    <map key="@metadata">
+      <map key="DFRNT">
+        <string key="defaultLabelProperty">label</string>
+      </map>
+    </map>
+    <string key="tdb">terminusdb:///schema#</string>
+    <string key="aat">http://vocab.getty.edu/aat/</string>
+    <string key="cat">https://search.library.yale.edu/catalog/</string>
+    <string key="dc">http://purl.org/dc/elements/1.1/</string>
+    <string key="dcterms">http://purl.org/dc/terms/</string>
+    <string key="dig">http://www.ics.forth.gr/isl/CRMdig/</string>
+    <string key="dnb">https://d-nb.info/gnd/</string>
+    <string key="foaf">http://xmlns.com/foaf/0.1/</string>
+    <string key="la">https://linked.art/ns/terms/</string>
+    <string key="lc">http://id.loc.gov/authorities/</string>
+    <string key="rdfs">http://www.w3.org/2000/01/rdf-schema#</string>
+    <string key="schema">http://schema.org/</string>
+    <string key="sci">http://www.ics.forth.gr/isl/CRMsci/</string>
+    <string key="skos">http://www.w3.org/2004/02/skos/core#</string>
+    <string key="tgn">http://vocab.getty.edu/tgn/</string>
+    <string key="viaf">http://viaf.org/viaf/</string>
+    <string key="wd">http://www.wikidata.org/entity/</string>
+    <string key="wof">http://data.whosonfirst.org/</string>
+    <string key="xsd">http://www.w3.org/2001/XMLSchema#</string>
+    <string key="ypm">https://images.peabody.yale.edu/data/</string>
+    <string key="yul">https://linked-art.library.yale.edu/node/</string>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:EventOrActivityType</string>
+    <string key="@inherits">tdb:PeriodType</string>
+    <string key="@type">Class</string>
+    <map key="P15_was_influenced_by">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_specific_object">
+      <string key="@class">tdb:HumanMadeObjectOrSetType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="technique">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="timespan">
+      <string key="@class">TimeSpan</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="took_place_at">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part">
+      <string key="@class">tdb:PeriodType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part_of">
+      <string key="@class">tdb:PeriodType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="caused_by">
+      <string key="@class">tdb:PeriodType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">AttributeAssignment</string>
+    </map>
+    <string key="@id">AttributeAssignment</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="assigned">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="assigned_property">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="motivated_by">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Production</string>
+    </map>
+    <string key="@id">Production</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">RightAcquisition</string>
+    </map>
+    <string key="@id">RightAcquisition</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="establishes">
+      <string key="@class">tdb:LegalRight</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="invalidates">
+      <string key="@class">tdb:LegalRight</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">person/</string>
+    <map key="@documentation">
+      <string key="@label">Person</string>
+    </map>
+    <string key="@id">Person</string>
+    <string key="@inherits">tdb:PersonOrGroupType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="died">
+      <string key="@class">Death</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="born">
+      <string key="@class">Birth</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">Person</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">set/</string>
+    <map key="@documentation">
+      <string key="@label">Set</string>
+    </map>
+    <string key="@id">Set</string>
+    <string key="@inherits">tdb:HumanMadeObjectOrSetType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="about">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_by">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="dimension">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="members_exemplified_by">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_for">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">object/</string>
+    <map key="@documentation">
+      <string key="@label">HumanMadeObject</string>
+    </map>
+    <string key="@id">HumanMadeObject</string>
+    <string key="@inherits">tdb:HumanMadeObjectOrSetType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="produced_by">
+      <string key="@class">Production</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="removed_by">
+      <string key="@class">PartRemoval</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="carries">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="destroyed_by">
+      <string key="@class">Destruction</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_for">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="dimension">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="made_of">
+      <string key="@class">Material</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part_of">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="current_custodian">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="current_owner">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="current_location">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="shows">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="current_permanent_custodian">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="encountered_by">
+      <string key="@class">Encounter</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="number_of_parts">
+      <string key="@class">xsd:integer</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:HumanMadeObjectOrSetType</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:IdentifierOrNameType</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <string key="@type">Class</string>
+    <map key="P190_has_symbolic_content">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Move</string>
+    </map>
+    <string key="@id">Move</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="moved">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="moved_to">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="moved_from">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">concept/</string>
+    <string key="@id">Currency</string>
+    <string key="@inherits">Type</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Payment</string>
+    </map>
+    <string key="@id">Payment</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="paid_amount">
+      <string key="@class">MonetaryAmount</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="paid_from">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="paid_to">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">digital/</string>
+    <map key="@documentation">
+      <string key="@label">DigitalService</string>
+    </map>
+    <string key="@id">DigitalService</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="conforms_to">
+      <string key="@class">InformationObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="access_point">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">TransferOfCustody</string>
+    </map>
+    <string key="@id">TransferOfCustody</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="transferred_custody_from">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="transferred_custody_to">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="transferred_custody_of">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">digital/</string>
+    <map key="@documentation">
+      <string key="@label">DigitalObject</string>
+    </map>
+    <string key="@id">DigitalObject</string>
+    <string key="@inherits">tdb:LinguisticObjectOrDigitalObjectType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="part_of">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_for">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="dimension">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="format">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="conforms_to">
+      <string key="@class">InformationObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="access_point">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="digitally_available_via">
+      <string key="@class">DigitalService</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="digitally_carries">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="digitally_shows">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_to">
+      <string key="@class">Right</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">group/</string>
+    <map key="@documentation">
+      <string key="@label">Group</string>
+    </map>
+    <string key="@id">Group</string>
+    <string key="@inherits">tdb:PersonOrGroupType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="formed_by">
+      <string key="@class">Formation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="dissolved_by">
+      <string key="@class">Dissolution</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">Group</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Destruction</string>
+    </map>
+    <string key="@id">Destruction</string>
+    <string key="@inherits">Event</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Death</string>
+    </map>
+    <string key="@id">Death</string>
+    <string key="@inherits">Event</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Dissolution</string>
+    </map>
+    <string key="@id">Dissolution</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <string key="@id">MonetaryAmount</string>
+    <string key="@inherits">Dimension</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="currency">
+      <string key="@class">Currency</string>
+      <string key="@type">Set</string>
+    </map>
+    <string key="P90_has_value">xsd:double</string>
+    <map key="lower_value_limit">
+      <string key="@class">xsd:double</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="upper_value_limit">
+      <string key="@class">xsd:double</string>
+      <string key="@type">Optional</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Acquisition</string>
+    </map>
+    <string key="@id">Acquisition</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="transferred_title_to">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="transferred_title_from">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="transferred_title_of">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">PartRemoval</string>
+    </map>
+    <string key="@id">PartRemoval</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="diminished">
+      <string key="@class">HumanMadeObject</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">activity/</string>
+    <map key="@documentation">
+      <string key="@label">Activity</string>
+      <string key="@comment"/>
+    </map>
+    <string key="@id">Activity</string>
+    <string key="@inherits">Event</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Creation</string>
+    </map>
+    <string key="@id">Creation</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <string key="@base">event/</string>
+    <map key="@documentation">
+      <string key="@label">Event</string>
+    </map>
+    <string key="@id">Event</string>
+    <string key="@inherits">tdb:EventOrActivityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <string key="@base">concept/</string>
+    <string key="@id">MeasurementUnit</string>
+    <string key="@inherits">Type</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <string key="@base">concept/</string>
+    <string key="@id">Material</string>
+    <string key="@inherits">Type</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Birth</string>
+    </map>
+    <string key="@id">Birth</string>
+    <string key="@inherits">Event</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Encounter</string>
+    </map>
+    <string key="@id">Encounter</string>
+    <array key="@inherits">
+      <string>Event</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label"/>
+    </map>
+    <string key="@id">tdb:LegalRight</string>
+    <string key="@inherits">Right</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Formation</string>
+    </map>
+    <string key="@id">Formation</string>
+    <string key="@inherits">Activity</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Dimension</string>
+    </map>
+    <string key="@id">Dimension</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="assigned_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <string key="P90_has_value">xsd:double</string>
+    <map key="lower_value_limit">
+      <string key="@class">xsd:double</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="upper_value_limit">
+      <string key="@class">xsd:double</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="unit">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">concept/</string>
+    <map key="@documentation">
+      <string key="@label">Type</string>
+    </map>
+    <string key="@id">Type</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="broader">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">concept/</string>
+    <string key="@id">Language</string>
+    <string key="@inherits">Type</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">TimeSpan</string>
+    </map>
+    <string key="@id">TimeSpan</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="_seconds_since_epoch_begin_of_the_begin">
+      <string key="@class">xsd:integer</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="_seconds_since_epoch_end_of_the_end">
+      <string key="@class">xsd:integer</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="duration">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="end_of_the_begin">
+      <string key="@class">xsd:dateTime</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="begin_of_the_end">
+      <string key="@class">xsd:dateTime</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="begin_of_the_begin">
+      <string key="@class">xsd:dateTime</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="end_of_the_end">
+      <string key="@class">xsd:dateTime</string>
+      <string key="@type">Optional</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">place/</string>
+    <string key="@id">Place</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="defined_by">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="approximated_by">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part_of">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="carried_out">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:EntityType</string>
+    <string key="@type">Class</string>
+    <map key="P1_is_identified_by">
+      <string key="@class">tdb:IdentifierOrNameType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="classified_as">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="label">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">text/</string>
+    <map key="@documentation">
+      <string key="@label">LinguisticObject</string>
+    </map>
+    <string key="@id">LinguisticObject</string>
+    <string key="@inherits">tdb:LinguisticObjectOrDigitalObjectType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="subject_to">
+      <string key="@class">Right</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="about">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="represents">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_for">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="content">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="dimension">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="language">
+      <string key="@class">Language</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="format">
+      <string key="@class">xsd:string</string>
+      <string key="@type">Optional</string>
+    </map>
+    <map key="digitally_carried_by">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">visual/</string>
+    <map key="@documentation">
+      <string key="@label">VisualItem</string>
+    </map>
+    <string key="@id">VisualItem</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+    <map key="subject_to">
+      <string key="@class">Right</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="part_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="about">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="represents">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_for">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="represents_instance_of_type">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="dimension">
+      <string key="@class">Dimension</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="digitally_shown_by">
+      <string key="@class">DigitalObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Identifier</string>
+    </map>
+    <string key="@id">Identifier</string>
+    <string key="@inherits">tdb:IdentifierOrNameType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="part">
+      <string key="@class">Identifier</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="assigned_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Period</string>
+    </map>
+    <string key="@id">Period</string>
+    <string key="@inherits">tdb:PeriodType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:PersonOrGroupType</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <string key="@type">Class</string>
+    <map key="P129i_is_subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="carried_out">
+      <string key="@class">Activity</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="residence">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="contact_point">
+      <string key="@class">Identifier</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="participated_in">
+      <string key="@class">tdb:EventOrActivityType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Right</string>
+    </map>
+    <string key="@id">Right</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="possessed_by">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="created_by">
+      <string key="@class">Creation</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:LinguisticObjectOrDigitalObjectType</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <string key="@id">Name</string>
+    <string key="@inherits">tdb:IdentifierOrNameType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+    <map key="part">
+      <string key="@class">Name</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="language">
+      <string key="@class">Language</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:PeriodType</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <string key="@type">Class</string>
+    <map key="P129i_is_subject_of">
+      <string key="@class">LinguisticObject</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="representation">
+      <string key="@class">VisualItem</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="attributed_by">
+      <string key="@class">AttributeAssignment</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="equivalent">
+      <string key="@class">tdb:PeriodType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="member_of">
+      <string key="@class">Set</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="carried_out_by">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <map key="@documentation">
+      <string key="@label">Activity</string>
+    </map>
+    <string key="@id">Promise</string>
+    <array key="@inherits">
+      <string>Activity</string>
+      <string>tdb:ProvenancePartType</string>
+    </array>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <array key="@unfoldable"/>
+    <string key="@type">Class</string>
+  </map>
+  <map>
+    <array key="@abstract"/>
+    <string key="@id">tdb:ProvenancePartType</string>
+    <string key="@inherits">tdb:PeriodType</string>
+    <string key="@type">Class</string>
+    <map key="P14_carried_out_by">
+      <string key="@class">tdb:PersonOrGroupType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="influenced_by">
+      <string key="@class">tdb:EntityType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="used_specific_object">
+      <string key="@class">tdb:HumanMadeObjectOrSetType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="technique">
+      <string key="@class">Type</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="timespan">
+      <string key="@class">TimeSpan</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="referred_to_by">
+      <string key="@class">tdb:LinguisticObjectOrDigitalObjectType</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="took_place_at">
+      <string key="@class">Place</string>
+      <string key="@type">Set</string>
+    </map>
+    <map key="caused_by">
+      <string key="@class">tdb:PeriodType</string>
+      <string key="@type">Set</string>
+    </map>
+  </map>
+  <map>
+    <string key="@base">object/</string>
+    <map key="@documentation">
+      <string key="@label">InformationObject</string>
+    </map>
+    <string key="@id">InformationObject</string>
+    <string key="@inherits">tdb:EntityType</string>
+    <map key="@key">
+      <string key="@type">Random</string>
+    </map>
+    <string key="@type">Class</string>
+    <array key="@unfoldable"/>
+  </map>
+</array>

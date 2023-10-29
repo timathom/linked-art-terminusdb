@@ -1,0 +1,1634 @@
+{
+  "died": {
+    "took_place_at": [
+      {
+        "_label": "London",
+        "@type": "Place",
+        "@id": "https://lux.collections.yale.edu/data/place/a52d0f47-f894-4134-b990-8291bead400f"
+      },
+      {
+        "_label": "Putney",
+        "@type": "Place",
+        "@id": "https://lux.collections.yale.edu/data/place/a506e59a-35df-4157-b12c-bdf2ae57f786"
+      },
+      {
+        "@type": "Place",
+        "@id": "https://lux.collections.yale.edu/data/place/0836a69c-2f28-4779-91aa-a9159c34871f"
+      }
+    ],
+    "timespan": {
+      "_seconds_since_epoch_end_of_the_end": -4.566585601E9,
+      "_seconds_since_epoch_begin_of_the_begin": -4.566672E9,
+      "begin_of_the_begin": "1825-04-16T00:00:00",
+      "end_of_the_end": "1825-04-16T23:59:59",
+      "@type": "TimeSpan",
+      "identified_by": [
+        {
+          "content": "1825-04-16",
+          "@type": "Name",
+          "classified_as": [
+            {
+              "_label": "Display Title",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+            }
+          ]
+        }
+      ]
+    },
+    "@type": "Death",
+    "identified_by": [
+      {
+        "content": "1825-04-16",
+        "@type": "Name",
+        "classified_as": [
+          {
+            "_label": "Display Title",
+            "@type": "Type",
+            "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          }
+        ]
+      }
+    ]
+  },
+  "born": {
+    "took_place_at": [
+      {
+        "_label": "Zürich",
+        "@type": "Place",
+        "@id": "https://lux.collections.yale.edu/data/place/351bd230-55f9-4dc8-b1f7-40ffc66105a2"
+      }
+    ],
+    "timespan": {
+      "_seconds_since_epoch_end_of_the_end": -7.223212801E9,
+      "_seconds_since_epoch_begin_of_the_begin": -7.2232992E9,
+      "begin_of_the_begin": "1741-02-07T00:00:00",
+      "end_of_the_end": "1741-02-07T23:59:59",
+      "@type": "TimeSpan",
+      "identified_by": [
+        {
+          "content": "1741-02-07",
+          "@type": "Name",
+          "classified_as": [
+            {
+              "_label": "Display Title",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+            }
+          ]
+        }
+      ]
+    },
+    "@type": "Birth",
+    "identified_by": [
+      {
+        "content": "1741-02-07",
+        "@type": "Name",
+        "classified_as": [
+          {
+            "_label": "Display Title",
+            "@type": "Type",
+            "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+          }
+        ]
+      }
+    ]
+  },
+  "equivalent": [
+    {
+      "lux": "https://linked-art.library.yale.edu/node/27d5441b-571a-4517-a933-c17c4ccf1a4e",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "http://www.wikidata.org/entity/Q122382",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "https://linked-art.library.yale.edu/node/a6e91705-225c-4369-a9bd-a7a69e49088d",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "https://d-nb.info/gnd/118536745",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "https://media.art.yale.edu/content/lux/agt/1833.json",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "http://viaf.org/viaf/53061",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "https://data.bnf.fr/ark:/12148/cb12176361j",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "https://ycba-lux.s3.amazonaws.com/v3/person/19/19efed9e-6eaf-42a7-9f77-4e9e384c7669.json",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "http://vocab.getty.edu/ulan/500115235",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    },
+    {
+      "lux": "http://id.loc.gov/authorities/names/n79021856",
+      "_label": "Fuseli, Henry, 1741-1825",
+      "@type": "Person"
+    }
+  ],
+  "representation": [
+    {
+      "_label": "Appearance of Johann Heinrich Füssli",
+      "@type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "referred_to_by": [
+            {
+              "_content_html": "<span>Portrait of Henry Fuseli by <bdi><a href=\"https://en.wikipedia.org/wiki/en:James_Northcote\" class=\"extiw\" title=\"w:en:James Northcote\"><span title=\"English painter (1746-1831)\">James Northcote</span></a>\n</bdi> Unknown source<span style=\"display: none;\">Unknown source</span>, Public domain</span>",
+              "content": "Portrait of Henry Fuseli by James Northcote\n Unknown sourceUnknown source, Public domain",
+              "@type": "LinguisticObject",
+              "classified_as": [
+                {
+                  "_label": "Copyright/License Statement",
+                  "@type": "Type",
+                  "@id": "https://lux.collections.yale.edu/data/concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                  "classified_as": [
+                    {
+                      "_label": "Brief Text",
+                      "@type": "Type",
+                      "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],          
+          "access_point": [
+            {
+              "lux": "https://commons.wikimedia.org/wiki/Special:Filepath/Henry fuseli por James Northcote 1778.jpg",
+              "@type": "DigitalObject"
+            }
+          ],
+          "@type": "DigitalObject",
+          "identified_by": [
+            {
+              "content": "Portrait of Henry Fuseli",
+              "@type": "Name",
+              "classified_as": [
+                {
+                  "_label": "Primary Name",
+                  "@type": "Type",
+                  "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "_label": "Digital Image",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b28a48ef-4d40-44d1-81c9-27f0411b030b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_label": "Wikidata Image",
+      "@type": "VisualItem",
+      "digitally_shown_by": [
+        {
+          "referred_to_by": [
+            {
+              "_content_html": "<span>Portrait of Henry Fuseli by <bdi><a href=\"https://en.wikipedia.org/wiki/en:James_Northcote\" class=\"extiw\" title=\"w:en:James Northcote\"><span title=\"English painter (1746-1831)\">James Northcote</span></a>\n</bdi> Unknown source<span style=\"display: none;\">Unknown source</span>, Public domain</span>",
+              "content": "Portrait of Henry Fuseli by James Northcote\n Unknown sourceUnknown source, Public domain",
+              "@type": "LinguisticObject",
+              "classified_as": [
+                {
+                  "_label": "Copyright/License Statement",
+                  "@type": "Type",
+                  "@id": "https://lux.collections.yale.edu/data/concept/4030679e-c6e0-4e5e-b3c0-48ee1b8cfe60",
+                  "classified_as": [
+                    {
+                      "_label": "Brief Text",
+                      "@type": "Type",
+                      "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "access_point": [
+            {
+              "lux": "https://commons.wikimedia.org/wiki/Special:Filepath/Henry fuseli por James Northcote 1778.jpg",
+              "@type": "DigitalObject"
+            }
+          ],
+          "@type": "DigitalObject",
+          "identified_by": [
+            {
+              "content": "Portrait of Henry Fuseli",
+              "@type": "Name",
+              "classified_as": [
+                {
+                  "_label": "Primary Name",
+                  "@type": "Type",
+                  "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+                }
+              ]
+            }
+          ],
+          "classified_as": [
+            {
+              "_label": "Digital Image",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b28a48ef-4d40-44d1-81c9-27f0411b030b"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "content": "Swiss, active in England, 1741–1825",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Display Biography",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/54e35d81-9548-4b4e-8973-de02b09bf9da",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Swiss painter, 1741-1825, active in England",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Biography Statement",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/54e35d81-9548-4b4e-8973-de02b09bf9da",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "English",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+        }
+      ],
+      "content": "Second son of Johann Caspar Füssli, portrait painter and writer on art. He was reared in an intellectual and artistic milieu and initially studied theology. Obliged to flee Zürich because of political entanglements, he went first to Berlin, and then settled in London in 1764. Fuseli is famous for his paintings and drawings of nude figures caught in strained and violent poses suggestive of intense emotion. ",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Conférences sur la peinture / Johann Heinrich Füssli, 1994. - . - Bénézit, 1976. - . -",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "GDEL. - . - BN Cat. gén.. - . -",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "A écrit aussi en allemand",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Peintre et dessinateur. - Né en Suisse, a vécu à Londres à partir de 1764",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "content": "Schweiz. Maler u. Kunstschriftsteller ; Maler, Zeichner, Schweiz, Grossbritannien ; Maler, Zeichner, Schweiz-Grossbritannien",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "English",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+        }
+      ],
+      "content": "Swiss born British painter, draughtsman and writer on art (1741-1825)",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337",
+          "classified_as": [
+            {
+              "_label": "Brief Text",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/b079998d-bb47-470a-ad7d-d938bd091f8a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Spanish",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+        }
+      ],
+      "content": "pintor suizo",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "peintre et écrivain d'art britannique d'origine suisse",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "German",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66"
+        }
+      ],
+      "content": "schweizerisch-englischer Maler und Publizist",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Dutch",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+        }
+      ],
+      "content": "Zwitsers-Britse kunstschilder, bekend als Henry Fuseli",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Chinese",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+        }
+      ],
+      "content": "瑞士畫家",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Japanese",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+        }
+      ],
+      "content": "1741-1825, イギリスのドイツ系スイス人の画家",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Arabic",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b"
+        }
+      ],
+      "content": "رسام سويسري",
+      "@type": "LinguisticObject",
+      "classified_as": [
+        {
+          "_label": "Description",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/b9d84f17-662e-46ef-ab8b-7499717f8337"
+        }
+      ]
+    }
+  ],
+  "_label": "Henry Fuseli",
+  "carried_out": [
+    {
+      "timespan": {
+        "_seconds_since_epoch_end_of_the_end": -4.566585601E9,
+        "_seconds_since_epoch_begin_of_the_begin": -7.2232992E9,
+        "begin_of_the_begin": "1741-02-07T00:00:00Z",
+        "end_of_the_end": "1825-04-16T23:59:59",
+        "@type": "TimeSpan"
+      },
+      "@type": "Activity",
+      "classified_as": [
+        {
+          "_label": "Professional Activities",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/11c48705-1114-49aa-8896-c7490678b608"
+        }
+      ]
+    }
+  ],
+  "@type": "Person",
+  "@id": "https://lux.collections.yale.edu/data/person/e2531f51-ebc4-489f-8eb7-7df7517836ce",
+  "identified_by": [
+    {
+      "language": [
+        {
+          "_label": "English",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+        }
+      ],
+      "content": "Henry Fuseli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Spanish",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7bf852bf-a0b0-4cab-ab31-15b5869a9bc7"
+        },
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        },
+        {
+          "_label": "Portuguese",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/5abd8c6e-52ca-462f-8d7e-21f73068410c"
+        },
+        {
+          "_label": "German",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/436c4c60-3478-440d-bb51-c67512ecff66"
+        },
+        {
+          "_label": "Dutch",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+        }
+      ],
+      "content": "Johann Heinrich Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Henry Fuseli (1741-1825)",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Hans Heinrich Füssli (1741-1825)",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Johann Heinrich Fuessli (1741-1825)",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "French",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/416a8d83-430d-4ae9-8039-41b8c84e1353"
+        }
+      ],
+      "content": "Johann Heinrich Füssli (1741-1825)",
+      "@type": "Name",
+      "classified_as": []
+    },
+    {
+      "language": [
+        {
+          "_label": "Dutch",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/5e2c762c-bd95-4fe8-affc-5d61e5ce2159"
+        }
+      ],
+      "content": "Füssli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "language": [
+        {
+          "_label": "Chinese",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7b2b97d3-c222-44e7-a35f-b3ff38ab98e5"
+        }
+      ],
+      "content": "约翰·亨利希·菲斯利",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Japanese",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/7a1eb4fd-029e-4f0e-87eb-b7f402deaa17"
+        }
+      ],
+      "content": "ヨハン・ハインリヒ・フュースリー",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "language": [
+        {
+          "_label": "Arabic",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/9113a7a4-8078-49ac-8bf4-1e5c5c9c939b"
+        }
+      ],
+      "content": "هنري فوسيلي",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "content": "Fuseli, Henry, 1741-1825",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        }
+      ]
+    },
+    {
+      "content": "H. Fuseli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Merge: Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Fi︠u︡zeli, Genry, 1741-1825",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Füssli, Johann Heinrich, 1741-1825",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Fusely, Henry, 1741-1825",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Füessli, Henry, 1741-1825",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Johann Heinrich Füßli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füeßlin",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füeßli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füßli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "... Füßli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Johann Heinrich Füßly",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich (Künstler)) Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Hans Heinrich (Künstler)) Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Johann Heinrich (Künstler) Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Errico Fuseli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Henry Fusseli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Henry Fusely",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Fuseli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Hans H. Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Johann H. Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Hans Heinrich Füssli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füesslin",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "content": "Heinrich Füessli",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "_label": "Alternate Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/c99c4343-b769-4a81-9f28-6aec5d281251"
+        }
+      ]
+    },
+    {
+      "assigned_by": [
+        {
+          "@type": "AttributeAssignment",
+          "carried_out_by": [
+            {
+              "_label": "Yale Center for British Art",
+              "@type": "Group",
+              "@id": "https://lux.collections.yale.edu/data/group/0e8bc04a-6538-4792-b82a-9e0751857e7d"
+            }
+          ]
+        }
+      ],
+      "content": "ycba_actor_15",
+      "@type": "Identifier",
+      "classified_as": [
+        {
+          "_label": "System-Assigned Number",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/89630361-18a3-4c4b-bcd7-16894d95defd"
+        }
+      ]
+    },
+    {
+      "content": "Henri Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli R. A.",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Füssli the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Heinrich Füssli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Füssli the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fuselli",
+      "@type": "Name"
+    },
+    {
+      "content": "Jean-Henri Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "John Henry Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fuzeli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fuzelli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fuseli the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fusslin the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fussly the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fussly the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli Esq.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli Henry, 1741–1825",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli, 1741–1825",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuzeli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Henry, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "H. Fuseli, Esq.R.A.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, R.A.",
+      "@type": "Name"
+    },
+    {
+      "content": "joh. heinrich fussli",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssly, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "H. Fuseli, R.A.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Henri",
+      "@type": "Name"
+    },
+    {
+      "content": "fuseli h.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fi︠u︡zeli, Genry",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, Heinrich, II",
+      "@type": "Name"
+    },
+    {
+      "content": "j. h. fussli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusseli, Henri",
+      "@type": "Name"
+    },
+    {
+      "content": "Füessli, Henry",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusely",
+      "@type": "Name"
+    },
+    {
+      "content": "Hen. Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusslin, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, Hans Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusslin, Henry, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "fuessli, j. h.",
+      "@type": "Name"
+    },
+    {
+      "content": "[Henry Fuseli]",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuzelli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuselli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, John Henry",
+      "@type": "Name"
+    },
+    {
+      "content": "Fussly, Johann Heinrich, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, Joh. Heinr.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, Heinrich (III)",
+      "@type": "Name"
+    },
+    {
+      "content": "h. fussli",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Fueßli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Jean-Henri",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuzeli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Fussli, Johann Heinrich (1741)",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuzelli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fussli, Johann Heinrich, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli, Esq.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli R.A.",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Johann Heinrich, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusely, Henry",
+      "@type": "Name"
+    },
+    {
+      "content": "heinrich fussli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Henry",
+      "@type": "Name"
+    },
+    {
+      "content": "h. fuessli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuselli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusslin, Johann Heinrich, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, R. A.",
+      "@type": "Name"
+    },
+    {
+      "content": "heinrich fussli der altere",
+      "@type": "Name"
+    },
+    {
+      "content": "heinrich fuessli",
+      "@type": "Name"
+    },
+    {
+      "content": "Hen Fuseli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fussly, Henry, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuessli, Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Fuseli, R. A.",
+      "@type": "Name"
+    },
+    {
+      "content": "heinrich fussli der jungere",
+      "@type": "Name"
+    },
+    {
+      "content": "Fusile",
+      "@type": "Name"
+    },
+    {
+      "content": "Henry Füssli",
+      "@type": "Name"
+    },
+    {
+      "content": "Fussli, Henry, the Younger",
+      "@type": "Name"
+    },
+    {
+      "content": "Johann Heinrich Füssli",
+      "@type": "Name",
+      "classified_as": []
+    },
+    {
+      "content": "Füssli, J.H. (Johann Heinrich), 1741-1825",
+      "@type": "Name"
+    },
+    {
+      "content": "Fuseli, Henry (Swiss painter, 1741-1825, active in England)",
+      "@type": "Name"
+    },
+    {
+      "content": "Füssli, J. H. живописец 1741-1825 Johann Heinrich",
+      "@type": "Name"
+    },
+    {
+      "content": "פוסלי, הנרי, 1741-1825",
+      "@type": "Name"
+    },
+    {
+      "content": "Füßli",
+      "@type": "Name"
+    }
+  ],
+  "member_of": [
+    {
+      "@type": "Group",
+      "@id": "https://lux.collections.yale.edu/data/group/047db7de-a8d9-484d-bf6e-9f4127900556"
+    }
+  ],
+  "classified_as": [
+    {
+      "_label": "Swiss",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/2f1108d1-d85b-475c-a2f2-3c83a6a61761",
+      "classified_as": [
+        {
+          "_label": "Nationality",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c"
+        }
+      ]
+    },
+    {
+      "_label": "Male",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+      "classified_as": [
+        {
+          "_label": "Gender",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d"
+        }
+      ]
+    },
+    {
+      "_label": "artists (visual artists)",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/21c449ff-7ad8-4f08-ae5f-68bde74bc5ca",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "collectors",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/3e0eb665-1d1a-4a61-b60c-6e4eaa19b053",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "art collectors",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/d7fa3889-7029-4be0-8607-a0e4536c1fb3",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "authors",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/1a1e3e2c-9a25-415b-976f-de921313ceeb",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "owners",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/46393a15-b13e-4220-a8ad-fd1d39de8186",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "draftsmen (artists)",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/0a2ac7f3-860b-4262-a97d-8db37a2c0d05",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "British (modern)",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/e12cb719-c707-4e01-8274-a256c71a3936",
+      "classified_as": [
+        {
+          "_label": "Nationality",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c"
+        }
+      ]
+    },
+    {
+      "_label": "writers (clerical workers)",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/28c42417-8e17-4507-8902-2eb50ff56cd8",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "painters (artists)",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/a66c6591-6f04-4a3b-9753-6bb3ee430aa1",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "book collectors",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/b142cf77-8626-4453-a0e6-33eea4dcd4bc",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "portraitists",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/8b43e779-f064-4956-a6e7-8ce82169e6dc",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "Künstler",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/0ee45663-071d-4fa0-b8cc-317b8a893bdb",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "Kunsthistoriker",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/92ff903e-442e-4637-8914-f727c27f4615",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "_label": "Publizist",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/06b71500-974d-437f-a2d1-cf8fcc3e6c7a",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/1d0c788b-73f2-46ae-84e0-05a3f7ffdea5",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/8c697aea-a24e-4012-8564-3ebdb84010d2",
+      "classified_as": [
+        {
+          "_label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    }
+  ]
+}

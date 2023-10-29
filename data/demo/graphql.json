@@ -1,0 +1,123 @@
+{
+  "data": {
+    "LinguisticObject": [
+      {
+        "type": "LinguisticObject",
+        "identified_by": [
+          {
+            "type": "Identifier",
+            "content": "(OCoLC)ocm71199051",
+            "classified_as": [
+              {"_label": "Owner-Assigned Number"}
+            ]
+          },
+          {
+            "type": "Identifier",
+            "content": "DV143542 (Anchor Bay Entertainment)",
+            "classified_as": [
+              {"_label": "Publisher/Distributor Number"}
+            ]
+          },
+          {
+            "type": "Identifier",
+            "content": "DV143541 (Anchor Bay Entertainment)",
+            "classified_as": [
+              {"_label": "Publisher/Distributor Number"}
+            ]
+          },
+          {
+            "type": "Identifier",
+            "content": "DV14354 (Anchor Bay Entertainment)",
+            "classified_as": [
+              {"_label": "Publisher/Distributor Number"}
+            ]
+          },
+          {
+            "type": "Identifier",
+            "content": "ils:yul:13597022",
+            "classified_as": [
+              {"_label": "System-Assigned Number"}
+            ]
+          },
+          {
+            "type": "Name",
+            "content": "Halloween : 25 years of terror",
+            "classified_as": [
+              {"_label": "Sort Name"},
+              {"_label": "Primary Name"}
+            ]
+          }
+        ],
+        "created_by": [
+          {
+            "part": [
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/person/5cd1d088-dca8-4207-8b89-5b97641aa176",
+                    "type": "Person",
+                    "label": "Masi, Anthony"
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/group/148373ac-4167-4c91-8884-26df91df9eec",
+                    "type": "Group",
+                    "label": "Masimedia (Firm)"
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/person/ad3458d1-fe1a-4b56-83ba-3e240807c331",
+                    "type": "Person",
+                    "label": "Soles, P. J."
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/group/73f2cce4-e852-41ce-bdbb-f1b95f7dd425",
+                    "type": "Group",
+                    "label": "Anchor Bay Entertainment, Inc"
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/group/f28ad80e-0a21-4bf1-9f18-44d183fbed1d",
+                    "type": "Group",
+                    "label": "Paranormal Pictures (Firm)"
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/person/4dea5669-709e-40a0-a864-5b3b02a94afc",
+                    "type": "Person",
+                    "label": "Hutchinson, Stefan"
+                  }
+                ]
+              },
+              {
+                "carried_out_by": [
+                  {
+                    "id": "https://lux.collections.yale.edu/data/group/7e43d2f6-5acb-443f-a59f-5f5e0c010358",
+                    "type": "Group",
+                    "label": "Rehab 54 (Firm)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

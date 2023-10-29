@@ -809,7 +809,7 @@
     },
     "assigned_property": {
       "@type": "Optional",
-      "@class": "xsd:string""
+      "@class": "xsd:string"
     }
   },
   {

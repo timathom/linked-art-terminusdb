@@ -1,0 +1,1179 @@
+[
+  {
+    "@base": "https://lux.collections.yale.edu/data/",
+    "@schema": "http://www.cidoc-crm.org/cidoc-crm/",
+    "@type": "@context",
+    "@metadata": {
+      "DFRNT": {"defaultLabelProperty": "rdfs:label"}
+    },
+    "tdb": "terminusdb:///schema#",    
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",    
+    "xsd": "http://www.w3.org/2001/XMLSchema#"    
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:EventOrActivityType",
+    "@inherits": "tdb:PeriodType",
+    "@type": "Class",
+    "P15_was_influenced_by": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P16_used_specific_object": {
+      "@class": "tdb:HumanMadeObjectOrSetType",
+      "@type": "Set"
+    },
+    "P32_used_general_technique": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    },
+    "P4_has_time-span": {
+      "@class": "E52_Time-Span",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P7_took_place_at": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "P9_consists_of": {
+      "@class": "tdb:PeriodType",
+      "@type": "Set"
+    },
+    "P9i_forms_part_of": {
+      "@class": "tdb:PeriodType",
+      "@type": "Set"
+    },
+    "sci:O13i_is_triggered_by": {
+      "@class": "tdb:PeriodType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E13_Attribute_Assignment"},
+    "@id": "E13_Attribute_Assignment",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P141_assigned": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P177_assigned_property_of_type": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "P17_was_motivated_by": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E12_Production"},
+    "@id": "E12_Production",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "la:RightAcquisition"},
+    "@id": "la:RightAcquisition",
+    "@inherits": [
+      "E7_Activity",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "la:establishes": {
+      "@class": "tdb:LegalRight",
+      "@type": "Set"
+    },
+    "la:invalidates": {
+      "@class": "tdb:LegalRight",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "person/",
+    "@documentation": {"@label": "E21_Person"},
+    "@id": "E21_Person",
+    "@inherits": "tdb:PersonOrGroupType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P100i_died_in": {
+      "@class": "E69_Death",
+      "@type": "Set"
+    },
+    "P98i_was_born": {
+      "@class": "E67_Birth",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E21_Person",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "set/",
+    "@documentation": {"@label": "la:Set"},
+    "@id": "la:Set",
+    "@inherits": "tdb:HumanMadeObjectOrSetType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P129_is_about": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P33i_was_used_by": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P43_has_dimension": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "members_exemplified_by": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P16i_was_used_for": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "object/",
+    "@documentation": {"@label": "E22_Human-Made_Object"},
+    "@id": "E22_Human-Made_Object",
+    "@inherits": "tdb:HumanMadeObjectOrSetType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P108i_was_produced_by": {
+      "@class": "E12_Production",
+      "@type": "Set"
+    },
+    "P113i_was_removed_by": {
+      "@class": "E80_Part_Removal",
+      "@type": "Set"
+    },
+    "P128_carries": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P13i_was_destroyed_by": {
+      "@class": "E6_Destruction",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P16i_was_used_for": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P43_has_dimension": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P45_consists_of": {
+      "@class": "E57_Material",
+      "@type": "Set"
+    },
+    "P46_is_composed_of": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    },
+    "P46i_forms_part_of": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    },
+    "P50_has_current_keeper": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P52_has_current_owner": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P55_has_current_location": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "P65_shows_visual_item": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "la:current_permanent_custodian": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set" 
+    },
+    "sci:O19i_was_object_encountered_at": {
+      "@class": "sci:S19_Encounter_Event",
+      "@type": "Set"
+    },
+    "P57_has_number_of_parts": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:HumanMadeObjectOrSetType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class"
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:IdentifierOrNameType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class",
+    "P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {"@label": "E9_Move"},
+    "@id": "E9_Move",
+    "@inherits": [
+      "E7_Activity",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P25_moved": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    },
+    "P26_moved_to": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "P27_moved_from": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "concept/",
+    "@id": "E98_Currency",
+    "@inherits": "E55_Type",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@documentation": {"@label": "la:Payment"},
+    "@id": "la:Payment",
+    "@inherits": [
+      "E7_Activity",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "la:paid_amount": {
+      "@class": "E97_Monetary_Amount",
+      "@type": "Set"
+    },
+    "la:paid_from": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "la:paid_to": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "digital/",
+    "@documentation": {"@label": "la:DigitalService"},
+    "@id": "la:DigitalService",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "dcterms:conformsTo": {
+      "@class": "E73_Information_Object",
+      "@type": "Set"
+    },
+    "la:access_point": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E10_Transfer_of_Custody"},
+    "@id": "E10_Transfer_of_Custody",
+    "@inherits": [
+      "E7_Activity",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P28_custody_surrendered_by": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P29_custody_received_by": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P30_transferred_custody_of": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "digital/",
+    "@documentation": {"@label": "dig:D1_Digital_Object"},
+    "@id": "dig:D1_Digital_Object",
+    "@inherits": "tdb:LinguisticObjectOrDigitalObjectType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P106i_forms_part_of": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    },
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P16i_was_used_for": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P43_has_dimension": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    },
+    "dc:format": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "dcterms:conformsTo": {
+      "@class": "E73_Information_Object",
+      "@type": "Set"
+    },
+    "la:access_point": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    },
+    "la:digitally_available_via": {
+      "@class": "la:DigitalService",
+      "@type": "Set"
+    },
+    "la:digitally_carries": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "la:digitally_shows": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "P104_is_subject_to": {
+      "@class": "E30_Right",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "group/",
+    "@documentation": {"@label": "E74_Group"},
+    "@id": "E74_Group",
+    "@inherits": "tdb:PersonOrGroupType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P95i_was_formed_by": {
+      "@class": "E66_Formation",
+      "@type": "Set"
+    },
+    "P99i_was_dissolved_by": {
+      "@class": "E68_Dissolution",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E74_Group",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E6_Destruction"},
+    "@id": "E6_Destruction",
+    "@inherits": "E5_Event",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E69_Death"},
+    "@id": "E69_Death",
+    "@inherits": "E5_Event",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "E68_Dissolution"},
+    "@id": "E68_Dissolution",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@id": "E97_Monetary_Amount",
+    "@inherits": "E54_Dimension",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P180_has_currency": {
+      "@class": "E98_Currency",
+      "@type": "Set"
+    },
+    "P90_has_value": "xsd:double",
+    "P90a_has_lower_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    },
+    "P90b_has_upper_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@documentation": {"@label": "E8_Acquisition"},
+    "@id": "E8_Acquisition",
+    "@inherits": [
+      "E7_Activity",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P22_transferred_title_to": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P23_transferred_title_from": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P24_transferred_title_of": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E80_Part_Removal"},
+    "@id": "E80_Part_Removal",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P112_diminished": {
+      "@class": "E22_Human-Made_Object",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "activity/",
+    "@documentation": {
+      "@label": "E7_Activity",
+      "@comment": ""
+    },
+    "@id": "E7_Activity",
+    "@inherits": "E5_Event",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@documentation": {"@label": "E65_Creation"},
+    "@id": "E65_Creation",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@base": "event/",
+    "@documentation": {"@label": "E5_Event"},
+    "@id": "E5_Event",
+    "@inherits": "tdb:EventOrActivityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@base": "concept/",
+    "@id": "E58_Measurement_Unit",
+    "@inherits": "E55_Type",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@base": "concept/",
+    "@id": "E57_Material",
+    "@inherits": "E55_Type",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@documentation": {"@label": "E67_Birth"},
+    "@id": "E67_Birth",
+    "@inherits": "E5_Event",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "sci:S19_Encounter_Event"},
+    "@id": "sci:S19_Encounter_Event",
+    "@inherits": [
+      "E5_Event",
+      "tdb:ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": ""},
+    "@id": "LegalRight",
+    "@inherits": "E30_Right",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "E66_Formation"},
+    "@id": "E66_Formation",
+    "@inherits": "E7_Activity",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@documentation": {"@label": "E54_Dimension"},
+    "@id": "E54_Dimension",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P141i_was_assigned_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P90_has_value": "xsd:double",
+    "P90a_has_lower_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    },
+    "P90b_has_upper_value_limit": {
+      "@class": "xsd:double",
+      "@type": "Optional"
+    },
+    "P91_has_unit": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "concept/",
+    "@documentation": {"@label": "E55_Type"},
+    "@id": "E55_Type",
+    "@inherits": "EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "skos:broader": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "concept/",
+    "@id": "E56_Language",
+    "@inherits": "E55_Type",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  },
+  {
+    "@documentation": {"@label": "E52_Time-Span"},
+    "@id": "E52_Time-Span",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "_seconds_since_epoch_begin_of_the_begin": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "_seconds_since_epoch_end_of_the_end": {
+      "@class": "xsd:integer",
+      "@type": "Optional"
+    },
+    "P191_had_duration": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P81a_end_of_the_begin": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "P81b_begin_of_the_end": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "P82a_begin_of_the_begin": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    },
+    "P82b_end_of_the_end": {
+      "@class": "xsd:dateTime",
+      "@type": "Optional"
+    }
+  },
+  {
+    "@base": "place/",
+    "@id": "E53_Place",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P168_place_is_defined_by": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "P189i_is_approximated_by": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P89_falls_within": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+     "P14i_performed": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:EntityType",
+    "@type": "Class",
+    "P1_is_identified_by": {
+      "@class": "tdb:IdentifierOrNameType",
+      "@type": "Set"
+    },
+    "P2_has_type": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    },
+    "rdfs:label": {
+      "@class": "xsd:string",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "text/",
+    "@documentation": {"@label": "E33_Linguistic_Object"},
+    "@id": "E33_Linguistic_Object",
+    "@inherits": "tdb:LinguisticObjectOrDigitalObjectType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@subdocument": [],
+    "P104_is_subject_to": {
+      "@class": "E30_Right",
+      "@type": "Set"
+    },
+    "P106i_forms_part_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P129_is_about": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138_represents": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P16i_was_used_for": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P190_has_symbolic_content": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "P43_has_dimension": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P72_has_language": {
+      "@class": "E56_Language",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    },
+    "dc:format": {
+      "@class": "xsd:string",
+      "@type": "Optional"
+    },
+    "la:digitally_carried_by": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "visual/",
+    "@documentation": {"@label": "E36_Visual_Item"},
+    "@id": "E36_Visual_Item",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": [],
+    "P104_is_subject_to": {
+      "@class": "E30_Right",
+      "@type": "Set"
+    },
+    "P106i_forms_part_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P129_is_about": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138_represents": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P16i_was_used_for": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P199_represents_instance_of_type": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    },
+    "P43_has_dimension": {
+      "@class": "E54_Dimension",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    },
+    "la:digitally_shown_by": {
+      "@class": "dig:D1_Digital_Object",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E42_Identifier"},
+    "@id": "E42_Identifier",
+    "@inherits": "tdb:IdentifierOrNameType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P106_is_composed_of": {
+      "@class": "E42_Identifier",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P141i_was_assigned_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E4_Period"},
+    "@id": "E4_Period",
+    "@inherits": "tdb:PeriodType",
+    "@key": {"@type": "Random"},
+    "@type": "Class"
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:PersonOrGroupType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class",
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "P14i_performed": {
+      "@class": "E7_Activity",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P74_has_current_or_former_residence": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "P76_has_contact_point": {
+      "@class": "E42_Identifier",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "P107i_is_current_or_former_member_of": {
+      "@class": "E74_Group",
+      "@type": "Set"
+    },
+    "P11i_participated_in": {
+      "@class": "tdb:EventOrActivityType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E30_Right"},
+    "@id": "E30_Right",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P75i_is_possessed_by": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P94i_was_created_by": {
+      "@class": "E65_Creation",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:LinguisticObjectOrDigitalObjectType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class"
+  },
+  {
+    "@id": "E33_E41_Linguistic_Appellation",
+    "@inherits": "tdb:IdentifierOrNameType",
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class",
+    "P106_is_composed_of": {
+      "@class": "E33_E41_Linguistic_Appellation",
+      "@type": "Set"
+    },
+    "P72_has_language": {
+      "@class": "E56_Language",
+      "@type": "Set"
+    }
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:PeriodType",
+    "@inherits": "tdb:EntityType",
+    "@type": "Class",
+    "P129i_is_subject_of": {
+      "@class": "E33_Linguistic_Object",
+      "@type": "Set"
+    },
+    "P138i_has_representation": {
+      "@class": "E36_Visual_Item",
+      "@type": "Set"
+    },
+    "P140i_was_attributed_by": {
+      "@class": "E13_Attribute_Assignment",
+      "@type": "Set"
+    },
+    "la:equivalent": {
+      "@class": "tdb:PeriodType",
+      "@type": "Set"
+    },
+    "la:member_of": {
+      "@class": "la:Set",
+      "@type": "Set"
+    },
+    "P14_carried_out_by": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@documentation": {"@label": "E7_Activity"},
+    "@id": "Promise",
+    "@inherits": [
+      "E7_Activity",
+      "ProvenancePartType"
+    ],
+    "@key": {"@type": "Random"},
+    "@subdocument": [],
+    "@type": "Class"
+  },
+  {
+    "@abstract": [],
+    "@id": "tdb:ProvenancePartType",
+    "@inherits": "tdb:PeriodType",
+    "@type": "Class",
+    "P14_carried_out_by": {
+      "@class": "tdb:PersonOrGroupType",
+      "@type": "Set"
+    },
+    "P15_was_influenced_by": {
+      "@class": "tdb:EntityType",
+      "@type": "Set"
+    },
+    "P16_used_specific_object": {
+      "@class": "tdb:HumanMadeObjectOrSetType",
+      "@type": "Set"
+    },
+    "P32_used_general_technique": {
+      "@class": "E55_Type",
+      "@type": "Set"
+    },
+    "P4_has_time-span": {
+      "@class": "E52_Time-Span",
+      "@type": "Set"
+    },
+    "P67i_is_referred_to_by": {
+      "@class": "tdb:LinguisticObjectOrDigitalObjectType",
+      "@type": "Set"
+    },
+    "P7_took_place_at": {
+      "@class": "E53_Place",
+      "@type": "Set"
+    },
+    "sci:O13i_is_triggered_by": {
+      "@class": "tdb:PeriodType",
+      "@type": "Set"
+    }
+  },
+  {
+    "@base": "object/",
+    "@documentation": {"@label": "E73_Information_Object"},
+    "@id": "E73_Information_Object",
+    "@inherits": "tdb:EntityType",
+    "@key": {"@type": "Random"},
+    "@type": "Class",
+    "@unfoldable": []
+  }
+]
