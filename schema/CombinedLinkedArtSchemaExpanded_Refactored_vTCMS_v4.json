@@ -17,7 +17,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "access_point": {
       "@class": "DigitalObject",
       "@type": "Set"
@@ -38,7 +37,6 @@
     "@inherits": "tdb:LinguisticObjectOrDigitalObjectType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "access_point": {
       "@class": "DigitalObject",
       "@type": "Set"
@@ -114,7 +112,6 @@
     "@inherits": "Event",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "referred_to_by": {
       "@class": "tdb:LinguisticObjectOrDigitalObjectType",
       "@type": "Set"
@@ -125,16 +122,14 @@
     "@id": "Death",
     "@inherits": "Event",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@base": "concept/",
     "@id": "Currency",
     "@inherits": "Type",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Creation"},
@@ -151,7 +146,6 @@
     "@inherits": "tdb:HumanMadeObjectOrSetType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "attributed_by": {
       "@class": "AttributeAssignment",
       "@type": "Set"
@@ -252,7 +246,6 @@
     "@inherits": "tdb:PersonOrGroupType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "dissolved_by": {
       "@class": "Dissolution",
       "@type": "Set"
@@ -271,8 +264,7 @@
     "@id": "Formation",
     "@inherits": "Activity",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@base": "event/",
@@ -280,8 +272,7 @@
     "@id": "Event",
     "@inherits": "tdb:EventOrActivityType",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Encounter"},
@@ -291,16 +282,14 @@
       "tdb:ProvenancePartType"
     ],
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Dissolution"},
     "@id": "Dissolution",
     "@inherits": "Activity",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Dimension"},
@@ -308,7 +297,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "assigned_by": {
       "@class": "AttributeAssignment",
       "@type": "Set"
@@ -390,8 +378,7 @@
     "@id": "tdb:LegalRight",
     "@inherits": "Right",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@abstract": [],
@@ -470,8 +457,7 @@
     "@id": "Birth",
     "@inherits": "Event",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "AttributeAssignment"},
@@ -479,7 +465,6 @@
     "@inherits": "Activity",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "assigned": {
       "@class": "tdb:EntityType",
       "@type": "Set"
@@ -502,8 +487,7 @@
     "@id": "Activity",
     "@inherits": "Event",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Acquisition"},
@@ -514,7 +498,6 @@
     ],
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "transferred_title_from": {
       "@class": "tdb:PersonOrGroupType",
       "@type": "Set"
@@ -534,7 +517,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "created_by": {
       "@class": "Creation",
       "@type": "Set"
@@ -557,7 +539,6 @@
     ],
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "establishes": {
       "@class": "tdb:LegalRight",
       "@type": "Set"
@@ -575,8 +556,7 @@
       "tdb:ProvenancePartType"
     ],
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@base": "place/",
@@ -584,7 +564,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "approximated_by": {
       "@class": "Place",
       "@type": "Set"
@@ -631,8 +610,7 @@
     "@id": "Production",
     "@inherits": "Activity",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Period"},
@@ -648,7 +626,6 @@
     "@inherits": "tdb:PersonOrGroupType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "born": {
       "@class": "Birth",
       "@type": "Set"
@@ -669,7 +646,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "about": {
       "@class": "tdb:EntityType",
       "@type": "Set"
@@ -757,7 +733,6 @@
     ],
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "transferred_custody_from": {
       "@class": "tdb:PersonOrGroupType",
       "@type": "Set"
@@ -778,7 +753,6 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "attributed_by": {
       "@class": "AttributeAssignment",
       "@type": "Set"
@@ -819,7 +793,6 @@
     "@inherits": "tdb:HumanMadeObjectOrSetType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "about": {
       "@class": "tdb:EntityType",
       "@type": "Set"
@@ -875,13 +848,12 @@
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "_seconds_since_epoch_begin_of_the_begin": {
-      "@class": "xsd:integer",
+      "@class": "xsd:double",
       "@type": "Optional"
     },
     "_seconds_since_epoch_end_of_the_end": {
-      "@class": "xsd:integer",
+      "@class": "xsd:double",
       "@type": "Optional"
     },
     "begin_of_the_begin": {
@@ -954,8 +926,7 @@
     "@id": "Material",
     "@inherits": "Type",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@base": "text/",
@@ -964,7 +935,6 @@
     "@inherits": "tdb:LinguisticObjectOrDigitalObjectType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "_content_html": {
       "@class": "xsd:string",
       "@type": "Optional"
@@ -1046,16 +1016,14 @@
     "@id": "InformationObject",
     "@inherits": "tdb:EntityType",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@base": "concept/",
     "@id": "Language",
     "@inherits": "Type",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@documentation": {"@label": "Identifier"},
@@ -1063,7 +1031,6 @@
     "@inherits": "tdb:IdentifierOrNameType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "assigned_by": {
       "@class": "AttributeAssignment",
       "@type": "Set"
@@ -1090,7 +1057,6 @@
     ],
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "paid_amount": {
       "@class": "MonetaryAmount",
       "@type": "Set"
@@ -1109,7 +1075,6 @@
     "@inherits": "tdb:IdentifierOrNameType",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "language": {
       "@class": "Language",
       "@type": "Set"
@@ -1125,7 +1090,6 @@
     "@inherits": "Activity",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "diminished": {
       "@class": "HumanMadeObject",
       "@type": "Set"
@@ -1140,7 +1104,6 @@
     ],
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "moved": {
       "@class": "HumanMadeObject",
       "@type": "Set"
@@ -1159,15 +1122,13 @@
     "@id": "MeasurementUnit",
     "@inherits": "Type",
     "@key": {"@type": "Random"},
-    "@type": "Class",
-    "@unfoldable": []
+    "@type": "Class"
   },
   {
     "@id": "MonetaryAmount",
     "@inherits": "Dimension",
     "@key": {"@type": "Random"},
     "@type": "Class",
-    "@unfoldable": [],
     "currency": {
       "@class": "Currency",
       "@type": "Set"

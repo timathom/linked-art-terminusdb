@@ -1,0 +1,191 @@
+{
+  "died": {
+    "took_place_at": [
+      {
+        "label": "University of North Carolina",
+        "@type": "Place"
+      }
+    ],
+    "@type": "Death"
+  },
+  "born": {
+    "timespan": {
+      "_seconds_since_epoch_end_of_the_end": 4.73385599E8,
+      "_seconds_since_epoch_begin_of_the_begin": 4.417632E8,
+      "begin_of_the_begin": "1984-01-01T00:00:00",
+      "end_of_the_end": "1984-12-31T23:59:59",
+      "@type": "TimeSpan",
+      "identified_by": [
+        {
+          "content": "1984-01-01",
+          "@type": "Name",
+          "classified_as": [
+            {
+              "label": "Display Title",
+              "@type": "Type",
+              "@id": "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+            }
+          ]
+        }
+      ]
+    },
+    "@type": "Birth",
+    "identified_by": [
+      {
+        "content": "1984",
+        "@type": "Name",
+        "classified_as": [
+          "https://lux.collections.yale.edu/data/concept/5088ec29-065b-4c66-b49e-e61d3c8f3717"
+        ]
+      }
+    ]
+  },
+  "equivalent": [
+    {
+      "eq": "https://d-nb.info/gnd/1049413083",
+      "label": "Bernard, Mark",
+      "@type": "Person"
+    },
+    {
+      "eq": "http://viaf.org/viaf/303433879",
+      "label": "Bernard, Mark",
+      "@type": "Person"
+    },
+    {
+      "eq": "http://www.wikidata.org/entity/Q112531576",
+      "label": "Bernard, Mark",
+      "@type": "Person"
+    },
+    {
+      "eq": "https://linked-art.library.yale.edu/node/3210e296-0885-4081-9ecb-19903bea09bd",
+      "label": "Bernard, Mark",
+      "@type": "Person"
+    },
+    {
+      "eq": "http://id.loc.gov/authorities/names/n2013029341",
+      "label": "Bernard, Mark",
+      "@type": "Person"
+    }
+  ],
+  "label": "Mark Bernard",
+  "@type": "Person",
+  "@id": "https://lux.collections.yale.edu/data/person/6a690e7b-3fba-4c82-b5d4-bcc043f94164",
+  "identified_by": [
+    {
+      "language": [
+        {
+          "label": "English",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+        }
+      ],
+      "content": "Mark Bernard",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        },
+        {
+          "label": "Sort Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a"
+        }
+      ]
+    },
+    {
+      "content": "Bernard, Mark",
+      "@type": "Name",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+      ]
+    },
+    {
+      "content": "Bernard, Mark, 1984-",
+      "@type": "Name"
+    },
+    {
+      "content": "Mark Bernard americký kulturolog a vysokoškolský pedagog zaměřený na komunikační, mediální a filmová studia",
+      "@type": "Name"
+    },
+    {
+      "content": "Bernard, M. (Mark), 1984-",
+      "@type": "Name"
+    }
+  ],
+  "classified_as": [
+    {
+      "label": "Filmwissenschaftler",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/052eb60e-cc97-4ca7-8be3-b96817ea6785",
+      "classified_as": [
+        {
+          "label": "Occupation",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+        }
+      ]
+    },
+    {
+      "label": "Male",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/6ab52642-a2b6-4665-9602-4bc5d3100414",
+      "classified_as": [
+        {
+          "label": "Gender",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/84ed0c0e-2aa8-49b3-ae02-ed84552f570d"
+        }
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/13275baa-8f2a-4910-88bb-0c72cd0a15ae",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/a635ec0e-6a61-4cf9-8b6f-5488b8f6609b",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/94ff6693-f19f-44b3-b540-6121dbc931ff",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+      ]
+    },
+    {
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/0434b889-8078-4265-9c41-c78786bdc5ad",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/1680a4ba-f5a1-490b-bbfa-e391199d4458"
+      ]
+    },
+    {
+      "label": "us",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/6fefe491-ea6d-47c1-b204-878d92e2ae78",
+      "classified_as": [
+        {
+          "label": "Nationality",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c"
+        }
+      ]
+    },
+    {
+      "label": "se",
+      "@type": "Type",
+      "@id": "https://lux.collections.yale.edu/data/concept/9cfea741-d45a-437d-98dc-70bf18caf3e5",
+      "classified_as": [
+        "https://lux.collections.yale.edu/data/concept/05344568-bdd1-4289-90d6-b9fdcdbaaa4c"
+      ]
+    }
+  ]
+}

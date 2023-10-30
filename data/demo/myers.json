@@ -1,0 +1,30 @@
+{
+  "label": "Michael Myers",
+  "@type": "Person",
+  "@id": "https://lux.collections.yale.edu/data/person/mmyers",
+  "identified_by": [
+    {
+      "language": [
+        {
+          "label": "English",
+          "@type": "Language",
+          "@id": "https://lux.collections.yale.edu/data/concept/1fda962d-1edc-4fd7-bfa9-0c10e3153449"
+        }
+      ],
+      "content": "Myers, Michael",
+      "@type": "Name",
+      "classified_as": [
+        {
+          "label": "Primary Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/f7ef5bb4-e7fb-443d-9c6b-371a23e717ec"
+        },
+        {
+          "label": "Sort Name",
+          "@type": "Type",
+          "@id": "https://lux.collections.yale.edu/data/concept/31497b4e-24ad-47fe-88ad-af2007d7fb5a"
+        }
+      ]
+    }
+  ]
+}
